@@ -1,5 +1,5 @@
 \documentclass[a4paper,10pt,twocolumn,oneside]{article}
-\setlength{\columnsep}{10pt}                                                                    %兩欄模式的間距
+\setlength{\columnsep}{10pt}                                                              %兩欄模式的間距
 \setlength{\columnseprule}{0pt}                                                                %兩欄模式間格線粗細
 
 \usepackage{amsthm}								%定義，例題
@@ -18,6 +18,8 @@
 \usepackage[CheckSingle, CJKmath]{xeCJK}
 % \usepackage{CJKulem}
 %\usepackage[T1]{fontenc}
+\titlespacing{\section}{0cm}{0cm}{0cm}
+\titlespacing{\subsection}{0cm}{0cm}{0cm}
 \usepackage{amsmath, courier, listings, fancyhdr, graphicx}
 \topmargin=0pt
 \headsep=5pt
@@ -39,7 +41,7 @@
 
 \setmainfont{Consolas}				%主要字型
 \setmonofont{Monaco}				%主要字型
-%\setCJKmainfont{Source Han Sans}
+\setCJKmainfont{Noto Sans CJK TC}
 % \setCJKmainfont{Consolas}			%中文字型
 %\setmainfont{sourcecodepro}
 \XeTeXlinebreaklocale "zh"						%中文自動換行
@@ -92,14 +94,14 @@ stringstyle=\itshape\color{Green4},
 \newpage
 
 \section{Basic}
-\subsection{.vimrc}
-\lstinputlisting{basic/vimrc}
+% \subsection{.vimrc}
+% \lstinputlisting{basic/vimrc}
 
-%\subsection{Increase Stack Size}
-%\lstinputlisting{basic/IncStack.cpp}
+\subsection{Increase Stack Size}
+\lstinputlisting{basic/IncStack.cpp}
 
-%\subsection{Increase Stack Size}
-%\lstinputlisting{basic/IncStack_windows.cpp}
+% \subsection{Increase Stack Size}
+% \lstinputlisting{basic/IncStack_windows.cpp}
 
 \subsection{Misc}
 \lstinputlisting{basic/misc.cpp}
@@ -130,11 +132,11 @@ stringstyle=\itshape\color{Green4},
 \subsection{DMST}
 \lstinputlisting{flow/DMST.cpp}
 
-\subsection{SW min-cut}
+\subsection{SW min-cut (不限S-T的min-cut)}
 \lstinputlisting{flow/SW-mincut.cpp}
 
-\subsection{Max Cost Circulation}
-\lstinputlisting{flow/MaxCostCirculation.cpp}
+% \subsection{Max Cost Circulation}
+% \lstinputlisting{flow/MaxCostCirculation.cpp}
 
 %\subsection{Gusfield}
 %\lstinputlisting{flow/gusfield.cpp}
@@ -161,11 +163,17 @@ stringstyle=\itshape\color{Green4},
 \subsection{Poly operator}
 \lstinputlisting{math/polyop.cpp}
 
-%\subsection{BigInt}
-%\lstinputlisting{math/Bigint.cpp}
+\subsection{O(1)mul}
+\lstinputlisting{math/O(1)mul.cpp}
+
+\subsection{BigInt}
+\lstinputlisting{math/Bigint_full.cpp}
 
 % \subsection{Linear Recurrence}
 % \lstinputlisting{math/linearRecurrence.cpp}
+
+\subsection{Stirling's approximation}
+\input{math/Stirling_approximation.tex}
 
 \subsection{Miller Rabin}
 \lstinputlisting{math/Miller_Rabin.cpp}
@@ -182,6 +190,9 @@ stringstyle=\itshape\color{Green4},
 \subsection{Pollard Rho}
 \lstinputlisting{math/pollardRho.cpp}
 
+\subsection{Josephus Problem}
+\lstinputlisting{math/Josephus.cpp}
+
 %\subsection{Poly Generator}
 %\lstinputlisting{math/PolyGen.cpp}
 
@@ -194,8 +205,8 @@ stringstyle=\itshape\color{Green4},
 \subsection{Discrete sqrt}
 \lstinputlisting{math/DiscreteSqrt.cpp}
 
-\subsection{SchreierSims}
-\lstinputlisting{math/SchreierSims.cpp}
+% \subsection{SchreierSims}
+% \lstinputlisting{math/SchreierSims.cpp}
 
 \subsection{Romberg}
 \lstinputlisting{math/Romberg.cpp}
@@ -209,11 +220,17 @@ stringstyle=\itshape\color{Green4},
 \subsection{Roots of Polynomial}
 \lstinputlisting{math/rootsOfPolynomial.cpp}
 
+\subsection{inverse}
+\lstinputlisting{math/inverse.cpp}
+
+\subsection{SG定理}
+\lstinputlisting{math/SSG.cpp}
+
 %\subsection{Mod}
 %\lstinputlisting{math/MOD.cpp}
 
-%\subsection{Primes and $\mu$ function}
-%\lstinputlisting{math/primes.cpp}
+\subsection{Primes and $\mu$ function}
+\lstinputlisting{math/primes.cpp}
 
 \subsection{Result}
 \input{math/theorem.tex}
@@ -223,13 +240,13 @@ stringstyle=\itshape\color{Green4},
 % \subsection{Points class}
 % \lstinputlisting{geometry/Points.cpp}
 
-\subsection{halfPlaneIntersection}
+% \subsection{halfPlaneIntersection}
 \subsection{Intersection of 2 lines}
 % \lstinputlisting{geometry/halfPlaneIntersection.cpp}
 \lstinputlisting{geometry/Half_plane_intersection.cpp}
 
-% \subsection{Convex Hull}
-% \lstinputlisting{geometry/convex_hull.cpp}
+\subsection{Convex Hull}
+\lstinputlisting{geometry/convex_hull.cpp}
 
 % \lstinputlisting{geometry/Intersection_of_two_lines.cpp}
 
@@ -277,8 +294,8 @@ stringstyle=\itshape\color{Green4},
 %\subsection{Minkowski sum}
 %\lstinputlisting{geometry/Minkowski_Sum.cpp}
 
-\subsection{Minkowski sum}
-\lstinputlisting{geometry/minkowski-convex-hull.cpp}
+% \subsection{Minkowski sum}
+% \lstinputlisting{geometry/minkowski-convex-hull.cpp}
 
 % \subsection{Min Enclosing Circle}
 % \lstinputlisting{geometry/minEnclosingCircle.cpp}
@@ -299,7 +316,7 @@ stringstyle=\itshape\color{Green4},
 \subsection{DominatorTree}
 \lstinputlisting{graph/DominatorTree.cpp}
 
-\subsection{MaxClique}
+\subsection{MaxClique 最大團}
 % \lstinputlisting{graph/MaxClique.cpp}
 \lstinputlisting{graph/MaximumClique.cpp}
 
@@ -402,10 +419,13 @@ stringstyle=\itshape\color{Green4},
 \subsection{Find max tangent(x,y is increasing)}
 \lstinputlisting{others/maxtan.cpp}
 
-%\subsection{Exact Cover Set}
-%\lstinputlisting{others/exactCoverSet.cpp}
+% \subsection{Exact Cover Set}
+% \lstinputlisting{others/exactCoverSet.cpp}
 
 %\subsection{\# of Intersection of segments}
 %\lstinputlisting{others/painter.cpp}
+
+\subsection{Segment tree}
+\lstinputlisting{dataStructure/seg_tree.cpp}
 
 \end{document}

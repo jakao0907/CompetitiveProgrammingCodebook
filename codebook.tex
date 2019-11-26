@@ -126,10 +126,10 @@ stringstyle=\itshape\color{Green4},
 %\subsection{Hungarian Unbalanced}
 %\lstinputlisting{flow/HungarianUnbalanced.cpp}
 
-\subsection{Kuhn Munkres}
+\subsection{Kuhn Munkres 最大完美二分匹配}
 \lstinputlisting{flow/Kuhn_Munkres.cpp}
 
-\subsection{DMST}
+\subsection{Directed MST}
 \lstinputlisting{flow/DMST.cpp}
 
 \subsection{SW min-cut (不限S-T的min-cut)}
@@ -144,8 +144,11 @@ stringstyle=\itshape\color{Green4},
 \subsection{Max flow with lower/upper bound}
 \lstinputlisting{flow/BoundedMaxflow.cpp}
 
-\subsection{Relabel to Front}
-\lstinputlisting{flow/relabelToFront.cpp}
+% \subsection{Relabel to Front}
+% \lstinputlisting{flow/relabelToFront.cpp}
+
+\subsection{HLPPA (稠密圖flow)}
+\lstinputlisting{flow/HLPPA2.cpp}
 
 \subsection{Flow Method}
 \lstinputlisting{flow/FlowMethod.txt}
@@ -169,8 +172,8 @@ stringstyle=\itshape\color{Green4},
 \subsection{BigInt}
 \lstinputlisting{math/Bigint_full.cpp}
 
-% \subsection{Linear Recurrence}
-% \lstinputlisting{math/linearRecurrence.cpp}
+\subsection{Linear Recurrence}
+\lstinputlisting{math/linearRecurrence.cpp}
 
 \subsection{Stirling's approximation}
 \input{math/Stirling_approximation.tex}
@@ -178,16 +181,16 @@ stringstyle=\itshape\color{Green4},
 \subsection{Miller Rabin}
 \lstinputlisting{math/Miller_Rabin.cpp}
 
-\subsection{Simplex}
-\lstinputlisting{math/Simplex.cpp}
+% \subsection{Simplex 線性規劃}
+% \lstinputlisting{math/Simplex.cpp}
 
-\subsection{Faulhaber}
+\subsection{Faulhaber ($\sum\limits_{i=1}^{n}i^p$)}
 \lstinputlisting{math/Faulhaber.cpp}
 
 \subsection{Chinese Remainder}
 \lstinputlisting{math/chineseRemainder.cpp}
 
-\subsection{Pollard Rho}
+\subsection{Pollard Rho 找因數}
 \lstinputlisting{math/pollardRho.cpp}
 
 \subsection{Josephus Problem}
@@ -208,7 +211,7 @@ stringstyle=\itshape\color{Green4},
 % \subsection{SchreierSims}
 % \lstinputlisting{math/SchreierSims.cpp}
 
-\subsection{Romberg}
+\subsection{Romberg 定積分}
 \lstinputlisting{math/Romberg.cpp}
 
 %\subsection{Discrete K-th sqrt}
@@ -217,7 +220,7 @@ stringstyle=\itshape\color{Green4},
 \subsection{Prefix Inverse}
 \lstinputlisting{math/prefixInv.cpp}
 
-\subsection{Roots of Polynomial}
+\subsection{Roots of Polynomial 找多項式的根}
 \lstinputlisting{math/rootsOfPolynomial.cpp}
 
 \subsection{inverse}
@@ -229,7 +232,7 @@ stringstyle=\itshape\color{Green4},
 %\subsection{Mod}
 %\lstinputlisting{math/MOD.cpp}
 
-\subsection{Primes and $\mu$ function}
+\subsection{Primes}
 \lstinputlisting{math/primes.cpp}
 
 \subsection{Result}
@@ -240,20 +243,22 @@ stringstyle=\itshape\color{Green4},
 % \subsection{Points class}
 % \lstinputlisting{geometry/Points.cpp}
 
-% \subsection{halfPlaneIntersection}
+
 \subsection{Intersection of 2 lines}
+\lstinputlisting{geometry/Intersection_of_two_lines.cpp}
+
 % \lstinputlisting{geometry/halfPlaneIntersection.cpp}
+\subsection{halfPlaneIntersection}
 \lstinputlisting{geometry/Half_plane_intersection.cpp}
 
 \subsection{Convex Hull}
 \lstinputlisting{geometry/convex_hull.cpp}
 
-% \lstinputlisting{geometry/Intersection_of_two_lines.cpp}
 
 \subsection{Intersection of 2 segments}
 \lstinputlisting{geometry/Intersection_of_two_segments.cpp}
 
-\subsection{Intersection of circle and segment}
+\subsection{Intersection of circle and segment}0
 \lstinputlisting{geometry/Intersection_of_circle_and_segment.cpp}
 
 %\subsection{Intersection of polygon and circle}
@@ -274,7 +279,7 @@ stringstyle=\itshape\color{Green4},
 
 \subsection{KD Tree}
 %\lstinputlisting{geometry/KD_Tree.cpp}
-\lstinputlisting{dataStructure/KDTree.cpp}
+\lstinputlisting{geometry/KD_Tree1.cpp}
 
 %\subsection{Poly Union}
 %\lstinputlisting{geometry/polyUnion.cpp}
@@ -282,14 +287,14 @@ stringstyle=\itshape\color{Green4},
 \subsection{Lower Concave Hull}
 \lstinputlisting{geometry/lowerConcaveHull.cpp}
 
-\subsection{Delaunay Triangulation}
-\lstinputlisting{geometry/DelaunayTriangulation.cpp}
+% \subsection{Delaunay Triangulation}
+% \lstinputlisting{geometry/DelaunayTriangulation.cpp}
 
 \subsection{Min Enclosing Circle}
 \lstinputlisting{geometry/mec.cpp}
 
-%\subsection{Min Enclosing Ball}
-%\lstinputlisting{geometry/minEnclosingBall.cpp}
+\subsection{Min Enclosing Ball}
+\lstinputlisting{geometry/minEnclosingBall.cpp}
 
 %\subsection{Minkowski sum}
 %\lstinputlisting{geometry/Minkowski_Sum.cpp}
@@ -359,7 +364,7 @@ stringstyle=\itshape\color{Green4},
 
 \section{String}
 \subsection{PalTree}
-\lstinputlisting{string/PalTree.cpp}
+\lstinputlisting{string/PalTree1.cpp}
 
 %\subsection{SuffixArray}
 %\lstinputlisting{string/Suffix_Array.cpp}
@@ -422,10 +427,12 @@ stringstyle=\itshape\color{Green4},
 \subsection{Find max tangent(x,y is increasing)}
 \lstinputlisting{others/maxtan.cpp}
 
-% \subsection{Exact Cover Set}
-% \lstinputlisting{others/exactCoverSet.cpp}
+\subsection{Exact Cover Set}
+\lstinputlisting{others/exactCoverSet.cpp}
 
 %\subsection{\# of Intersection of segments}
 %\lstinputlisting{others/painter.cpp}
+
+\lstinputlisting{others/love.cpp}
 
 \end{document}

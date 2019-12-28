@@ -41,13 +41,14 @@ struct MMC{
       }
       if (avg < mmc) tie(mmc, st) = tie(avg, i);
     }
-    FZ(vst); edgeID.clear(); cycle.clear(); rho.clear();
+    fill(vst,0); edgeID.clear(); cycle.clear(); rho.clear();
     for (int i=n; !vst[st]; st=prv[i--][st]) {
       vst[st]++;
       edgeID.PB(prve[i][st]);
       rho.PB(st);
     }
     while (vst[st] != 2) {
+      if(rho.empty())	return inf;
       int v = rho.back(); rho.pop_back();
       cycle.PB(v);
       vst[v]++;

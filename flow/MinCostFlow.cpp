@@ -26,7 +26,7 @@ typedef int Tcost;
   int id[MAXV], mom[MAXV];
   bool inqu[MAXV];
   queue<int> q;
-  Tcost solve(){
+  pair<int,Tcost> solve(){
     int mxf = 0; Tcost mnc = 0;
     while(1){
       fill(d, d+1+V, INFc);
@@ -61,6 +61,6 @@ typedef int Tcost;
       mxf += df;
       mnc += df*d[t];
     }
-    return mnc;
+    return {mxf,mnc};
   }
 } flow;

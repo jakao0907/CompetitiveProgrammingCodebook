@@ -13,9 +13,8 @@ typedef int Tcost;
   };
   int V, s, t;
   vector<Edge> g[MAXV];
-  void init(int n){
-    V = n+2;
-    s = n+1, t = n+2;
+  void init(int n, int _s, int _t){
+    V = n; s = _s; t = _t;
     for(int i = 0; i <= V; i++) g[i].clear();
   }
   void addEdge(int a, int b, int cap, Tcost w){

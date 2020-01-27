@@ -32,7 +32,7 @@ inline void pre() {
     b[i]=1;
     for(int j=0;j<i;j++)
       b[i]=sub(b[i],
-               mul(cm[i][j],mul(b[j], inv[i-j+1]));
+               mul(cm[i][j],mul(b[j], inv[i-j+1])));
   }
   /* faulhaber */
   // sigma_x=1~n {x^p} =
@@ -40,7 +40,7 @@ inline void pre() {
   for(int i=1;i<MAXK;i++) {
     co[i][0]=0;
     for(int j=0;j<=i;j++)
-      co[i][i-j+1]=mul(inv[i+1], mul(cm[i+1][j], b[j]))
+      co[i][i-j+1]=mul(inv[i+1], mul(cm[i+1][j], b[j]));
   }
 }
 /* sample usage: return f(n,p) = sigma_x=1~n (x^p) */

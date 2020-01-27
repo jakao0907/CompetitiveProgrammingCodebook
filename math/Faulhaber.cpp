@@ -1,7 +1,7 @@
 /* faulhaber’s formula -
  * cal power sum formula of all p=1~k in O(k^2) */
 #define MAXK 2500
-const int mod = 1000000007;
+const int mod = 4600000000000000133;
 int b[MAXK]; // bernoulli number
 int inv[MAXK+1]; // inverse
 int cm[MAXK+1][MAXK+1]; // combinactories

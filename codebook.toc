@@ -21,7 +21,7 @@
 \contentsline {subsection}{\numberline {3.6}BigInt}{6}% 
 \contentsline {subsection}{\numberline {3.7}Linear Recurrence}{7}% 
 \contentsline {subsection}{\numberline {3.8}Stirling's approximation}{7}% 
-\contentsline {subsection}{\numberline {3.9}Miller Rabin}{8}% 
+\contentsline {subsection}{\numberline {3.9}Miller Rabin}{7}% 
 \contentsline {subsection}{\numberline {3.10}Faulhaber ($\DOTSB \sum@ \slimits@ \limits _{i=1}^{n}i^p$)}{8}% 
 \contentsline {subsection}{\numberline {3.11}Chinese Remainder}{8}% 
 \contentsline {subsection}{\numberline {3.12}Pollard Rho 找因數}{8}% 

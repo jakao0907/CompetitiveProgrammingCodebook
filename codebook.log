@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  17 DEC 2019 10:52
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  25 MAR 2020 02:57
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -738,8 +738,8 @@ This may cause the page layout to be inconsistent, however.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(math/linearRecurrence.cpp) (math/Stirling_approximation.tex) [7]
-(math/Miller_Rabin.cpp) (math/Faulhaber.cpp) (math/chineseRemainder.cpp)
+(math/linearRecurrence.cpp) (math/Stirling_approximation.tex)
+(math/Miller_Rabin.cpp [7]) (math/Faulhaber.cpp) (math/chineseRemainder.cpp)
 (math/pollardRho.cpp) (math/Josephus.cpp) (math/ax+by=gcd.cpp)
 (math/DiscreteSqrt.cpp [8]) (math/Romberg.cpp) (math/prefixInv.cpp)
 (math/rootsOfPolynomial.cpp) (math/inverse.cpp) (math/SSG.cpp) (math/primes.cpp
@@ -790,7 +790,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  20083 strings out of 427669
  400121 string characters out of 3145156
- 1416628 words of memory out of 3000000
+ 1415628 words of memory out of 3000000
  23771 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191

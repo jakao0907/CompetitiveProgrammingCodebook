@@ -12,3 +12,4 @@
 | NWERC 2019                                       | Mar/07/2020 | 193 | 4/11   |-||C|-|E|F|-|-|I|-|-|
 | Asia Yokohama Regional Contest 2018              | Mar/18/2020 | 161 | 5/11   |A|(B)|C|-|-|-|G|-|-|-|K|
 | Brazil Subregional Programming Contest 2019      | Mar/24/2020 | 198 | 9/13   |A|B|-|D|-|-|(G)|H|(I)|(J)|-|L|M|
+| Mount Allison Programming Showdown 2020          | Mar/29/2020 | 119 | 6/12   ||||D||F|G|H|(I)|J|-|-|

@@ -1,7 +1,7 @@
 # contest
 
 ## Training
-number | Contest | Data | Rank | Solved/Total |A|B|C|D|E|F|G|H|I|J|K|L|M|
+|id | Contest | Data | Rank | Solved/Total |A|B|C|D|E|F|G|H|I|J|K|L|M|
 |-|-|-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |1|  GCPC  2018                                       | 2019/09/22 | 253 | 5/13   |-||C||E|F|-|-|I|-|-|-|(M)|
 |2|  Latin American Regional Programming Contest 2019 | 2019/12/20 | 241 | 6/13   |-|-|-|-|E|-|-|-|I|-|K|L|M|

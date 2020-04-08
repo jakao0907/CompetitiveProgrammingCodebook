@@ -4,7 +4,7 @@
 |id | Contest | Data | Rank | Solved/Total |A|B|C|D|E|F|G|H|I|J|K|L|M|
 |-|-|-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |1|  GCPC  2018                                       | 2019/09/22 | 253 | 5/13   |-||C||E|F|-|-|I|-|-|-|(M)|
-|2|  Latin American Regional Programming Contest 2019 | 2019/12/20 | 241 | 6/13   |-|-|-|-|E|-|-|-|I|-|K|L|M|
+|2|  Latin American Regional Programming Contest 2019 | 2019/12/20 | 241 | 6/13   |-|-|-|-|E|-|(G)|-|I|-|K|L|M|
 |3|  SWERC 2018                                       | 2019/12/27 | 83  | 4/11   |A|B|-|D|E|-|(G)|-|-|-|-|-|-|
 |4|  NWERC 2018                                       | 2020/02/17 | 151 | 8/11   |-|(B)|(C)|-|(E)|-|(G)|H|I|(J)|K|
 |5|  CCPC Harbin 2019                                 | 2020/02/25 | 544 | 7/12   |(A)|-|-|-|(E)|F|-|-|(I)|J|K|(L)|

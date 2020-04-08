@@ -13,7 +13,7 @@
 |8|  Asia Yokohama Regional Contest 2018              | 2020/03/18 | 161 | 5/11   |A|(B)|C|-|-|-|G|-|-|-|K|
 |9|  Brazil Subregional Programming Contest 2019      | 2020/03/24 | 198 | 9/13   |A|B|-|D|-|-|(G)|H|(I)|(J)|-|L|M|
 |10| Mount Allison Programming Showdown 2020          | 2020/03/29 | 119 | 6/12   |-|-|-|D|-|F|G|H|(I)|J|-|-|
-|11| Malaysia National 2019                           | 2020/04/06 | 103 | 8/11   |A|B|C|-|E|-|-|H|I|J|K|-|
+|11| Malaysia National 2019                           | 2020/04/06 | 103 | 9/11   |A|B|C|-|E|(F)|-|H|I|J|K|-|
 
 A:賽中AC
 (A):賽後補題AC

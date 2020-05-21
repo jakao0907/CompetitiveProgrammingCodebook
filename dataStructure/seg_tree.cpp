@@ -1,5 +1,5 @@
 struct seg_tree{
-	const int MXN=1e5+5,NO_TAG=0; // to be set
+	static const int MXN=1e5+5,NO_TAG=0; // to be set
 	ll a[MXN],val[MXN*4],tag[MXN*4],v;
 	int n,ql,qr;
 	void push(int i,int l,int r){

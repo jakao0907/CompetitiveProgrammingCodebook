@@ -79,7 +79,7 @@
 \contentsline {section}{\numberline {7}Data Structure}{23}% 
 \contentsline {subsection}{\numberline {7.1}Segment tree}{23}% 
 \contentsline {subsection}{\numberline {7.2}Treap}{23}% 
-\contentsline {subsection}{\numberline {7.3}Link-Cut Tree}{23}% 
+\contentsline {subsection}{\numberline {7.3}Link-Cut Tree}{24}% 
 \contentsline {subsection}{\numberline {7.4}Black Magic}{24}% 
 \contentsline {section}{\numberline {8}Others}{24}% 
 \contentsline {subsection}{\numberline {8.1}Find max tangent(x,y is increasing)}{24}% 

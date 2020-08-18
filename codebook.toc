@@ -32,9 +32,8 @@
 \contentsline {subsection}{\numberline {3.17}Prefix Inverse}{9}% 
 \contentsline {subsection}{\numberline {3.18}Roots of Polynomial 找多項式的根}{9}% 
 \contentsline {subsection}{\numberline {3.19}inverse}{9}% 
-\contentsline {subsection}{\numberline {3.20}SG定理}{9}% 
-\contentsline {subsection}{\numberline {3.21}Primes}{9}% 
-\contentsline {subsection}{\numberline {3.22}Result}{10}% 
+\contentsline {subsection}{\numberline {3.20}Primes}{9}% 
+\contentsline {subsection}{\numberline {3.21}Result}{9}% 
 \contentsline {section}{\numberline {4}Geometry}{10}% 
 \contentsline {subsection}{\numberline {4.1}Intersection of 2 lines}{10}% 
 \contentsline {subsection}{\numberline {4.2}halfPlaneIntersection}{10}% 
@@ -44,7 +43,7 @@
 \contentsline {subsection}{\numberline {4.6}Intersection of 2 circles}{10}% 
 \contentsline {subsection}{\numberline {4.7}Circle cover}{10}% 
 \contentsline {subsection}{\numberline {4.8}Convex Hull trick}{11}% 
-\contentsline {subsection}{\numberline {4.9}Tangent line of two circles}{12}% 
+\contentsline {subsection}{\numberline {4.9}Tangent line of two circles}{11}% 
 \contentsline {subsection}{\numberline {4.10}KD Tree}{12}% 
 \contentsline {subsection}{\numberline {4.11}Lower Concave Hull}{12}% 
 \contentsline {subsection}{\numberline {4.12}Min Enclosing Circle}{12}% 
@@ -70,7 +69,7 @@
 \contentsline {subsection}{\numberline {6.2}KMP}{20}% 
 \contentsline {subsection}{\numberline {6.3}SAIS}{21}% 
 \contentsline {subsection}{\numberline {6.4}SuffixAutomata}{21}% 
-\contentsline {subsection}{\numberline {6.5}Aho-Corasick}{22}% 
+\contentsline {subsection}{\numberline {6.5}Aho-Corasick}{21}% 
 \contentsline {subsection}{\numberline {6.6}Z Value}{22}% 
 \contentsline {subsection}{\numberline {6.7}BWT}{22}% 
 \contentsline {subsection}{\numberline {6.8}ZValue Palindrome}{22}% 
@@ -79,7 +78,7 @@
 \contentsline {section}{\numberline {7}Data Structure}{23}% 
 \contentsline {subsection}{\numberline {7.1}Segment tree}{23}% 
 \contentsline {subsection}{\numberline {7.2}Treap}{23}% 
-\contentsline {subsection}{\numberline {7.3}Link-Cut Tree}{24}% 
+\contentsline {subsection}{\numberline {7.3}Link-Cut Tree}{23}% 
 \contentsline {subsection}{\numberline {7.4}Black Magic}{24}% 
 \contentsline {section}{\numberline {8}Others}{24}% 
 \contentsline {subsection}{\numberline {8.1}Find max tangent(x,y is increasing)}{24}% 

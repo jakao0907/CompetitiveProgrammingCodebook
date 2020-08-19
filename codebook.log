@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  18 AUG 2020 19:31
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  19 AUG 2020 21:10
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -753,50 +753,51 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (geometry/Half_plane_intersection.cpp) (geometry/convex_hull.cpp)
 (geometry/Intersection_of_two_segments.cpp)
 (geometry/Intersection_of_circle_and_segment.cpp) (geometry/CircleCover.cpp
-[10]) (geometry/ConvexHulltrick.cpp) (geometry/Tangent_line_of_two_circles.cpp
-[11]) (geometry/KD_Tree1.cpp) (geometry/lowerConcaveHull2.cpp)
-(geometry/mec.cpp [12]) (geometry/minEnclosingBall.cpp)
-(geometry/minDistonCuboid.cpp) (geometry/triangle.cpp)
-(graph/HeavyLightDecomp.cpp [13]) (graph/DominatorTree.cpp)
-(graph/MaximumClique.cpp [14]) (graph/kosaraju.cpp) (graph/DynamicMST.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15])
-(graph/generalMatching.cpp) (graph/Minimum_General_Weighted_Matching.cpp)
-(graph/BorrowedGeneralWeightedMatching.cpp [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17])
-(graph/MinimumSteinerTree.cpp) (graph/bcc_vertex.cpp) (graph/MinMeanCycle.cpp
-[18]) (graph/DirectedGraphMinCycle.cpp) (graph/KSP.cpp [19]
+[10]) (geometry/ConvexHulltrick.cpp) [11]
+(geometry/Tangent_line_of_two_circles.cpp) (geometry/KD_Tree1.cpp)
+(geometry/lowerConcaveHull2.cpp) (geometry/mec.cpp [12])
+(geometry/minEnclosingBall.cpp) (geometry/minDistonCuboid.cpp)
+(geometry/triangle.cpp) (graph/DominatorTree.cpp [13]) (graph/MaximumClique.cpp
+) (graph/kosaraju.cpp) (graph/DynamicMST.cpp [14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(string/PalTree1.cpp) (string/KMP.cpp [20]) (string/SAIS.cpp) (string/SAM.cpp)
-(string/Aho-Corasick.cpp [21]) (string/zvalue.cpp) (string/BWT.cpp)
+(graph/generalMatching.cpp) (graph/Minimum_General_Weighted_Matching.cpp
+[15]) (graph/BorrowedGeneralWeightedMatching.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(graph/MinimumSteinerTree.cpp) (graph/bcc_vertex.cpp [17])
+(graph/MinMeanCycle.cpp) (graph/DirectedGraphMinCycle.cpp [18]) (graph/KSP.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19])
+(string/PalTree1.cpp) (string/KMP.cpp) (string/SAIS.cpp) (string/SAM.cpp
+[20]) (string/Aho-Corasick.cpp) (string/zvalue.cpp) (string/BWT.cpp [21])
 (string/zvalue_palindrome.cpp) (string/smallest_rotation.cpp)
-(string/cyclicLCS.cpp [22]) (dataStructure/seg_tree.cpp)
+(string/cyclicLCS.cpp) (dataStructure/seg_tree.cpp [22])
 (dataStructure/treap_split_key&kth.cpp) (dataStructure/link_cut_tree.cpp
-[23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(dataStructure/extc_bt.cpp) (others/maxtan.cpp [24]) (others/exactCoverSet.cpp)
-(others/love.cpp) [25] (codebook.aux)
+ [23])
+(dataStructure/extc_bt.cpp) (others/maxtan.cpp) (others/exactCoverSet.cpp
+[24]) (others/funny.cpp) [25
+
+] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19931 strings out of 427669
- 398167 string characters out of 3145156
- 1420628 words of memory out of 3000000
- 23622 multiletter control sequences out of 15000+200000
+ 19850 strings out of 427669
+ 396450 string characters out of 3145156
+ 1429628 words of memory out of 3000000
+ 23544 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 39i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,67p,339b,1637s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on codebook.pdf (25 pages).

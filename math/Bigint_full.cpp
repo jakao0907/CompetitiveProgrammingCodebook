@@ -1,4 +1,3 @@
-//1 9999=19999
 struct Bigint{
   static const int LEN = 60;
   static const int BIGMOD = 10000;

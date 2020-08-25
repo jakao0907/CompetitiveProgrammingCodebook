@@ -1,8 +1,9 @@
 \contentsline {section}{\numberline {1}Basic}{1}% 
 \contentsline {subsection}{\numberline {1.1}Increase Stack Size}{1}% 
 \contentsline {subsection}{\numberline {1.2}Misc}{1}% 
-\contentsline {subsection}{\numberline {1.3}python-related}{1}% 
-\contentsline {subsection}{\numberline {1.4}java-related}{1}% 
+\contentsline {subsection}{\numberline {1.3}shell}{1}% 
+\contentsline {subsection}{\numberline {1.4}python-related}{1}% 
+\contentsline {subsection}{\numberline {1.5}java-related}{1}% 
 \contentsline {section}{\numberline {2}flow}{2}% 
 \contentsline {subsection}{\numberline {2.1}ISAP}{2}% 
 \contentsline {subsection}{\numberline {2.2}MinCostFlow}{2}% 
@@ -38,7 +39,7 @@
 \contentsline {section}{\numberline {4}Geometry}{10}% 
 \contentsline {subsection}{\numberline {4.1}Intersection of 2 lines}{10}% 
 \contentsline {subsection}{\numberline {4.2}halfPlaneIntersection}{10}% 
-\contentsline {subsection}{\numberline {4.3}Convex Hull}{10}% 
+\contentsline {subsection}{\numberline {4.3}Convex Hull}{11}% 
 \contentsline {subsection}{\numberline {4.4}Intersection of 2 segments}{11}% 
 \contentsline {subsection}{\numberline {4.5}Intersection of circle and segment}{11}% 
 \contentsline {subsection}{\numberline {4.6}Intersection of 2 circles}{11}% 

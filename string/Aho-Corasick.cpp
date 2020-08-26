@@ -35,11 +35,11 @@ struct ACautomata{
           fr->go[i]->dic=(ptr->cnt?ptr:ptr->dic);
           que.push(fr->go[i]);
   } } } }
-  void query(Node* root,string s){
+  void query(string s){
       Node *cur=root;
       for(int i=0;i<(int)s.size();i++){
-          while(cur&&!cur->nxt[s[i]-'a']) cur=cur->fail;
-          cur=(cur?cur->nxt[s[i]-'a']:root);
+          while(cur&&!cur->go[s[i]-'a']) cur=cur->fail;
+          cur=(cur?cur->go[s[i]-'a']:root);
           if(cur->i>=0) ans[cur->i]++;
           for(Node *tmp=cur->dic;tmp;tmp=tmp->dic)
               ans[tmp->i]++;

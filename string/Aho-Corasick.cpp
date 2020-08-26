@@ -43,6 +43,5 @@ struct ACautomata{
           if(cur->i>=0) ans[cur->i]++;
           for(Node *tmp=cur->dic;tmp;tmp=tmp->dic)
               ans[tmp->i]++;
-      }
-  } // ans[i] : number of occurrence of pattern i
+  } }// ans[i] : number of occurrence of pattern i
 }AC;

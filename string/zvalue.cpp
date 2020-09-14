@@ -1,6 +1,6 @@
 char s[MAXN];
 int len,z[MAXN];
-void Z_value() {
+void Z_value() { //z[i] = lcp(s[1...],s[i...])
 	int i,j,left,right;
 	left=right=0; z[0]=len;
 	for(i=1;i<len;i++) {

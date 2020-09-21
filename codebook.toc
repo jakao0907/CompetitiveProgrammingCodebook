@@ -76,7 +76,7 @@
 \contentsline {subsection}{\numberline {6.7}BWT}{22}% 
 \contentsline {subsection}{\numberline {6.8}ZValue Palindrome}{22}% 
 \contentsline {subsection}{\numberline {6.9}Smallest Rotation}{22}% 
-\contentsline {subsection}{\numberline {6.10}Cyclic LCS}{22}% 
+\contentsline {subsection}{\numberline {6.10}Cyclic LCS}{23}% 
 \contentsline {section}{\numberline {7}Data Structure}{23}% 
 \contentsline {subsection}{\numberline {7.1}Segment tree}{23}% 
 \contentsline {subsection}{\numberline {7.2}Treap}{23}% 

@@ -25,7 +25,10 @@
 |20| Asia Nakhon Pathom Regional Contest 2018         | 2020/08/15 | 182 | 6/12   |-|-|C|D|-|-|G|H|-|(J)|(K)|L|
 |21| TOPC 2017                                        | 2020/08/22 | 8   | 4/8    |A|B|C|D|-|-|-|-|
 |22| 2018 Battle of Brains                            | 2020/08/30 | 29  | 8/10   |A|B|C|D|E|F|G|H|-|-|
-|23| ECPC 2016                                        | 2020/09/06 | 91  | 11/11   |A|B|(C)|D|E|(F)|G|H|(I)|J|(K)|
+|23| ECPC 2016                                        | 2020/09/06 | 91  | 11/11  |A|B|(C)|D|E|(F)|G|H|(I)|J|(K)|
+|24| NHSPC 2017                                       | 2020/09/10 | 136 | 7/8    |A|B|-|D|E|(F)|(G)|(H)
+|25| Asia Daejeon Regional Contest 2017               | 2020/09/11 | 269 | 7/12   |-|A|B|C|-|-|-|(H)|(I)|-|(K)|L|
+|26| Asia Nanjing Regional Contest 2018               | 2020/09/13 | 243 | 7/13   |A|-|-|D|-|-|G|-|I|J|K|-|(M)|
 
 A:賽中AC
 (A):賽後補題AC

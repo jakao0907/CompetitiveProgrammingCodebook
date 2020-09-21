@@ -24,10 +24,7 @@ struct MMC{
           d[i+1][u] = d[i][v]+e[j].c;
           prv[i+1][u] = v;
           prve[i+1][u] = j;
-        }
-      }
-    }
-  }
+  } } } }
   double solve(){
     // returns inf if no cycle, mmc otherwise
     double mmc=inf;

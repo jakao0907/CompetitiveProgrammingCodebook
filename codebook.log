@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  21 SEP 2020 21:35
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  21 SEP 2020 23:11
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -740,29 +740,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [7])
 (math/linearRecurrence.cpp) (math/Stirling_approximation.tex)
 (math/Miller_Rabin.cpp) (math/Faulhaber.cpp [8]) (math/chineseRemainder.cpp)
-(math/pollardRho.cpp) (math/Josephus.cpp) (math/ax+by=gcd.cpp)
+(math/pollardRho.cpp) (math/Josephus.cpp) (math/gauss.cpp) (math/ax+by=gcd.cpp)
 (math/DiscreteSqrt.cpp) (math/Romberg.cpp) (math/prefixInv.cpp)
-(math/rootsOfPolynomial.cpp [9]) (math/inverse.cpp) (math/primes.cpp)
-(math/theorem.tex
+(math/rootsOfPolynomial.cpp [9]) (math/primes.cpp) (math/theorem.tex
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 11.
 
 ) (geometry/Intersection_of_two_lines.cpp)
-(geometry/Half_plane_intersection.cpp) [10] (geometry/convex_hull.cpp)
+(geometry/Half_plane_intersection.cpp [10]) (geometry/convex_hull.cpp)
 (geometry/Intersection_of_two_segments.cpp)
-(geometry/Intersection_of_circle_and_segment.cpp) (geometry/CircleCover.cpp)
-(geometry/ConvexHulltrick.cpp [11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(geometry/Tangent_line_of_two_circles.cpp) (geometry/KD_Tree1.cpp [12])
-(geometry/lowerConcaveHull2.cpp) (geometry/mec.cpp)
-(geometry/minEnclosingBall.cpp [13]) (geometry/minDistonCuboid.cpp)
-(geometry/triangle.cpp) (graph/DominatorTree.cpp) (graph/MaximumClique.cpp
-[14]) (graph/kosaraju.cpp) (graph/DynamicMST.cpp [15])
-(graph/generalMatching.cpp) (graph/Minimum_General_Weighted_Matching.cpp)
+(geometry/Intersection_of_circle_and_segment.cpp) (geometry/CircleCover.cpp
+[11]) (geometry/ConvexHulltrick.cpp) (geometry/Tangent_line_of_two_circles.cpp)
+(geometry/KD_Tree1.cpp [12]) (geometry/lowerConcaveHull2.cpp) (geometry/mec.cpp
+) (geometry/minEnclosingBall.cpp [13]) (geometry/minDistonCuboid.cpp)
+(geometry/triangle.cpp) (graph/DominatorTree.cpp [14]) (graph/MaximumClique.cpp
+) (graph/kosaraju.cpp) (graph/DynamicMST.cpp [15]) (graph/generalMatching.cpp)
+(graph/Minimum_General_Weighted_Matching.cpp)
 (graph/BorrowedGeneralWeightedMatching.cpp [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -775,26 +770,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(graph/spfa.cpp) (string/PalTree2.cpp [20]) (string/KMP.cpp) (string/SAIS.cpp)
+(graph/spfa.cpp) [20] (string/PalTree2.cpp) (string/KMP.cpp) (string/SAIS.cpp)
 (string/SAM.cpp [21]) (string/Aho-Corasick.cpp) (string/zvalue.cpp)
-(string/BWT.cpp) (string/zvalue_palindrome.cpp) (string/minRotation.cpp)
-(string/cyclicLCS.cpp [22])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-(dataStructure/seg_tree.cpp) (dataStructure/treap_split_key&kth.cpp [23])
-(dataStructure/link_cut_tree.cpp) (dataStructure/extc_bt.cpp [24])
-(others/maxtan.cpp) (others/exactCoverSet.cpp) (others/funny.cpp) [25]
-(codebook.aux)
+(string/BWT.cpp) (string/zvalue_palindrome.cpp) (string/minRotation.cpp
+[22]) (string/cyclicLCS.cpp) (dataStructure/seg_tree.cpp)
+(dataStructure/treap_split_key&kth.cpp [23]) (dataStructure/link_cut_tree.cpp)
+(dataStructure/extc_bt.cpp [24]) (others/maxtan.cpp) (others/exactCoverSet.cpp)
+(others/funny.cpp) [25] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20010 strings out of 427669
- 398824 string characters out of 3145156
- 1403628 words of memory out of 3000000
- 23693 multiletter control sequences out of 15000+200000
+ 20020 strings out of 427669
+ 398908 string characters out of 3145156
+ 1376628 words of memory out of 3000000
+ 23703 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  39i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s

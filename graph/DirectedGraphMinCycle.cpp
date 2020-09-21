@@ -70,10 +70,7 @@ struct DirectedGraphMinCycle{
           if(!inq[g[i][j].to]){
             q.push(g[i][j].to);
             inq[g[i][j].to] = true;
-          }
-        }
-      }
-    }
+    } } } }
     for(int i=1; i<=n; i++) grev[i].clear();
     for(int i=1; i<=n; i++)
       for(int j=0; j<(int)g[i].size(); j++){
@@ -94,9 +91,7 @@ struct DirectedGraphMinCycle{
           if(d[g[u][l].to] > du + g[u][l].w){
             d[g[u][l].to] = du + g[u][l].w;
             b_insert(d[g[u][l].to], g[u][l].to);
-          }
-        }
-      }
+      } } }
       for(int j=0; j<(int)grev[i].size(); j++) if(grev[i][j].to > i)
         mldc=min(mldc,d[grev[i][j].to] + grev[i][j].w);
     }

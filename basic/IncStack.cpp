@@ -8,6 +8,4 @@ void increase_stack_size() {
     if(rl.rlim_cur<ks){
       rl.rlim_cur=ks;
       res=setrlimit(RLIMIT_STACK, &rl);
-    }
-  }
-}
+} } }

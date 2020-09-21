@@ -1,5 +1,5 @@
+const int MXN = 10000;
 struct Dinic{
-  static const int MXN = 10000;
   struct Edge{ int v,f,re; };
   int n,s,t,level[MXN];
   vector<Edge> E[MXN];

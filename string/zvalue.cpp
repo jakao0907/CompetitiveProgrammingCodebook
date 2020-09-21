@@ -10,6 +10,4 @@ void Z_value() { //z[i] = lcp(s[1...],s[i...])
 		if(i+z[i]>right) {
 			right=i+z[i];
 			left=i;
-		}
-	}
-}
+}   }   }

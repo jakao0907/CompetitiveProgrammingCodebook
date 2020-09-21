@@ -43,8 +43,7 @@ struct SAM{
         mom[np] = nq;
         for(; p && nxt[p][c] == q; p = mom[p])
           nxt[p][c] = nq;
-      }
-    }
+    } }
     lst = np;
   }
   void calc(){
@@ -61,9 +60,7 @@ struct SAM{
         if(!v[nxt[x][i]]) calc(nxt[x][i]);
         ds[x]+=ds[nxt[x][i]];
         dsl[x]+=ds[nxt[x][i]]+dsl[nxt[x][i]];
-      }
-    }
-  }
+  } } }
   void push(char *str){
     for(int i = 0; str[i]; i++)
       push(str[i]-'a'+1);

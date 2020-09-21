@@ -18,6 +18,4 @@ void KMP(string& t, string& p)
         {
             cout << i - p.size() + 1<<" ";
             j = failure[j];
-        }
-    }
-}
+}   }   }

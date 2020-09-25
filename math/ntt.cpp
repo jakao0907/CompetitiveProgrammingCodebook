@@ -1,4 +1,3 @@
-typedef long long LL;
 // Remember coefficient are mod P
 /* p=a*2^n+1
    n		2^n 				p 				 a 		root

@@ -12,14 +12,8 @@
 typedef long long LL;
 const int MAXN = (1<<20)+10;
 const LL MOD = 1e9+7;
-inline LL pw( LL x , LL k ) {
-  LL res = 1;
-  for( LL bs = x ; k ; k >>= 1, bs = (bs * bs)%MOD )
-    if( k&1 ) res = ( res * bs ) % MOD;
-  return res;
-}
 inline LL inv( LL x ) {
-  return pw( x , MOD-2 );
+  return mypow( x , MOD-2 );
 }
 inline void fwt( LL x[ MAXN ] , int N , bool inv=0 ) {
   for( int d = 1 ; d < N ; d <<= 1 ) {

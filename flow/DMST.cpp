@@ -1,6 +1,5 @@
 /* Edmond's algoirthm for Directed MST
- * runs in O(VE)
- */
+ * runs in O(VE) */
 const int MAXV = 10010;
 const int MAXE = 10010;
 const int INF  = 2147483647;

@@ -1,4 +1,3 @@
-#define SZ(c) ((int)(c).size())
 struct Maxflow {
   static const int MAXV = 20010;
   static const int INF  = 1000000;

@@ -20,12 +20,10 @@
 \item Kirchhoff's theorem :\\
   $A_{ii} = deg(i), A_{ij} = (i,j) \in E\ ? -1 : 0$,
   Deleting any one row, one column, and cal the det(A)
-\item 錯排公式 :\\
-  $n$個人中，每個人皆不再原來位置的組合數:\\
+\item 錯排公式 :  ($n$個人中，每個人皆不再原來位置的組合數): \\
   $dp[0]=1;dp[1]=0;$\\
   $dp[i]=(i-1)*(dp[i-1]+dp[i-2])$;
-\item Bell數\\
-  有$n$個人,把他們拆組的方法總數\\
+\item Bell數 (有$n$個人,把他們拆組的方法總數) : \\
   $B_0= 1$\\
   $B_n= \sum_{k=0}^{n} s(n,k)\quad (second-stirling)\\
   B_{n+1}= \sum_{k=0}^{n}{n \choose k} B_k$

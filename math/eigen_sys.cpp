@@ -13,8 +13,7 @@ void update_P_mtx(Matrix &P, int p, int q, double c, double s) { // O(N)
     for(int k = 0; k < rows; k++) {
         P[k][p] = Qp[k];
         P[k][q] = Qq[k];
-    }
-}
+}   }
 void update_A_mtx(Matrix &A, int p, int q, double c, double s) { // O(N)
     int n = A.getShape().first;
     vector<double> Bp(n, 0.0);
@@ -25,8 +24,7 @@ void update_A_mtx(Matrix &A, int p, int q, double c, double s) { // O(N)
         if (r != p && r != q) {
             Bp[r] =  c*A[r][p] + s*A[r][q];
             Bq[r] = -s*A[r][p] + c*A[r][q];
-        }
-    }
+    }   }
     for(int k = 0; k < n; k++) {
         A[p][k] = A[k][p] = Bp[k];
         A[q][k] = A[k][q] = Bq[k];

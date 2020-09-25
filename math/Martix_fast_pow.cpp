@@ -5,9 +5,7 @@ vector<vector<LL>> operator*(vector<vector<LL>> x,vector<vector<LL>> y){
         for(int j=0;j<len;j++){
             for(int k=0;k<len;k++){
                 ret[i][j]=(ret[i][j]+x[i][k]*y[k][j])%mod;
-            }
-        }
-    }
+    }   }   }
     return ret;
 }
 struct Martix_fast_pow{ //O(len^3 lg k)

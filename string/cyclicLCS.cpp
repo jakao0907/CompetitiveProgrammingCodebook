@@ -31,9 +31,7 @@ inline void reroot(int r) { // r = new base row
       pred[i][j]=L;
     } else {
       j++;
-    }
-  }
-}
+} } }
 int cyclic_lcs() {
   // a, b, al, bl should be properly filled
   // note: a WILL be altered in process
@@ -63,8 +61,7 @@ int cyclic_lcs() {
       if(dp[i][j-1]==dp[i][j]) pred[i][j]=L;
       else if(a[i-1]==b[j-1]) pred[i][j]=LU;
       else pred[i][j]=U;
-    }
-  }
+  } }
   // do cyclic lcs
   int clcs=0;
   for(int i=0;i<al;i++) {

@@ -15,8 +15,7 @@ struct Maxflow {
     for(int i = 0; i <= tot; i++) {
       G[i].clear();
       iter[i] = d[i] = gap[i] = 0;
-    }
-  }
+  } }
   void addEdge(int u, int v, int c) {
     G[u].push_back(Edge(v, c, SZ(G[v]) ));
     G[v].push_back(Edge(u, 0, SZ(G[u]) - 1));
@@ -31,9 +30,7 @@ struct Maxflow {
           e.c -= f;
           G[e.v][e.r].c += f;
           return f;
-        }
-      }
-    }
+    } } }
     if( (--gap[d[p]]) == 0) d[s] = tot;
     else {
       d[p]++;
@@ -51,6 +48,4 @@ struct Maxflow {
   void reset() {
     for(int i=0;i<=tot;i++) {
       iter[i]=d[i]=gap[i]=0;
-    }
-  }
-} flow;
+} } }flow;

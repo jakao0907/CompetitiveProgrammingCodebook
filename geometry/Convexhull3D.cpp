@@ -1,5 +1,3 @@
-#define SIZE(X) (int(X.size()))
-#define PI 3.14159265358979323846264338327950288
 struct Pt{
 	Pt cross(const Pt &p) const 
 	{ return Pt(y * p.z - z * p.y, z * p.x - x * p.z, x * p.y - y * p.x); }

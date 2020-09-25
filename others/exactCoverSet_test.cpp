@@ -51,8 +51,7 @@ int exact_cover(int n,int m){
       k=t; D[t]=j+1; U[t]=U[j+1];
       L[R[t]]=R[L[t]]=U[D[t]]=D[U[t]]=t;
       C[t]=j+1; S[C[t]]++; ROW[t]=i; id[i][j]=t++;
-    }
-  }
+  } }
   for( int i=0; i<n; i++ ) used[i]=0;
   return dfs();
 }
@@ -80,5 +79,4 @@ int main(){
         printf( " %d" , v[ i ] );
       puts( "" );
     }else puts( "NO" );
-  }
-}
+} }

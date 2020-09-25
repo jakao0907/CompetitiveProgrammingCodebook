@@ -58,8 +58,7 @@ struct WeightGraph {
       if(!xnv)return;
       set_match(xnv,st[pa[xnv]]);
       u=st[pa[xnv]],v=xnv;
-    }
-  }
+  } }
   int get_lca(int u,int v){
     static int t=0;
     for(++t;u||v;swap(u,v)){
@@ -145,8 +144,7 @@ struct WeightGraph {
             if(e_delta(g[u][v])==0){
               if(on_found_edge(g[u][v]))return true;
             }else update_slack(u,st[v]);
-          }
-      }
+      }   }
       int d=INF;
       for(int b=n+1;b<=n_x;++b)
         if(st[b]==b&&S[b]==1)d=min(d,lab[b]/2);

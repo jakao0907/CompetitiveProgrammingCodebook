@@ -23,10 +23,7 @@ void sieve() {
       if( i % p == 0 ){
         mu[ x ] = 0;
         break;
-      }
-    }
-  }
-}
+} } } } 
 vector<int> factor( int x ){
   vector<int> fac{ 1 };
   while( x > 1 ){
@@ -35,7 +32,6 @@ vector<int> factor( int x ){
       x /= p;
       for( int i = 0 ; i < fn ; i ++ )
         fac.PB( fac[ pos ++ ] * p );
-    }
-  }
+  } }
   return fac;
 }

@@ -13,8 +13,7 @@ void push( Treap * a ){
 		if( a->l ) a->l->tag ^= 1;
 		if( a->r ) a->r->tag ^= 1;
 		a->tag = 0;
-	}
-}
+}	}
 inline int Size( Treap * a ){ return a ? a->sz : 0; }
 void pull( Treap * a ){
 	a->sz = Size( a->l ) + Size( a->r ) + 1;
@@ -31,9 +30,8 @@ Treap* merge( Treap *a , Treap *b ){
 		b->l = merge( a , b->l );
 		pull( b );
 		return b;
-	}
-}
-void split_kth( Treap *t , int k , Treap*&a , Treap*&b ){
+}	}
+void split_kth( Treap *t , int k, Treap*&a, Treap*&b ){
 	if( !t ){ a = b = NULL; return; }
 	push( t );
 	if( Size( t->l ) + 1 <= k ){
@@ -44,9 +42,8 @@ void split_kth( Treap *t , int k , Treap*&a , Treap*&b ){
 		b = t;
 		split_kth( t->l , k , a , b->l );
 		pull( b );
-	}
-}
-void split_key(Treap *t, int k,Treap*&a ,Treap*&b){
+}	}
+void split_key(Treap *t, int k, Treap*&a, Treap*&b){
 	if(!t){ a = b = NULL; return; }
 	push(t);
 	if(k<=t->val){
@@ -58,5 +55,4 @@ void split_key(Treap *t, int k,Treap*&a ,Treap*&b){
 		a = t;
 		split_key(t->r,k,a->r,b);
 		pull(a);
-	}
-}
+}	}

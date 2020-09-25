@@ -10,8 +10,7 @@ struct seg_tree{
 				tag[cr(i)]+=tag[i]; // push
 			}
 			tag[i]=NO_TAG;
-		}
-	}
+	}	}
 	void pull(int i,int l,int r){
 		int mid=(l+r)>>1;
 		push(cl(i),l,mid);push(cr(i),mid+1,r);
@@ -46,5 +45,4 @@ struct seg_tree{
 		int mid=(l+r)>>1;
 		if(ql<=mid) query(cl(i),l,mid);
 		if(qr>mid) query(cr(i),mid+1,r);
-	}
-}tree;
+}	}tree;

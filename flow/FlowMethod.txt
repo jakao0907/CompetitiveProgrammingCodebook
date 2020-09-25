@@ -6,7 +6,6 @@ Maximize c^T x subject to Ax ≤ b;
 with the corresponding asymmetric dual problem,
 Minimize b^T y subject to A^T y = c, y ≥ 0. 
 
-
 Minimum vertex cover on bipartite graph =
 Maximum matching on bipartite graph =
 Max flow with source to one side, other side to sink
@@ -17,7 +16,6 @@ only. Equivalently, dfs from source with unused edges
 only and without visiting sink. Then, a vertex is chosen
 iff. it is on the left side and without visited or on
 the right side and visited through dfs.
-
 
 Maximum density subgraph ( \sum W_e + \sum W_v ) / |V|
 

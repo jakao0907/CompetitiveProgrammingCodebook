@@ -26,9 +26,7 @@ struct Graph {
           if (SPFA(m)) return true;
           stk.pop_back();
           onstk[v] = 0;
-        }
-      }
-    }
+    } } }
     onstk[u] = 0;
     stk.pop_back();
     return false;
@@ -52,9 +50,7 @@ struct Graph {
             int v = stk.back(); stk.pop_back();
             match[u] = v;
             match[v] = u;
-          }
-        }
-      }
+      } } }
       if (!found) break;
     }
     int ret = 0;

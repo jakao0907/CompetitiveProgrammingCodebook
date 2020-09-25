@@ -44,8 +44,7 @@ inline int DMST(){
           r2 += mnInW[v]; v = prv[v];
         }while(v != s);
         con[s] = 0;
-      }
-    }
+    } }
     if(!jf) break ;
     REP(i, 1, E){
       int &u = edges[i].u;
@@ -54,7 +53,6 @@ inline int DMST(){
       if(cyc[u] > 0) edges[i].u = cyc[edges[i].u];
       if(cyc[v] > 0) edges[i].v = cyc[edges[i].v];
       if(u == v) edges[i--] = edges[E--];
-    }
-  }
+  } }
   return r1+r2;
 }

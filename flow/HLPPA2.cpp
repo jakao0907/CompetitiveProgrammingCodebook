@@ -40,8 +40,7 @@ struct HLPP {
         if(h[e.to] == n && adj[e.to][e.rev].f > 0)
           q.push(e.to), updHeight(e.to, h[v] + 1);
       hst = h[v];
-    }
-  }
+  } }
   void push(int v, Edge &e) {
     if(ef[e.to] == 0)
       lst[h[e.to]].push_back(e.to), ptr[h[e.to]]++;
@@ -58,16 +57,13 @@ struct HLPP {
           if(ef[v] <= 0) return;
         }
         else nh = min(nh, h[e.to] + 1);
-      }
-    }
+    } }
     if(cnt[h[v]] > 1) updHeight(v, nh);
     else {
       for(int i = h[v]; i < n; i++) {
         for(auto j : gap[i]) updHeight(j, n);
         gap[i].clear(), ptr[i] = 0;
-      }
-    }
-  }
+  } } }
   T solve() {
     fill(ef, ef+n, 0);
     ef[s] = INF, ef[t] = -INF;
@@ -78,8 +74,6 @@ struct HLPP {
         int v=lst[hst].back(); lst[hst].pop_back();
         discharge(v);
         if(work > 4 * n) globalRelabel();
-      }
-    }
+    } }
     return ef[t] + INF;
-  }
-};
+} };

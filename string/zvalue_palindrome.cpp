@@ -7,5 +7,4 @@ void z_value_pal(char *s,int len,int *z){
     z[i]=i<r?min(z[l+l-i],r-i):1;
     while(i-z[i]>=0&&i+z[i]<len&&s[i-z[i]]==s[i+z[i]])++z[i];
     if(i+z[i]>r) l=i,r=i+z[i];
-  }
-}
+} }

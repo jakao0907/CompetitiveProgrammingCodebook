@@ -8,8 +8,7 @@ struct MaxClique{ // 0-base
     for( int i = 0 ; i < n ; i ++ ){
       linkto[ i ].reset();
       v[ i ].reset();
-    }
-  }
+  } }
   void addEdge( int a , int b ){
     v[ a ][ b ] = v[ b ][ a ] = 1;
   }
@@ -39,9 +38,7 @@ struct MaxClique{ // 0-base
       if(next == pivot || (smaller_candi & linkto[next]).count() ){
         stk[elem_num] = next;
         maxclique(elem_num + 1, candi & linkto[next]);
-      }
-    }
-  }
+  } } }
   int solve(){
     for( int i = 0 ; i < n ; i ++ ){
       id[ i ] = i;

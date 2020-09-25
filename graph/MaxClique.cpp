@@ -25,8 +25,7 @@ struct MaxClique{
       q &= ~( 1LLU << i );
       p &= ~( 1LLU << i );
       x |= ( 1LLU << i );
-    }
-  }
+  } }
   int solve(){
     ans = 0;
     ll _set = 0;

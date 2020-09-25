@@ -23,8 +23,7 @@ struct DisjointSet{
     while( SZ(h)!=last ){
       auto x=h.back(); h.pop_back();
       *x.first = x.second;
-    }
-  }
+  } }
   int f( int x ){
     while( fa[ x ] != x ) x = fa[ x ];
     return x;
@@ -35,5 +34,4 @@ struct DisjointSet{
     if( sz[ x ] < sz[ y ] ) swap( x, y );
     assign( &sz[ x ] , sz[ x ] + sz[ y ] );
     assign( &fa[ y ] , x);
-  }
-}djs;
+  } }djs;

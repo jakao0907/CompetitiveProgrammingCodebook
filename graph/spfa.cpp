@@ -18,8 +18,6 @@ bool spfa(){
 				else
 					dq.push_back(i.first);
 				inq[i.first]=1;
-			}
-		}
-	}
+	}	}	}
 	return 0;
 }

@@ -27,8 +27,7 @@ struct BccVertex {
         }
       }else
         low[u] = min(low[u],dfn[v]);
-    }
-  }
+  } }
   vector<vector<int>> solve() {
     vector<vector<int>> res;
     for (int i=0; i<n; i++)

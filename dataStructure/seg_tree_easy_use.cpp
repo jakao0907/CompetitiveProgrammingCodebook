@@ -1,7 +1,7 @@
 #define cl(x) (x<<1)+1
 #define cr(x) (x<<1)+2
 #define INF 1e9
-struct seg_tree{
+struct seg_tree{    //0-base
 	static const int MXN=1e5+5,NO_TAG=0; // to be set
 	ll a[MXN],val[MXN*4],tag[MXN*4],v;
 	int n,ql,qr;

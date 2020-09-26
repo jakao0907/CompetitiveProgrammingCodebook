@@ -1,3 +1,7 @@
+// len[s]是對應的回文長度
+// num[s]是有幾個回文後綴
+// cnt[s]是這個回文子字串在整個字串中的出現次數
+// fail[s]是他長度次長的回文後綴，aba的fail是a
 const int MXN = 1000010;
 struct PalT{
   int nxt[MXN][26],fail[MXN],len[MXN]; 

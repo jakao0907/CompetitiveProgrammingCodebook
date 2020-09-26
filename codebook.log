@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  26 SEP 2020 22:47
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  26 SEP 2020 22:52
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -788,7 +788,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  19967 strings out of 427669
- 398749 string characters out of 3145156
+ 398741 string characters out of 3145156
  1413628 words of memory out of 3000000
  23651 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000

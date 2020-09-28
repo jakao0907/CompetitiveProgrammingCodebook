@@ -50,15 +50,15 @@ struct seg_tree{    //0-base
 		if(ql<=mid) query(cl(i),l,mid);
 		if(qr>mid) query(cr(i),mid+1,r);
 	}
-    int Query(int _ql,int _qr){
-        v=-INF, ql=_ql, qr=_qr;
-        query(0,0,n-1);
-        return v;
-    }
-    void Update(int _v,int _ql,int _qr){
-        v=_v,_ql=ql,_qr=qr;
-        update(0,0,n-1);
-    }
+	int Query(int _ql,int _qr){
+		v=-INF, ql=_ql, qr=_qr;
+		query(0,0,n-1);
+		return v;
+	}
+	void Update(int _v,int _ql,int _qr){
+		v=_v,_ql=ql,_qr=qr;
+		update(0,0,n-1);
+	}
 	void init(){
 		memset(tag,0,sizeof(tag));
 		memset(val,0,sizeof(val));

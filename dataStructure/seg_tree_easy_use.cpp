@@ -55,8 +55,12 @@ struct seg_tree{    //0-base
         query(0,0,n-1);
         return v;
     }
-    int Update(int _v,int _ql,int _qr){
+    void Update(int _v,int _ql,int _qr){
         v=_v,_ql=ql,_qr=qr;
         update(0,0,n-1);
     }
+	void init(){
+		memset(tag,0,sizeof(tag));
+		memset(val,0,sizeof(val));
+	}
 }tree;

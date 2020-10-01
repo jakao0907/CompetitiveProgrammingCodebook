@@ -20,22 +20,23 @@ struct MaxClique{ // 0-base
   int id[ N ] , di[ N ] , deg[ N ];
   Int cans;
   void maxclique(int elem_num, Int candi){
+    //if(candi.none()){
     if(elem_num > ans){  
       ans = elem_num;
       cans.reset();
       for( int i = 0 ; i < elem_num ; i ++ )
         cans[ id[ stk[ i ] ] ] = 1;
     }   //potential,smaller_candi
-    int potential = elem_num + popcount(candi);
-    if(potential <= ans) return;
+    int potential = elem_num + popcount(candi);//
+    if(potential <= ans) return;//
     int pivot = lowbit(candi);
-    Int smaller_candi = candi & (~linkto[pivot]);
+    Int smaller_candi = candi & (~linkto[pivot]);//
     while(smaller_candi.count() && potential > ans){
       int next = lowbit(smaller_candi);
       candi[next] = !candi[next];
-      smaller_candi[ next ] = !smaller_candi[ next ];
-      potential --;
-      if(next == pivot || (smaller_candi & linkto[next]).count() ){
+      smaller_candi[ next ] = !smaller_candi[ next ];//
+      potential --;//
+      if(next == pivot || (smaller_candi & linkto[next]).count() ){//
         stk[elem_num] = next;
         maxclique(elem_num + 1, candi & linkto[next]);
   } } }

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  6 OCT 2020 14:08
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  6 OCT 2020 23:06
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -719,7 +719,7 @@ LaTeX Font Warning: Font shape `TU/Monaco(0)/bx/n' undefined
 ) (basic/misc.cpp
 
 LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
-(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 18.
+(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 17.
 
 ) (basic/run.sh) (basic/python_trick.py) (flow/isap.cpp
 
@@ -730,17 +730,17 @@ This may cause the page layout to be inconsistent, however.
 
 [1
 
-]) (flow/MinCostFlow.cpp) (flow/dinic_BCW.cpp) [2] (flow/KM2.cpp)
+]) (flow/MinCostFlow.cpp) (flow/dinic_BCW.cpp) (flow/KM2.cpp [2])
 (flow/DMST.cpp) (flow/SW-mincut.cpp) (flow/BoundedMaxflow.cpp [3])
-(flow/HLPPA2.cpp) (flow/FlowMethod.txt [4]) (math/FFT.cpp) (math/ntt.cpp)
-(math/FWT.cpp) [5] (math/PolyOp_new.cpp) (math/O(1)mul.cpp)
+(flow/HLPPA2.cpp) (flow/FlowMethod.txt) (math/FFT.cpp [4]) (math/ntt.cpp)
+(math/FWT.cpp) (math/PolyOp_new.cpp [5]) (math/O(1)mul.cpp)
 (math/Bigint_full.cpp [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(math/linearRecurrence.cpp) (math/Miller_Rabin.cpp [7]) (math/Faulhaber.cpp)
+(math/linearRecurrence.cpp) (math/Miller_Rabin.cpp) [7] (math/Faulhaber.cpp)
 (math/chineseRemainder.cpp) (math/pollardRho.cpp) (math/Josephus.cpp)
-(math/gauss.cpp) (math/ax+by=gcd.cpp [8]) (math/DiscreteSqrt.cpp)
+(math/gauss.cpp) (math/ax+by=gcd.cpp) (math/DiscreteSqrt.cpp [8])
 (math/Romberg.cpp) (math/prefixInv.cpp) (math/rootsOfPolynomial.cpp)
 (math/primes.cpp) (math/theorem.tex
 
@@ -778,8 +778,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (string/SAM.cpp [21]) (string/Aho-Corasick.cpp) (string/zvalue.cpp)
 (string/BWT.cpp) (string/zvalue_palindrome.cpp) (string/minRotation.cpp)
 (string/cyclicLCS.cpp [22]) (dataStructure/seg_tree.cpp)
-(dataStructure/treap_split_key&kth.cpp [23]) (dataStructure/link_cut_tree.cpp)
-(dataStructure/DisjointSet.cpp) [24] (dataStructure/extc_bt.cpp)
+(dataStructure/treap_split_key&kth.cpp) [23] (dataStructure/link_cut_tree.cpp)
+(dataStructure/DisjointSet.cpp) (dataStructure/extc_bt.cpp [24])
 (others/maxtan.cpp) (others/exactCoverSet.cpp) (others/funny.cpp) [25]
 (codebook.aux)
 
@@ -787,10 +787,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19967 strings out of 427669
- 398741 string characters out of 3145156
- 1413628 words of memory out of 3000000
- 23651 multiletter control sequences out of 15000+200000
+ 19978 strings out of 427669
+ 399490 string characters out of 3145156
+ 1411628 words of memory out of 3000000
+ 23662 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  39i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s

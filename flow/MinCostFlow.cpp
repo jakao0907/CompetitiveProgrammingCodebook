@@ -45,9 +45,7 @@ typedef int Tcost;
             mom[v] = u;
             id[v] = i;
             if(!inqu[v]) q.push(v), inqu[v] = 1;
-          }
-        }
-      }
+      } } }
       if(mom[t] == -1) break ;
       int df = INFf;
       for(int u = t; u != s; u = mom[u])
@@ -61,5 +59,4 @@ typedef int Tcost;
       mnc += df*d[t];
     }
     return {mxf,mnc};
-  }
-} flow;
+} }flow;

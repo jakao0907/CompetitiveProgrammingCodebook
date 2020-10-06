@@ -12,5 +12,4 @@ LL pollard_rho(LL n) {
       y = x;
     }
     if (res!=0 && res!=n) return res;
-  }
-}
+} }

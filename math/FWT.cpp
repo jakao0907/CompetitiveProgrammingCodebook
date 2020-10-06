@@ -25,11 +25,9 @@ inline void fwt( LL x[ MAXN ] , int N , bool inv=0 ) {
         x[ j ] = ta-tb;
         if( x[ i ] >= MOD ) x[ i ] -= MOD;
         if( x[ j ] < 0 ) x[ j ] += MOD;
-      }
-  }
+  }   }
   if( inv )
     for( int i = 0 ; i < N ; i++ ) {
       x[ i ] *= inv( N );
       x[ i ] %= MOD;
-    }
-}
+}   }

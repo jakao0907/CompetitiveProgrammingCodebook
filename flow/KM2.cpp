@@ -26,8 +26,7 @@ struct KM{ // max weight, for min negate the weights
             if(!my[y]){augment(y);return;}
             vy[y]=1, q.push(my[y]);
           }else if(sy[y]>t) pa[y]=x,sy[y]=t;
-        }
-      }
+      } }
       ll cut = INF;
       for(int y=1; y<=n; ++y)
         if(!vy[y]&&cut>sy[y]) cut=sy[y];
@@ -39,9 +38,7 @@ struct KM{ // max weight, for min negate the weights
       for(int y=1; y<=n; ++y) if(!vy[y]&&sy[y]==0){
         if(!my[y]){augment(y);return;}
         vy[y]=1, q.push(my[y]);
-      }
-    }
-  }
+  } } }
   ll solve(){
     fill(mx, mx+n+1, 0); fill(my, my+n+1, 0);
     fill(ly, ly+n+1, 0); fill(lx, lx+n+1, -INF);
@@ -51,5 +48,4 @@ struct KM{ // max weight, for min negate the weights
     ll ans = 0;
     for(int y=1; y<=n; ++y) ans += g[my[y]][y];
     return ans;
-  }
-}graph;
+} }graph;

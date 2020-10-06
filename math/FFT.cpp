@@ -24,8 +24,7 @@ void fft(int n, cplx a[], bool inv=false){
         cplx x = a[j] - a[k];
         a[j] += a[k];
         a[k] = w * x;
-      }
-    }
+    } }
     theta = (theta * 2) % MAXN;
   }
   int i = 0;

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  26 SEP 2020 22:52
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  6 OCT 2020 14:08
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -779,7 +779,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (string/BWT.cpp) (string/zvalue_palindrome.cpp) (string/minRotation.cpp)
 (string/cyclicLCS.cpp [22]) (dataStructure/seg_tree.cpp)
 (dataStructure/treap_split_key&kth.cpp [23]) (dataStructure/link_cut_tree.cpp)
-(dataStructure/DisjointSet.cpp) (dataStructure/extc_bt.cpp [24])
+(dataStructure/DisjointSet.cpp) [24] (dataStructure/extc_bt.cpp)
 (others/maxtan.cpp) (others/exactCoverSet.cpp) (others/funny.cpp) [25]
 (codebook.aux)
 

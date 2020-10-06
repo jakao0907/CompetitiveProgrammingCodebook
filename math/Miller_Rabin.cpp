@@ -10,7 +10,7 @@ bool witness(LL a,LL n,LL u,int t){
 	if(!a) return 0;
 	LL x=mypow(a,u,n);
 	for(int i=0;i<t;i++) {
-		LL nx=(x*x)%n;
+		LL nx=mul(x,x,n);
 		if(nx==1&&x!=1&&x!=n-1) return 1;
 		x=nx;
 	}
@@ -19,7 +19,6 @@ bool witness(LL a,LL n,LL u,int t){
 bool miller_rabin(LL n) {
 	int s=(magic number size)
 	// iterate s times of witness on n
-	// return 1 if prime, 0 otherwise
 	if(n<2) return 0;
 	if(!(n&1)) return n == 2;
 	ll u=n-1; int t=0;

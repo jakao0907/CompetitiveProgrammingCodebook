@@ -18,9 +18,11 @@
   $C_n = \frac{1}{n+1}{2n \choose n} = \frac{(2n)!}{(n+1)!n!}$\\
   $C_0 = 1 \quad  and \quad C_{n+1}= 2(\frac{2n+1}{n+2})C_n$\\
   $C_0 = 1 \quad  and \quad C_{n+1} = \sum_{i=0}^{n} C_iC_{n-i} \quad for \quad  n \ge 0$
-\item Kirchhoff's theorem :\\
+\item Kirchhoff's theorem : \\
   $A_{ii} = deg(i), A_{ij} = (i,j) \in E\ ? -1 : 0$,
   Deleting any one row, one column, and cal the det(A)
+\item Polya' theorem (c為方法數，m為總數): \\
+  $(\sum_{i=1}^{m}{c^{gcd(i,m)}})/m$
 \item 錯排公式 :  ($n$個人中，每個人皆不再原來位置的組合數): \\
   $dp[0]=1;dp[1]=0;$\\
   $dp[i]=(i-1)*(dp[i-1]+dp[i-2])$;

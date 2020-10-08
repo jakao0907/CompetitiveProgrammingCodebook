@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  6 OCT 2020 23:08
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  8 OCT 2020 14:47
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -733,12 +733,15 @@ This may cause the page layout to be inconsistent, however.
 ]) (flow/MinCostFlow.cpp) (flow/dinic_BCW.cpp) (flow/KM2.cpp [2])
 (flow/DMST.cpp) (flow/SW-mincut.cpp) (flow/BoundedMaxflow.cpp [3])
 (flow/HLPPA2.cpp) (flow/FlowMethod.txt) (math/FFT.cpp [4]) (math/ntt.cpp)
-(math/FWT.cpp) (math/PolyOp_new.cpp [5]) (math/O(1)mul.cpp)
-(math/Bigint_full.cpp [6]
+(math/FWT.cpp) (math/PolyOp_new.cpp [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(math/linearRecurrence.cpp) (math/Miller_Rabin.cpp) [7] (math/Faulhaber.cpp)
+(math/O(1)mul.cpp) (math/Bigint_full.cpp [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(math/linearRecurrence.cpp) (math/Miller_Rabin.cpp [7]) (math/Faulhaber.cpp)
 (math/chineseRemainder.cpp) (math/pollardRho.cpp) (math/Josephus.cpp)
 (math/gauss.cpp) (math/ax+by=gcd.cpp) (math/DiscreteSqrt.cpp [8])
 (math/Romberg.cpp) (math/prefixInv.cpp) (math/rootsOfPolynomial.cpp)
@@ -758,10 +761,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 )
 (geometry/Tangent_line_of_two_circles.cpp) (geometry/KD_Tree1.cpp [12])
 (geometry/lowerConcaveHull2.cpp) (geometry/mec.cpp)
-(geometry/minEnclosingBall.cpp [13]) (geometry/minDistonCuboid.cpp)
-(geometry/triangle.cpp) (graph/DominatorTree.cpp) (graph/MaximumClique.cpp
-[14]) (graph/kosaraju.cpp) (graph/DynamicMST.cpp [15])
-(graph/generalMatching.cpp) (graph/Minimum_General_Weighted_Matching.cpp)
+(geometry/minEnclosingBall.cpp [13]) (geometry/minkowski-convex-hull.cpp)
+(geometry/minDistonCuboid.cpp) (geometry/triangle.cpp) (graph/DominatorTree.cpp
+[14]) (graph/MaximumClique.cpp) (graph/kosaraju.cpp) (graph/DynamicMST.cpp
+[15]) (graph/generalMatching.cpp) (graph/Minimum_General_Weighted_Matching.cpp)
 (graph/BorrowedGeneralWeightedMatching.cpp [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -770,16 +773,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17])
 (graph/MinimumSteinerTree.cpp) (graph/bcc_vertex.cpp) (graph/MinMeanCycle.cpp
-[18]) (graph/DirectedGraphMinCycle.cpp) (graph/KSP.cpp [19]
+[18]) (graph/DirectedGraphMinCycle.cpp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(graph/spfa.cpp) (string/PalTree2.cpp [20]) (string/KMP.cpp) (string/SAIS.cpp)
-(string/SAM.cpp [21]) (string/Aho-Corasick.cpp) (string/zvalue.cpp)
-(string/BWT.cpp) (string/zvalue_palindrome.cpp) (string/minRotation.cpp)
-(string/cyclicLCS.cpp [22]) (dataStructure/seg_tree.cpp)
-(dataStructure/treap_split_key&kth.cpp) [23] (dataStructure/link_cut_tree.cpp)
-(dataStructure/DisjointSet.cpp) (dataStructure/extc_bt.cpp [24])
+ [19]
+(graph/KSP.cpp) (graph/spfa.cpp) [20] (graph/SystemOfDifferenceConstraints.tex)
+(string/PalTree2.cpp) (string/KMP.cpp) (string/SAIS.cpp) (string/SAM.cpp
+[21]) (string/Aho-Corasick.cpp) (string/zvalue.cpp) (string/BWT.cpp)
+(string/zvalue_palindrome.cpp) [22] (string/minRotation.cpp)
+(string/cyclicLCS.cpp) (dataStructure/seg_tree.cpp)
+(dataStructure/treap_split_key&kth.cpp [23]) (dataStructure/link_cut_tree.cpp)
+(dataStructure/DisjointSet.cpp [24]) (dataStructure/extc_bt.cpp)
 (others/maxtan.cpp) (others/exactCoverSet.cpp) (others/funny.cpp) [25]
 (codebook.aux)
 
@@ -787,10 +791,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19978 strings out of 427669
- 399490 string characters out of 3145156
- 1411628 words of memory out of 3000000
- 23662 multiletter control sequences out of 15000+200000
+ 19982 strings out of 427669
+ 399678 string characters out of 3145156
+ 1412628 words of memory out of 3000000
+ 23660 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  39i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s

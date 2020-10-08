@@ -24,10 +24,6 @@ struct DisjointSet{
       auto x=h.back(); h.pop_back();
       *x.first = x.second;
   } }
-  int f( int x ){
-    while( fa[ x ] != x ) x = fa[ x ];
-    return x;
-  }
   void uni( int x , int y ){
     x = f( x ); y = f( y );
     if( x == y ) return;

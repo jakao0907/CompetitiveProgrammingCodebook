@@ -7,8 +7,7 @@ with the corresponding asymmetric dual problem,
 Minimize b^T y subject to A^T y = c, y ≥ 0. 
 
 Minimum vertex cover on bipartite graph =
-Maximum matching on bipartite graph =
-Max flow with source to one side, other side to sink
+Maximum matching on bipartite graph
 
 To reconstruct the minimum vertex cover, dfs from each
 unmatched vertex on the left side and with unused edges

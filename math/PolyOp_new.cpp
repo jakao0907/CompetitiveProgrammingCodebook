@@ -4,6 +4,9 @@ struct PolyOp {
   static int nxt2k(int x) {
     int i = 1; for (; i < x; i <<= 1); return i;
   }
+  // c[i]=sum{j=0~i}a[j]*b[i-j] -> c[i+j]+=a[i]*b[j](加分卷積)
+  // if c[i-j]+=a[i]*b[j]  (減法卷積)
+  // (轉換成加法捲積)  -> reverse(a); c=mul(a,b); reverse( c );
   void Mul(int n, LL a[], int m, LL b[], LL c[]) {
     static LL aa[MAXN], bb[MAXN];
     int N = nxt2k(n+m);

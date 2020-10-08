@@ -1,6 +1,10 @@
 # contest
 
 ## Training
+
+A:賽中AC
+(A):賽後補題AC
+
 |id | Contest | Data | Rank | Solved/Total |A|B|C|D|E|F|G|H|I|J|K|L|M|
 |-|-|-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |1|  GCPC 2018                                        | 2019/09/22 | 253 | 5/13   |-||C||E|F|-|-|I|-|-|-|(M)|
@@ -29,6 +33,3 @@
 |24| NHSPC 2017                                       | 2020/09/10 | 136 | 7/8    |A|B|-|D|E|(F)|(G)|(H)
 |25| Asia Daejeon Regional Contest 2017               | 2020/09/11 | 269 | 7/12   |-|A|B|C|-|-|-|(H)|(I)|-|(K)|L|
 |26| Asia Nanjing Regional Contest 2018               | 2020/09/13 | 243 | 7/13   |A|-|-|D|-|-|G|-|I|J|K|-|(M)|
-
-A:賽中AC
-(A):賽後補題AC

@@ -12,9 +12,8 @@ void remove(int c){
   L[R[c]]=L[c]; R[L[c]]=R[c];
   for( int i=D[c]; i!=c; i=D[i] )
     for( int j=R[i]; j!=i; j=R[j] ){
-      U[D[j]]=U[j]; D[U[j]]=D[j]; S[C[j]]--; 
-    }
-}
+      U[D[j]]=U[j]; D[U[j]]=D[j]; S[C[j]]--;
+}   }
 void resume(int c){
   for( int i=D[c]; i!=c; i=D[i] )
     for( int j=L[i]; j!=i; j=L[j] ){
@@ -55,8 +54,7 @@ int exact_cover(int n,int m){
       k=t; D[t]=j+1; U[t]=U[j+1];
       L[R[t]]=R[L[t]]=U[D[t]]=D[U[t]]=t;
       C[t]=j+1; S[C[t]]++; ROW[t]=i; id[i][j]=t++;
-    }
-  }
+  } }
   for( int i=0; i<n; i++ ) used[i]=0;
   return dfs();
 }

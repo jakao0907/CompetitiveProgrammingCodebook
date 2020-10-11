@@ -32,4 +32,10 @@ A:賽中AC
 |23| ECPC 2016                                        | 2020/09/06 | 91  | 11/11  |A|B|(C)|D|E|(F)|G|H|(I)|J|(K)|
 |24| NHSPC 2017                                       | 2020/09/10 | 136 | 7/8    |A|B|-|D|E|(F)|(G)|(H)
 |25| Asia Daejeon Regional Contest 2017               | 2020/09/11 | 269 | 7/12   |-|A|B|C|-|-|-|(H)|(I)|-|(K)|L|
-|26| Asia Nanjing Regional Contest 2018               | 2020/09/13 | 243 | 7/13   |A|-|-|D|-|-|G|-|I|J|K|-|(M)|
+|26| 2020 NCTU annual                                 | 2020/09/12 | 5   | 7/11   |A|B|-|-|-|F|G|H|I|-|K|
+|27| Asia Nanjing Regional Contest 2018               | 2020/09/13 | 243 | 7/13   |A|-|-|D|-|-|G|-|I|J|K|-|(M)|
+|28| Pacific Northwest Regional Contest(Div.2) 2015   | 2020/09/19 | 72  | 10/11  |(L)|M|N|O|P|Q|R|S|T|U|V|
+|29| NWERC 2015                                       | 2020/09/20 | 318 | 4/11   |A|-|(C)|-|E|-|(G)|-|I|J|(K)|
+|30| DISCS programming open                           | 2020/09/23 | 35  | 6/9    |A|B|C|D|-|F|G|-|-|
+|31| ECNA 2017                                        | 2020/10/04 | 247 | 5/10   |-|(B)|C|D|(E)|F|G|H|-|(J)|
+|32| CCPC Final 2018                                  | 2020/10/05 | 307 | 2/12   |A|-|-|-|-|-|(G)|-|-|-|(K)|L|

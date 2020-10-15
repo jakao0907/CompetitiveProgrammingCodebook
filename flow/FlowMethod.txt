@@ -9,12 +9,9 @@ Minimize b^T y subject to A^T y = c, y ≥ 0.
 Minimum vertex cover on bipartite graph =
 Maximum matching on bipartite graph
 
-To reconstruct the minimum vertex cover, dfs from each
-unmatched vertex on the left side and with unused edges
-only. Equivalently, dfs from source with unused edges
-only and without visiting sink. Then, a vertex is chosen
-iff. it is on the left side and without visited or on
-the right side and visited through dfs.
+找出最小點覆蓋，做完dinic之後，從源點dfs只走還有流量的
+邊，紀錄每個點有沒有被走到，左邊沒被走到的點跟右邊被走
+到的點就是答案
 
 Maximum density subgraph ( \sum W_e + \sum W_v ) / |V|
 

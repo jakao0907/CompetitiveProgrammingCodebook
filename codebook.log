@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  8 OCT 2020 14:47
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  15 OCT 2020 15:00
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -733,11 +733,8 @@ This may cause the page layout to be inconsistent, however.
 ]) (flow/MinCostFlow.cpp) (flow/dinic_BCW.cpp) (flow/KM2.cpp [2])
 (flow/DMST.cpp) (flow/SW-mincut.cpp) (flow/BoundedMaxflow.cpp [3])
 (flow/HLPPA2.cpp) (flow/FlowMethod.txt) (math/FFT.cpp [4]) (math/ntt.cpp)
-(math/FWT.cpp) (math/PolyOp_new.cpp [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(math/O(1)mul.cpp) (math/Bigint_full.cpp [6]
+(math/FWT.cpp) (math/PolyOp_new.cpp [5]) (math/O(1)mul.cpp)
+(math/Bigint_full.cpp [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -773,11 +770,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17])
 (graph/MinimumSteinerTree.cpp) (graph/bcc_vertex.cpp) (graph/MinMeanCycle.cpp
-[18]) (graph/DirectedGraphMinCycle.cpp)
+[18]) (graph/DirectedGraphMinCycle.cpp) (graph/KSP.cpp [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
-(graph/KSP.cpp) (graph/spfa.cpp) [20] (graph/SystemOfDifferenceConstraints.tex)
+)
+(graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex) [20]
 (string/PalTree2.cpp) (string/KMP.cpp) (string/SAIS.cpp) (string/SAM.cpp
 [21]) (string/Aho-Corasick.cpp) (string/zvalue.cpp) (string/BWT.cpp)
 (string/zvalue_palindrome.cpp) [22] (string/minRotation.cpp)
@@ -791,10 +788,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19982 strings out of 427669
- 399678 string characters out of 3145156
- 1412628 words of memory out of 3000000
- 23660 multiletter control sequences out of 15000+200000
+ 20037 strings out of 427669
+ 400392 string characters out of 3145156
+ 1409628 words of memory out of 3000000
+ 23715 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  39i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s

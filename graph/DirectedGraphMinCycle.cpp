@@ -36,8 +36,7 @@ struct DirectedGraphMinCycle{
         for(int k=0; k<(int)g[j].size(); k++)
           dp[i][g[j][k].to] =min(dp[i][g[j][k].to],
                                  dp[i-1][j]+g[j][k].w);
-      }
-    }
+    } }
     mu=INF; LL bunbo=1;
     for(int i=1; i<=n; i++) if(dp[n][i] < INF){
       LL a=-INF, b=1;
@@ -45,8 +44,7 @@ struct DirectedGraphMinCycle{
         if(a*(n-j) < b*(dp[n][i]-dp[j][i])){
           a = dp[n][i]-dp[j][i];
           b = n-j;
-        }
-      }
+      } }
       if(mu*b > bunbo*a)
         mu = a, bunbo = b;
     }
@@ -96,5 +94,4 @@ struct DirectedGraphMinCycle{
         mldc=min(mldc,d[grev[i][j].to] + grev[i][j].w);
     }
     return mldc / bunbo;
-  }
-} graph;
+} }graph;

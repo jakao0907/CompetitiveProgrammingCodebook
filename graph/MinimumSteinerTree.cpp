@@ -11,8 +11,7 @@ struct SteinerTree{
       for( int j = 0 ; j < n ; j ++ )
         dst[ i ][ j ] = INF;
       dst[ i ][ i ] = 0;
-    }
-  }
+  } }
   void add_edge( int ui , int vi , int wi ){
     dst[ ui ][ vi ] = min( dst[ ui ][ vi ] , wi );
     dst[ vi ][ ui ] = min( dst[ vi ][ ui ] , wi );
@@ -57,5 +56,4 @@ struct SteinerTree{
     for( int i = 0 ; i < n ; i ++ )
       ans = min( ans , dp[ ( 1 << t ) - 1 ][ i ] );
     return ans;
-  }
-} solver;
+} }solver;

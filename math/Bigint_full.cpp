@@ -11,8 +11,7 @@ struct Bigint{
     while (a) {
       push_back(a % BIGMOD);
       a /= BIGMOD;
-    }
-  }
+  } }
   Bigint(string str) {
     s = 1; vl = 0;
     int stPos = 0, num = 0;
@@ -25,27 +24,22 @@ struct Bigint{
       if ((q *= 10) >= BIGMOD) {
         push_back(num);
         num = 0; q = 1;
-      }
-    }
+    } }
     if (num) push_back(num);
     n();
   }
   int len() const {
-    return vl;
-    //    return SZ(v);
+    return vl;  // return SZ(v);
   }
   bool empty() const { return len() == 0; }
   void push_back(int x) {
-    v[vl++] = x;
-    //    v.PB(x);
+    v[vl++] = x; // v.PB(x);
   }
   void pop_back() {
-    vl--;
-    //    v.pop_back();
+    vl--; // v.pop_back();
   }
   int back() const {
-    return v[vl-1];
-    //    return v.back();
+    return v[vl-1]; // return v.back();
   }
   void n() {
     while (!empty() && !back()) pop_back();
@@ -110,8 +104,7 @@ struct Bigint{
       if(r.v[i] >= BIGMOD) {
         r.v[i+1] += r.v[i] / BIGMOD;
         r.v[i] %= BIGMOD;
-      }
-    }
+    } }
     r.n();
     return r;
   }
@@ -127,8 +120,7 @@ struct Bigint{
       if (r.v[i] < 0) {
         r.v[i] += BIGMOD;
         r.v[i+1]--;
-      }
-    }
+    } }
     r.n();
     return r;
   }
@@ -142,9 +134,7 @@ struct Bigint{
         if(r.v[i+j] >= BIGMOD) {
           r.v[i+j+1] += r.v[i+j] / BIGMOD;
           r.v[i+j] %= BIGMOD;
-        }
-      }
-    }
+    } } }
     r.n();
     return r;
   }
@@ -171,5 +161,4 @@ struct Bigint{
   }
   Bigint operator % (const Bigint &b) {
     return (*this)-(*this)/b*b;
-  }
-};
+} };

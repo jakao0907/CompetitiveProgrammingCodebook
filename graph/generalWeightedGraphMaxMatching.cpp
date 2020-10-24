@@ -14,9 +14,7 @@ bool SPFA( int u ){
 			if( dis[ v ] < dis[ u ] + G[ u ][ i ] - G[ i ][ v ] ){
 				dis[ v ] = dis[ u ] + G[ u ][ i ] - G[ i ][ v ];
 				if( SPFA( v ) ) return true;
-			}
-		}
-	}
+	}	}	}
 	top --; vis[ u ] = false;
 	return false;
 }
@@ -38,8 +36,7 @@ int MaxWeightMatch() {
 				}
 				match[ t ] = stk[ j ]; match[ stk[ j ] ] = t;
 				break;
-			}
-		}
+		}	}
 		if( !flag ) times ++;
 		if( !flag ) random_shuffle( ID + 1 , ID + k + 1 );
 	}
@@ -70,5 +67,4 @@ int main(){
 			G[ i ][ i ] = -inf;
 		}
 		printf( "%d\n" , -MaxWeightMatch() );
-	}
-}
+}	}

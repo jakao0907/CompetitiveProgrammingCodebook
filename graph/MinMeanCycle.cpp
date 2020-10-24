@@ -53,5 +53,4 @@ struct MMC{
     reverse(ALL(edgeID));
     edgeID.resize(SZ(cycle));
     return mmc;
-  }
-} mmc;
+} }mmc;

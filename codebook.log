@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  15 OCT 2020 15:00
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  25 OCT 2020 00:51
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -738,8 +738,8 @@ This may cause the page layout to be inconsistent, however.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(math/linearRecurrence.cpp) (math/Miller_Rabin.cpp [7]) (math/Faulhaber.cpp)
-(math/chineseRemainder.cpp) (math/pollardRho.cpp) (math/Josephus.cpp)
+(math/linearRecurrence.cpp) (math/Miller_Rabin.cpp) (math/Faulhaber.cpp
+[7]) (math/chineseRemainder.cpp) (math/pollardRho.cpp) (math/Josephus.cpp)
 (math/gauss.cpp) (math/ax+by=gcd.cpp) (math/DiscreteSqrt.cpp [8])
 (math/Romberg.cpp) (math/prefixInv.cpp) (math/rootsOfPolynomial.cpp)
 (math/primes.cpp) (math/theorem.tex
@@ -774,10 +774,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex) [20]
-(string/PalTree2.cpp) (string/KMP.cpp) (string/SAIS.cpp) (string/SAM.cpp
-[21]) (string/Aho-Corasick.cpp) (string/zvalue.cpp) (string/BWT.cpp)
-(string/zvalue_palindrome.cpp) [22] (string/minRotation.cpp)
+(graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex) (string/PalTree2.cpp
+[20]) (string/KMP.cpp) (string/SAIS.cpp) (string/SAM.cpp [21])
+(string/Aho-Corasick.cpp) (string/zvalue.cpp) (string/BWT.cpp)
+(string/zvalue_palindrome.cpp) (string/minRotation.cpp [22])
 (string/cyclicLCS.cpp) (dataStructure/seg_tree.cpp)
 (dataStructure/treap_split_key&kth.cpp [23]) (dataStructure/link_cut_tree.cpp)
 (dataStructure/DisjointSet.cpp [24]) (dataStructure/extc_bt.cpp)
@@ -788,10 +788,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20037 strings out of 427669
- 400392 string characters out of 3145156
- 1409628 words of memory out of 3000000
- 23715 multiletter control sequences out of 15000+200000
+ 20046 strings out of 427669
+ 400987 string characters out of 3145156
+ 1405628 words of memory out of 3000000
+ 23724 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  39i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s

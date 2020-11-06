@@ -1,8 +1,7 @@
 /* Dynamic MST O( Q lg^2 Q )
  (qx[i], qy[i])->chg weight of edge No.qx[i] to qy[i]
  delete an edge: (i, \infty)
- add an edge: change from \infty to specific value
- */
+ add an edge: change from \infty to specific value   */
 const int SZ=M+3*MXQ;
 int a[N],*tz;
 int find(int xx){
@@ -43,8 +42,7 @@ void solve(int *qx,int *qy,int Q,int n,int *x,int *y,int *z,int m1,long long ans
 		if(ri!=rj){
 			a[ri]=rj; ans += z[id[i]];
 			kx[kt]=x[id[i]]; ky[kt]=y[id[i]]; kt++;
-		}
-	}
+	}	}
 	for(int i=1;i<=n;i++) a[i]=0;
 	for(int i=0;i<kt;i++) a[ find(kx[i]) ]=find(ky[i]);
 	int n2=0;
@@ -65,8 +63,7 @@ void solve(int *qx,int *qy,int Q,int n,int *x,int *y,int *z,int m1,long long ans
 		if(ri!=rj){
 			a[ri]=rj; Nx[m2]=vd[ x[id[i]] ];
 			Ny[m2]=vd[ y[id[i]] ]; Nz[m2]=z[id[i]]; m2++;
-		}
-	}
+	}	}
 	int mid=Q/2;
 	solve(qx,qy,mid,n2,Nx,Ny,Nz,m2,ans);
 	solve(qx+mid,qy+mid,Q-mid,n2,Nx,Ny,Nz,m2,ans);
@@ -79,4 +76,3 @@ void init(){
 	for(int i=0;i<Q;i++){ scanf("%d%d",qx+i,qy+i); qx[i]--; }
 }
 void work(){ if(Q) solve(qx,qy,Q,n,x,y,z,m,0); }
-int main(){init(); work(); }

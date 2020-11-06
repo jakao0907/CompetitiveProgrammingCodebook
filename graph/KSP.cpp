@@ -2,8 +2,8 @@
 // memory: O(|E| \lg |E| + |V|)
 struct KSP{ // 1-base
   struct nd{
-    int u, v, d;
-    nd(int ui = 0, int vi = 0, int di = INF)
+    int u, v; ll d;
+    nd(int ui = 0, int vi = 0, ll di = INF)
     { u = ui; v = vi; d = di; }
   };
   struct heap{
@@ -12,11 +12,11 @@ struct KSP{ // 1-base
   static int cmp(heap* a,heap* b)
   { return a->edge->d > b->edge->d; }
   struct node{
-    int v; LL d; heap* H; nd* E;
+    int v; ll d; heap* H; nd* E;
     node(){}
-    node(LL _d, int _v, nd* _E)
+    node(ll _d, int _v, nd* _E)
     { d =_d; v = _v; E = _E; }
-    node(heap* _H, LL _d)
+    node(heap* _H, ll _d)
     { H = _H; d = _d; }
     friend bool operator<(node a, node b)
     { return a.d > b.d; }
@@ -29,10 +29,11 @@ struct KSP{ // 1-base
     n = _n; k = _k; s = _s; t = _t;
     for( int i = 1 ; i <= n ; i ++ ){
       g[ i ].clear(); rg[ i ].clear();
-      nxt[ i ] = head[ i ] = NULL;
+      nxt[ i ] = NULL; head[ i ] = NULL;
       dst[ i ] = -1;
-  } }
-  void addEdge( int ui , int vi , int di ){
+    }
+  }
+  void addEdge( int ui , int vi , ll di ){
     nd* e = new nd(ui, vi, di);
     g[ ui ].push_back( e );
     rg[ vi ].push_back( e );
@@ -50,7 +51,8 @@ struct KSP{ // 1-base
       dfsQ.push( p.v );
       for(auto e: rg[ p.v ])
         Q.push(node(p.d + e->d, e->u, e));
-  } }
+    }
+  }
   heap* merge(heap* curNd, heap* newNd){
     if(curNd == nullNd) return newNd;
     heap* root = new heap;
@@ -91,7 +93,8 @@ struct KSP{ // 1-base
           p->dep = 1;
           p->edge = e;
           V.push_back(p);
-      } }
+        }
+      }
       if(V.empty()) continue;
       make_heap(V.begin(), V.end(), cmp);
 #define L(X) ((X<<1)+1)
@@ -103,8 +106,9 @@ struct KSP{ // 1-base
         else V[i]->chd[3]=nullNd;
       }
       head[u] = merge(head[u], V.front());
-  } }
-  vector<LL> ans;
+    }
+  }
+  vector<ll> ans;
   void first_K(){
     ans.clear();
     priority_queue<node> Q;
@@ -125,10 +129,12 @@ struct KSP{ // 1-base
           q.H = p.H->chd[ i ];
           q.d = p.d - p.H->edge->d + p.H->chd[ i ]->edge->d;
           Q.push( q );
-  } }   }
-  void solve(){
+        }
+    }
+  }
+  void solve(){ // ans[i] stores the i-th shortest path
     dijkstra();
     build();
-    first_K();
+    first_K(); // ans.size() might less than k
   }
 } solver;

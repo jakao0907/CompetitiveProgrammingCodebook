@@ -1,7 +1,7 @@
 const double eps = 1e-12;
 const double inf = 1e+12;
-double a[ 10 ], x[ 10 ];
-int n;
+double a[ 10 ], x[ 10 ]; // a[0..n](coef) must be filled
+int n; // degree of polynomial must be filled
 int sign( double x ){return (x < -eps)?(-1):(x>eps);}
 double f(double a[], int n, double x){
 	double tmp=1,sum=0;
@@ -41,11 +41,4 @@ void solve(int n,double a[],double x[],int &nx){
 	}
 	tmp=binary(dx[ndx],inf,a,n);
 	if(tmp<inf) x[++nx]=tmp;
-}
-int main() {
-	scanf("%d",&n);
-	for(int i=n;i>=0;i--) scanf("%lf",&a[i]);
-	int nx;
-	solve(n,a,x,nx);
-	for(int i=1;i<=nx;i++) printf("%.6f\n",x[i]);
-}
+} // roots are stored in x[1..nx]

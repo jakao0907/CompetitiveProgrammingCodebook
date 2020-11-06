@@ -1,49 +1,29 @@
-bool isin( Line l0, Line l1, Line l2 ){
-  // Check inter(l1, l2) in l0
-  bool res; Pt p = interPnt(l1, l2, res);
-  return ( (l0.SE - l0.FI) ^ (p - l0.FI) ) > eps;
+// for point or line solution, change > to >=
+bool onleft(Line L, Pt p) {
+	return dcmp(L.v^(p-L.s)) > 0;
 }
-/* If no solution, check: 1. ret.size() < 3
- * Or more precisely, 2. interPnt(ret[0], ret[1])
- * in all the lines. (use (l.S - l.F) ^ (p - l.F) > 0
- */
-/* --^-- Line.FI --^-- Line.SE --^-- */
-vector<Line> halfPlaneInter( vector<Line> lines ){
-  int sz = lines.size();
-  vector<double> ata(sz), ord(sz);
-  for( int i=0; i<sz; i++) {
-    ord[i] = i;
-    Pt d = lines[i].SE - lines[i].FI;
-    ata[i] = atan2(d.Y, d.X);
+// assume that Lines intersect
+vector<Pt> HPI(vector<Line>& L) {
+  sort(L.begin(), L.end()); // sort by angle
+  int n = L.size(), fir, las;
+  Pt *p = new Pt[n];
+  Line *q = new Line[n];
+  q[fir=las=0] = L[0];
+  for(int i = 1 ; i < n ; i++) {
+    while(fir < las && !onleft(L[i], p[las-1])) las--;
+    while(fir < las && !onleft(L[i], p[fir])) fir++;
+    q[++las] = L[i];
+    if(dcmp(q[las].v^q[las-1].v) == 0) {
+      las--;
+      if(onleft(q[las], L[i].s)) q[las] = L[i];
+    }
+    if(fir < las) p[las-1] = LLIntersect(q[las-1], q[las]);
   }
-  sort( ord.begin(), ord.end(), [&](int i, int j) {
-    if( fabs(ata[i] - ata[j]) < eps )
-      return ( (lines[i].SE - lines[i].FI) ^
-               (lines[j].SE - lines[i].FI) ) < 0;
-    return ata[i] < ata[j];
-  });
-  vector<Line> fin;
-  for (int i=0; i<sz; i++)
-    if (!i or fabs(ata[ord[i]] - ata[ord[i-1]]) > eps)
-      fin.PB(lines[ord[i]]);
-  deque<Line> dq;
-  for (int i=0; i<(int)(fin.size()); i++) {
-    while((int)(dq.size()) >= 2 and 
-        not isin(fin[i], dq[(int)(dq.size())-2],
-                         dq[(int)(dq.size())-1])) 
-      dq.pop_back();
-    while((int)(dq.size()) >= 2 and 
-        not isin(fin[i], dq[0], dq[1]))
-      dq.pop_front();
-    dq.push_back(fin[i]);
-  }
-  while( (int)(dq.size()) >= 3 and
-      not isin(dq[0], dq[(int)(dq.size())-2],
-                      dq[(int)(dq.size())-1]))
-    dq.pop_back();
-  while( (int)(dq.size()) >= 3 and
-      not isin(dq[(int)(dq.size())-1], dq[0], dq[1])) 
-    dq.pop_front();
-  vector<Line> res(dq.begin(),dq.end());
-  return res;
-}
+  while(fir < las && !onleft(q[fir], p[las-1])) las--;
+  if(las-fir <= 1) return {};
+  p[las] = LLIntersect(q[las], q[fir]);
+  int m = 0;
+  vector<Pt> ans(las-fir+1);
+  for(int i = fir ; i <= las ; i++) ans[m++] = p[i];
+  return ans;
+} 

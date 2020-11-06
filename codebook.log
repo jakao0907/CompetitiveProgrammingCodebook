@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  6 NOV 2020 16:46
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  6 NOV 2020 17:02
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -756,41 +756,40 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (geometry/mec.cpp) [12] (geometry/minEnclosingBall.cpp)
 (geometry/minkowski-convex-hull.cpp) (geometry/minDistonCuboid.cpp)
 (geometry/triangle.cpp) (graph/DominatorTree.cpp [13]) (graph/MaximumClique.cpp
-) (graph/kosaraju.cpp) (graph/DynamicMST.cpp [14])
+) (graph/MaximalClique.cpp [14]) (graph/kosaraju.cpp) (graph/DynamicMST.cpp)
+(graph/generalMatching.cpp [15]) (graph/Minimum_General_Weighted_Matching.cpp)
+(graph/BorrowedGeneralWeightedMatching.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-(graph/generalMatching.cpp) (graph/Minimum_General_Weighted_Matching.cpp
-[15]) (graph/BorrowedGeneralWeightedMatching.cpp
+ [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16])
-(graph/MinimumSteinerTree.cpp) (graph/bcc_vertex.cpp [17])
+)
+(graph/MinimumSteinerTree.cpp [17]) (graph/bcc_vertex.cpp)
 (graph/MinMeanCycle.cpp) (graph/DirectedGraphMinCycle.cpp [18]) (graph/KSP.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19])
-(graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex) (string/PalTree2.cpp
-) (string/KMP.cpp) (string/SAIS.cpp [20]) (string/SAM.cpp)
-(string/Aho-Corasick.cpp) (string/zvalue.cpp) [21] (string/BWT.cpp)
-(string/zvalue_palindrome.cpp) (string/minRotation.cpp) (string/cyclicLCS.cpp)
-(dataStructure/seg_tree.cpp [22]) (dataStructure/treap_split_key&kth.cpp)
-(dataStructure/link_cut_tree.cpp [23]) (dataStructure/DisjointSet.cpp)
-(dataStructure/extc_bt.cpp) (others/maxtan.cpp) (others/exactCoverSet.cpp
-[24]) (others/funny.cpp) [25
-
-] (codebook.aux)
+(graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex) (graph/eulerPath.cpp
+) (string/PalTree2.cpp [20]) (string/KMP.cpp) (string/SAIS.cpp) (string/SAM.cpp
+[21]) (string/Aho-Corasick.cpp) (string/zvalue.cpp) (string/BWT.cpp)
+(string/zvalue_palindrome.cpp) (string/minRotation.cpp [22])
+(string/cyclicLCS.cpp) (dataStructure/seg_tree.cpp)
+(dataStructure/treap_split_key&kth.cpp [23]) (dataStructure/link_cut_tree.cpp)
+(dataStructure/DisjointSet.cpp [24]) (dataStructure/extc_bt.cpp)
+(others/maxtan.cpp) (others/exactCoverSet.cpp) (others/funny.cpp) [25]
+(codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20021 strings out of 427669
- 400802 string characters out of 3145156
+ 20045 strings out of 427669
+ 401076 string characters out of 3145156
  1425628 words of memory out of 3000000
- 23700 multiletter control sequences out of 15000+200000
+ 23718 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 39i,12n,67p,339b,1633s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on codebook.pdf (25 pages).

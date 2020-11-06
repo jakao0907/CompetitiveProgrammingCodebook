@@ -54,36 +54,38 @@
 \contentsline {subsection}{\numberline {4.18}Heart of Triangle}{13}% 
 \contentsline {section}{\numberline {5}Graph}{13}% 
 \contentsline {subsection}{\numberline {5.1}DominatorTree}{13}% 
-\contentsline {subsection}{\numberline {5.2}MaxClique 最大團}{14}% 
-\contentsline {subsection}{\numberline {5.3}Strongly Connected Component}{14}% 
-\contentsline {subsection}{\numberline {5.4}Dynamic MST}{14}% 
-\contentsline {subsection}{\numberline {5.5}Maximum General graph Matching}{15}% 
-\contentsline {subsection}{\numberline {5.6}Minimum General Weighted Matching}{15}% 
-\contentsline {subsection}{\numberline {5.7}Maximum General Weighted Matching}{16}% 
-\contentsline {subsection}{\numberline {5.8}Minimum Steiner Tree}{17}% 
-\contentsline {subsection}{\numberline {5.9}BCC based on vertex}{17}% 
-\contentsline {subsection}{\numberline {5.10}Min Mean Cycle}{18}% 
-\contentsline {subsection}{\numberline {5.11}Directed Graph Min Cost Cycle}{18}% 
-\contentsline {subsection}{\numberline {5.12}K-th Shortest Path}{19}% 
-\contentsline {subsection}{\numberline {5.13}SPFA}{20}% 
-\contentsline {subsection}{\numberline {5.14}差分約束}{20}% 
+\contentsline {subsection}{\numberline {5.2}MaximumClique 最大團}{14}% 
+\contentsline {subsection}{\numberline {5.3}MaximalClique 極大團}{14}% 
+\contentsline {subsection}{\numberline {5.4}Strongly Connected Component}{15}% 
+\contentsline {subsection}{\numberline {5.5}Dynamic MST}{15}% 
+\contentsline {subsection}{\numberline {5.6}Maximum General graph Matching}{15}% 
+\contentsline {subsection}{\numberline {5.7}Minimum General Weighted Matching}{16}% 
+\contentsline {subsection}{\numberline {5.8}Maximum General Weighted Matching}{16}% 
+\contentsline {subsection}{\numberline {5.9}Minimum Steiner Tree}{17}% 
+\contentsline {subsection}{\numberline {5.10}BCC based on vertex}{18}% 
+\contentsline {subsection}{\numberline {5.11}Min Mean Cycle}{18}% 
+\contentsline {subsection}{\numberline {5.12}Directed Graph Min Cost Cycle}{18}% 
+\contentsline {subsection}{\numberline {5.13}K-th Shortest Path}{19}% 
+\contentsline {subsection}{\numberline {5.14}SPFA}{20}% 
+\contentsline {subsection}{\numberline {5.15}差分約束}{20}% 
+\contentsline {subsection}{\numberline {5.16}eulerPath}{20}% 
 \contentsline {section}{\numberline {6}String}{20}% 
 \contentsline {subsection}{\numberline {6.1}PalTree}{20}% 
-\contentsline {subsection}{\numberline {6.2}KMP}{20}% 
-\contentsline {subsection}{\numberline {6.3}SAIS}{20}% 
+\contentsline {subsection}{\numberline {6.2}KMP}{21}% 
+\contentsline {subsection}{\numberline {6.3}SAIS}{21}% 
 \contentsline {subsection}{\numberline {6.4}SuffixAutomata}{21}% 
-\contentsline {subsection}{\numberline {6.5}Aho-Corasick}{21}% 
-\contentsline {subsection}{\numberline {6.6}Z Value}{21}% 
+\contentsline {subsection}{\numberline {6.5}Aho-Corasick}{22}% 
+\contentsline {subsection}{\numberline {6.6}Z Value}{22}% 
 \contentsline {subsection}{\numberline {6.7}BWT}{22}% 
 \contentsline {subsection}{\numberline {6.8}ZValue Palindrome}{22}% 
 \contentsline {subsection}{\numberline {6.9}Smallest Rotation}{22}% 
-\contentsline {subsection}{\numberline {6.10}Cyclic LCS}{22}% 
-\contentsline {section}{\numberline {7}Data Structure}{22}% 
-\contentsline {subsection}{\numberline {7.1}Segment tree}{22}% 
+\contentsline {subsection}{\numberline {6.10}Cyclic LCS}{23}% 
+\contentsline {section}{\numberline {7}Data Structure}{23}% 
+\contentsline {subsection}{\numberline {7.1}Segment tree}{23}% 
 \contentsline {subsection}{\numberline {7.2}Treap}{23}% 
-\contentsline {subsection}{\numberline {7.3}Link-Cut Tree}{23}% 
+\contentsline {subsection}{\numberline {7.3}Link-Cut Tree}{24}% 
 \contentsline {subsection}{\numberline {7.4}Disjoint Set}{24}% 
-\contentsline {subsection}{\numberline {7.5}Black Magic}{24}% 
-\contentsline {section}{\numberline {8}Others}{24}% 
-\contentsline {subsection}{\numberline {8.1}Find max tangent(x,y is increasing)}{24}% 
-\contentsline {subsection}{\numberline {8.2}Exact Cover Set}{24}% 
+\contentsline {subsection}{\numberline {7.5}Black Magic}{25}% 
+\contentsline {section}{\numberline {8}Others}{25}% 
+\contentsline {subsection}{\numberline {8.1}Find max tangent(x,y is increasing)}{25}% 
+\contentsline {subsection}{\numberline {8.2}Exact Cover Set}{25}% 

@@ -11,6 +11,7 @@ A: solved in contest
 |1| NCPC Preliminary 2020                             | 2020/09/27 | 3   | 3/7   |(A)|(B)|C|(D)|E|F|(G)
 |2| TOPC 2020                                         | 2020/10/07 | 20  | 5/10  |A|B|-|D|-|-|-|H|I|-|
 |3| NCPC final 2020                                   | 2020/10/09 | 20  | 6/14  |A|B|C|D|-|-|G|-|-|(J)|-|L|-|-|
+|4| ICPC Taipei-Hsinchu 2020                          | 2020/11/09 | 13  | 6/13  |A|B|C|-|-|F|-|H|-|-|-|-|M|
 
 ## Training
 

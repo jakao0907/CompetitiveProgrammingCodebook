@@ -51,12 +51,12 @@ struct seg_tree{    //0-base
 		if(qr>mid) query(cr(i),mid+1,r);
 	}
 	int Query(int _ql,int _qr){
-		v=-INF, ql=_ql, qr=_qr;
+		v = -INF, ql = _ql, qr = _qr ;
 		query(0,0,n-1);
 		return v;
 	}
 	void Update(int _v,int _ql,int _qr){
-		v=_v,_ql=ql,_qr=qr;
+		v = _v, ql = _ql, qr = _qr ;
 		update(0,0,n-1);
 	}
 	void init(){

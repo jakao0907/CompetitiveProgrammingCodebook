@@ -61,8 +61,8 @@ struct SAM{
         ds[x]+=ds[nxt[x][i]];
         dsl[x]+=ds[nxt[x][i]]+dsl[nxt[x][i]];
   } } }
-  void push(char *str){
-    for(int i = 0; str[i]; i++)
+  void push(const string& str){
+    for(int i = 0; i < str.size() ; i++)
       push(str[i]-'a'+1);
   }
 } sam;

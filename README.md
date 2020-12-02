@@ -52,3 +52,6 @@ A: solved in contest
 |33| NEERC 2017                                       | 2020/10/17 | 238 | 7/12   |A|B|C|-|E|-|(G)|(H)|I|-|K|L|
 |34| SEERC 2018                                       | 2020/10/25 | 336 | 1/11   |-|-|(C)|-|E|-|-|-|-|-|-|
 |35| Benelux Algorithm 2017                           | 2020/10/31 | 104 | 8/13   |A|-|C|D|E|F|(G)|-|I|-|-|L|M|
+|36| Nordic Collegiate Programming Contest 2017       | 2020/11/15 | 345 | 5/11   |-|B|-|(D)|E|-|G|-|I|J|(K)|
+|37| Asia Hong Kong Regional 2017                     | 2020/11/22 | 229 | 3/11   |-|B|-|(C)|D|(E)|-|G|-|(I)|(J)|-|
+|38| Asia Jiaozuo Regional 2018                       | 2020/11/29 | 281 | 5/12   |A|-|-|D|E|F|-|-|I|-|-|-|

@@ -31,8 +31,7 @@ struct KSP{ // 1-base
       g[ i ].clear(); rg[ i ].clear();
       nxt[ i ] = NULL; head[ i ] = NULL;
       dst[ i ] = -1;
-    }
-  }
+  } }
   void addEdge( int ui , int vi , ll di ){
     nd* e = new nd(ui, vi, di);
     g[ ui ].push_back( e );
@@ -51,8 +50,7 @@ struct KSP{ // 1-base
       dfsQ.push( p.v );
       for(auto e: rg[ p.v ])
         Q.push(node(p.d + e->d, e->u, e));
-    }
-  }
+  } }
   heap* merge(heap* curNd, heap* newNd){
     if(curNd == nullNd) return newNd;
     heap* root = new heap;
@@ -93,8 +91,7 @@ struct KSP{ // 1-base
           p->dep = 1;
           p->edge = e;
           V.push_back(p);
-        }
-      }
+      } }
       if(V.empty()) continue;
       make_heap(V.begin(), V.end(), cmp);
 #define L(X) ((X<<1)+1)
@@ -106,8 +103,7 @@ struct KSP{ // 1-base
         else V[i]->chd[3]=nullNd;
       }
       head[u] = merge(head[u], V.front());
-    }
-  }
+  } }
   vector<ll> ans;
   void first_K(){
     ans.clear();
@@ -129,12 +125,9 @@ struct KSP{ // 1-base
           q.H = p.H->chd[ i ];
           q.d = p.d - p.H->edge->d + p.H->chd[ i ]->edge->d;
           Q.push( q );
-        }
-    }
-  }
+  } }   }
   void solve(){ // ans[i] stores the i-th shortest path
     dijkstra();
     build();
     first_K(); // ans.size() might less than k
-  }
-} solver;
+} }solver;

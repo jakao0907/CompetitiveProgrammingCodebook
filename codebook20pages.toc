@@ -1,0 +1,80 @@
+\contentsline {section}{\numberline {1}Basic}{1}% 
+\contentsline {subsection}{\numberline {1.1}Increase Stack Size}{1}% 
+\contentsline {subsection}{\numberline {1.2}Misc}{1}% 
+\contentsline {subsection}{\numberline {1.3}check}{1}% 
+\contentsline {subsection}{\numberline {1.4}python-related}{1}% 
+\contentsline {section}{\numberline {2}flow}{1}% 
+\contentsline {subsection}{\numberline {2.1}MinCostFlow}{1}% 
+\contentsline {subsection}{\numberline {2.2}Dinic}{2}% 
+\contentsline {subsection}{\numberline {2.3}Kuhn Munkres 最大完美二分匹配}{2}% 
+\contentsline {subsection}{\numberline {2.4}Max flow with lower/upper bound}{2}% 
+\contentsline {subsection}{\numberline {2.5}Flow Method}{3}% 
+\contentsline {section}{\numberline {3}Math}{3}% 
+\contentsline {subsection}{\numberline {3.1}FFT}{3}% 
+\contentsline {subsection}{\numberline {3.2}NTT}{3}% 
+\contentsline {subsection}{\numberline {3.3}Fast Walsh Transform}{4}% 
+\contentsline {subsection}{\numberline {3.4}Poly operator}{4}% 
+\contentsline {subsection}{\numberline {3.5}O(1)mul}{5}% 
+\contentsline {subsection}{\numberline {3.6}Linear Recurrence}{5}% 
+\contentsline {subsection}{\numberline {3.7}Miller Rabin}{5}% 
+\contentsline {subsection}{\numberline {3.8}Faulhaber ($\DOTSB \sum@ \slimits@ \limits _{i=1}^{n}i^p$)}{5}% 
+\contentsline {subsection}{\numberline {3.9}Chinese Remainder}{5}% 
+\contentsline {subsection}{\numberline {3.10}Pollard Rho}{6}% 
+\contentsline {subsection}{\numberline {3.11}Josephus Problem}{6}% 
+\contentsline {subsection}{\numberline {3.12}Gaussian Elimination}{6}% 
+\contentsline {subsection}{\numberline {3.13}ax+by=gcd}{6}% 
+\contentsline {subsection}{\numberline {3.14}Discrete sqrt}{6}% 
+\contentsline {subsection}{\numberline {3.15}Prefix Inverse}{6}% 
+\contentsline {subsection}{\numberline {3.16}Roots of Polynomial 找多項式的根}{6}% 
+\contentsline {subsection}{\numberline {3.17}Primes}{6}% 
+\contentsline {subsection}{\numberline {3.18}Result}{7}% 
+\contentsline {section}{\numberline {4}Geometry}{7}% 
+\contentsline {subsection}{\numberline {4.1}definition}{7}% 
+\contentsline {subsection}{\numberline {4.2}Intersection of 2 lines}{7}% 
+\contentsline {subsection}{\numberline {4.3}halfPlaneIntersection}{7}% 
+\contentsline {subsection}{\numberline {4.4}Convex Hull}{8}% 
+\contentsline {subsection}{\numberline {4.5}Intersection of 2 segments}{8}% 
+\contentsline {subsection}{\numberline {4.6}Intersection of circle and segment}{8}% 
+\contentsline {subsection}{\numberline {4.7}Intersection of 2 circles}{8}% 
+\contentsline {subsection}{\numberline {4.8}Circle cover}{8}% 
+\contentsline {subsection}{\numberline {4.9}Convex Hull trick}{9}% 
+\contentsline {subsection}{\numberline {4.10}Tangent line of two circles}{9}% 
+\contentsline {subsection}{\numberline {4.11}KD Tree}{9}% 
+\contentsline {subsection}{\numberline {4.12}Lower Concave Hull}{10}% 
+\contentsline {subsection}{\numberline {4.13}Min Enclosing Circle}{10}% 
+\contentsline {subsection}{\numberline {4.14}Min Enclosing Ball}{10}% 
+\contentsline {subsection}{\numberline {4.15}Min dist on Cuboid}{11}% 
+\contentsline {subsection}{\numberline {4.16}Heart of Triangle}{11}% 
+\contentsline {section}{\numberline {5}Graph}{11}% 
+\contentsline {subsection}{\numberline {5.1}DominatorTree}{11}% 
+\contentsline {subsection}{\numberline {5.2}MaximumClique 最大團}{12}% 
+\contentsline {subsection}{\numberline {5.3}MaximalClique 極大團}{12}% 
+\contentsline {subsection}{\numberline {5.4}Strongly Connected Component}{12}% 
+\contentsline {subsection}{\numberline {5.5}Dynamic MST}{12}% 
+\contentsline {subsection}{\numberline {5.6}Maximum General graph Matching}{13}% 
+\contentsline {subsection}{\numberline {5.7}Minimum General Weighted Matching}{13}% 
+\contentsline {subsection}{\numberline {5.8}Minimum Steiner Tree}{14}% 
+\contentsline {subsection}{\numberline {5.9}BCC based on vertex}{14}% 
+\contentsline {subsection}{\numberline {5.10}Min Mean Cycle}{14}% 
+\contentsline {subsection}{\numberline {5.11}Directed Graph Min Cost Cycle}{15}% 
+\contentsline {subsection}{\numberline {5.12}K-th Shortest Path}{15}% 
+\contentsline {subsection}{\numberline {5.13}SPFA}{16}% 
+\contentsline {subsection}{\numberline {5.14}差分約束}{16}% 
+\contentsline {section}{\numberline {6}String}{16}% 
+\contentsline {subsection}{\numberline {6.1}PalTree}{16}% 
+\contentsline {subsection}{\numberline {6.2}KMP}{17}% 
+\contentsline {subsection}{\numberline {6.3}SAIS}{17}% 
+\contentsline {subsection}{\numberline {6.4}SuffixAutomata}{17}% 
+\contentsline {subsection}{\numberline {6.5}Aho-Corasick}{18}% 
+\contentsline {subsection}{\numberline {6.6}Z Value}{18}% 
+\contentsline {subsection}{\numberline {6.7}ZValue Palindrome}{18}% 
+\contentsline {subsection}{\numberline {6.8}Smallest Rotation}{18}% 
+\contentsline {subsection}{\numberline {6.9}Cyclic LCS}{18}% 
+\contentsline {section}{\numberline {7}Data Structure}{19}% 
+\contentsline {subsection}{\numberline {7.1}Segment tree}{19}% 
+\contentsline {subsection}{\numberline {7.2}Treap}{19}% 
+\contentsline {subsection}{\numberline {7.3}Disjoint Set}{19}% 
+\contentsline {subsection}{\numberline {7.4}Black Magic}{20}% 
+\contentsline {section}{\numberline {8}Others}{20}% 
+\contentsline {subsection}{\numberline {8.1}Find max tangent(x,y is increasing)}{20}% 
+\contentsline {subsection}{\numberline {8.2}Exact Cover Set}{20}% 

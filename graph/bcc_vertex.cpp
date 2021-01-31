@@ -17,7 +17,7 @@ struct BccVertex {
         DFS(v,u);
         low[u] = min(low[u], low[v]);
         if (low[v] >= dfn[u]) {
-          int z;  //進到if裡面u為關節點
+          int z;
           sccv[nScc].clear();
           do {
             z = stk[--top];

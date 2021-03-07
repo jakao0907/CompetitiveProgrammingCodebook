@@ -5,7 +5,6 @@ struct DisjointSet {
     Node(int _x = 0, int _y = 0, int _fa = 0, int _h = 0)
         : x(_x), y(_y), fa(_fa), h(_h) {}
   } stk[MXN];
- 
   void init(int n) {
     top = 0;
     for (int i = 1; i <= n; i++) fa[i] = i, h[i] = 0;
@@ -23,6 +22,4 @@ struct DisjointSet {
       Node &it = stk[--top];
       fa[it.x] = it.fa;
       h[it.y] = it.h;
-    }
-  }
-} djs;
+} } }djs;

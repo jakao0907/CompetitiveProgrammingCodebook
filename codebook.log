@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  10 DEC 2020 23:29
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  18 MAR 2021 22:11
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -774,20 +774,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ) (string/PalTree2.cpp [20]) (string/KMP.cpp) (string/SAIS.cpp) (string/SAM.cpp
 [21]) (string/Aho-Corasick.cpp) (string/zvalue.cpp) (string/BWT.cpp)
 (string/zvalue_palindrome.cpp) (string/minRotation.cpp) [22]
-(string/cyclicLCS.cpp) (dataStructure/seg_tree.cpp)
-(dataStructure/treap_split_key&kth.cpp [23]) (dataStructure/link_cut_tree.cpp)
-(dataStructure/DisjointSet.cpp [24]) (dataStructure/extc_bt.cpp)
-(others/maxtan.cpp) (others/exactCoverSet.cpp) (others/funny.cpp) [25]
-(codebook.aux)
+(string/cyclicLCS.cpp)
+Underfull \vbox (badness 2435) has occurred while \output is active []
+
+
+(dataStructure/seg_tree.cpp) (dataStructure/treap_split_key&kth.cpp [23])
+(dataStructure/link_cut_tree.cpp) (dataStructure/DisjointSet1.cpp [24])
+(dataStructure/extc_bt.cpp) (others/maxtan.cpp) (others/exactCoverSet.cpp)
+(others/funny.cpp) [25] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20045 strings out of 427669
- 401076 string characters out of 3145156
+ 20041 strings out of 427669
+ 401041 string characters out of 3145156
  1425628 words of memory out of 3000000
- 23718 multiletter control sequences out of 15000+200000
+ 23714 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  39i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s

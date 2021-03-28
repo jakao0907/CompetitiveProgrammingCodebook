@@ -1,9 +1,10 @@
 # HongLongLongLong
 
 ## Team member
-* jakao
-* Roykesydon
-* gjp4tw
+[Team](https://codeforces.com/team/73232)
+* [jakao](https://codeforces.com/profile/jakao)
+* [Roykesydon](https://codeforces.com/profile/010100100110111101111001)
+* [gjp4tw](https://codeforces.com/profile/hudson0217)
 
 A: solved in contest
 (A): solved after contest

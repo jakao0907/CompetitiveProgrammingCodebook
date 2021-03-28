@@ -1,5 +1,10 @@
 # HongLongLongLong
 
+## Team member
+jakao
+Roykesydon
+gjp4tw
+
 A: solved in contest
 (A): solved after contest
 (.): not solved

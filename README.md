@@ -10,6 +10,9 @@ A: solved in contest
 (A): solved after contest
 (.): not solved
 
+## TODO
+新增戰鬥線段樹
+
 ## Contest
 
 |id | Contest | Data | Rank | Solved/Total |A|B|C|D|E|F|G|H|I|J|K|L|M|N|

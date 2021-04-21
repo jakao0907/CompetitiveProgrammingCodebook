@@ -1,5 +1,5 @@
 struct seg_tree{
-	ll a[MXN],val[MXN*4],tag[MXN*4],v,NO_TAG=0;
+	ll a[MXN],val[MXN*4],tag[MXN*4],NO_TAG=0;
 	void push(int i,int l,int r){
 		if(tag[i]!=NO_TAG){
 			val[i]+=tag[i]; // update by tag

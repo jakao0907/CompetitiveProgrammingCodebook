@@ -23,15 +23,15 @@ struct seg_tree{
 		build(cl(i),l,mid);build(cr(i),mid+1,r);
 		pull(i,l,r);
 	}
-	void update(int i,int l,int r,int ql,int qr){
+	void update(int i,int l,int r,int ql,int qr,int v){
 		push(i,l,r);
 		if(ql<=l&&r<=qr){
 			tag[i]+=v; // update tag
 			return;
 		}
 		int mid=(l+r)>>1;
-		if(ql<=mid) update(cl(i),l,mid,ql,qr);
-		if(qr>mid) update(cr(i),mid+1,r,ql,qr);
+		if(ql<=mid) update(cl(i),l,mid,ql,qr,v);
+		if(qr>mid) update(cr(i),mid+1,r,ql,qr,v);
 		pull(i,l,r);
 	}
 	int query(int i,int l,int r,int ql,int qr){

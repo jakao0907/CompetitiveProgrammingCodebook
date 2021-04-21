@@ -9,15 +9,15 @@ struct DisjointSet {
     top = 0;
     for (int i = 1; i <= n; i++) fa[i] = i, h[i] = 0;
   }
-  int f(int x) { return x == fa[x] ? x : f(fa[x]); }
-  void uni(int u, int v) {
-    int x = f(u), y = f(v);
+  int find(int x) { return x == fa[x] ? x : find(fa[x]); }
+  void merge(int u, int v) {
+    int x = find(u), y = find(v);
     if (h[x] > h[y]) swap(x, y);
     stk[top++] = Node(x, y, fa[x], h[y]);
     if (h[x] == h[y]) h[y]++;
     fa[x] = y;
   }
-  void undo(int k=1) {
+  void undo(int k=1) {  //undo k times
     for (int i = 0; i < k; i++) {
       Node &it = stk[--top];
       fa[it.x] = it.fa;

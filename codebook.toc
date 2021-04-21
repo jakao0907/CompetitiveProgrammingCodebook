@@ -7,7 +7,7 @@
 \contentsline {subsection}{\numberline {2.1}ISAP}{1}% 
 \contentsline {subsection}{\numberline {2.2}MinCostFlow}{2}% 
 \contentsline {subsection}{\numberline {2.3}Dinic}{2}% 
-\contentsline {subsection}{\numberline {2.4}Kuhn Munkres 最大完美二分匹配}{2}% 
+\contentsline {subsection}{\numberline {2.4}Kuhn Munkres 最大完美二分匹配}{3}% 
 \contentsline {subsection}{\numberline {2.5}Directed MST}{3}% 
 \contentsline {subsection}{\numberline {2.6}SW min-cut (不限S-T的min-cut)}{3}% 
 \contentsline {subsection}{\numberline {2.7}Max flow with lower/upper bound}{3}% 

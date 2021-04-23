@@ -10,8 +10,6 @@ A: solved in contest
 (A): solved after contest
 (.): not solved
 
-## TODO
-新增戰鬥線段樹
 
 ## Contest
 

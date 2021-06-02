@@ -21,7 +21,8 @@ struct KSP{ // 1-base
     friend bool operator<(node a, node b)
     { return a.d > b.d; }
   };
-  int n, k, s, t, dst[ N ];
+  int n, k, s, t;
+  ll dst[ N ];
   nd *nxt[ N ];
   vector<nd*> g[ N ], rg[ N ];
   heap *nullNd, *head[ N ];

@@ -1,5 +1,5 @@
 #define N 1021
-#define D double
+#define D long double
 struct CircleCover{
   int C; Circ c[ N ]; //填入C(圓數量),c(圓陣列)
   bool g[ N ][ N ], overlap[ N ][ N ];

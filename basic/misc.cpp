@@ -18,3 +18,5 @@ typedef unordered_map<Key,int,KeyHasher> map_t;
 __builtin_popcountll    //換成二進位有幾個1
 __builtin_clzll         //返回左起第一個1之前0的個數
 __builtin_parityll      //返回1的個數的奇偶性
+__builtin_mul_overflow(a,b,&h) //回傳a*b是否溢位
+

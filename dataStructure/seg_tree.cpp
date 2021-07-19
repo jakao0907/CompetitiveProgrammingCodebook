@@ -34,11 +34,11 @@ struct seg_tree{
 		if(qr>mid) update(cr(i),mid+1,r,ql,qr,v);
 		pull(i,l,r);
 	}
-	int query(int i,int l,int r,int ql,int qr){
+	ll query(int i,int l,int r,int ql,int qr){
 		push(i,l,r);
 		if(ql<=l&&r<=qr)
 			return val[i]; // update answer
-		int mid=(l+r)>>1,ret=0;
+	    ll mid=(l+r)>>1,ret=0;
 		if(ql<=mid) ret=max(ret,query(cl(i),l,mid,ql,qr));
 		if(qr>mid) ret=max(ret,query(cr(i),mid+1,r,ql,qr));
 		return ret;

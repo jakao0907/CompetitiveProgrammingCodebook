@@ -9,6 +9,12 @@ Minimize b^T y subject to A^T y = c, y ≥ 0.
 Minimum vertex cover on bipartite graph =
 Maximum matching on bipartite graph
 
+Minimum edge cover on bipartite graph =
+vertex number - Minimum vertex cover(Maximum matching)
+
+Independent set on bipartite graph =
+vertex number - Minimum vertex cover(Maximum matching)
+
 找出最小點覆蓋，做完dinic之後，從源點dfs只走還有流量的
 邊，紀錄每個點有沒有被走到，左邊沒被走到的點跟右邊被走
 到的點就是答案

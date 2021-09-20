@@ -1,6 +1,5 @@
 struct KM{ // max weight, for min negate the weights
   static const int MXN = 2001; // 1-based
-  static const ll INF = 0x3f3f3f3f;
   int n, mx[MXN], my[MXN], pa[MXN];
   ll g[MXN][MXN], lx[MXN], ly[MXN], sy[MXN];
   bool vx[MXN], vy[MXN];

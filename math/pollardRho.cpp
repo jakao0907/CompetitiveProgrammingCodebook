@@ -1,4 +1,4 @@
-// does not work when n is prime
+// does not work when n is prime  O(n^(1/4))
 LL f(LL x, LL mod){ return add(mul(x,x,mod),1,mod); }
 LL pollard_rho(LL n) {
 	if(!(n&1)) return 2;

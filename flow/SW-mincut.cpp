@@ -1,6 +1,5 @@
 // global min cut
 struct SW{ // O(V^3)
-	static const int MXN = 514;
 	int n,vst[MXN],del[MXN];
 	int edge[MXN][MXN],wei[MXN];
 	void init(int _n){

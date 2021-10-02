@@ -9,9 +9,7 @@
  * x = (x0, x0+x1), inv = (x0, x1-x0) w/o final div
  * and convolution:
  * x = (x0+x1, x1), inv = (x0-x1, x1) w/o final div */
-typedef long long LL;
 const int MAXN = (1<<20)+10;
-const LL MOD = 1e9+7;
 inline LL inv( LL x ) {
   return mypow( x , MOD-2 );
 }

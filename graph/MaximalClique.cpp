@@ -7,8 +7,7 @@ struct MaxClique{ // 0-base
     n = _n;
     for(int i = 0 ; i < n ; i ++){
       lnk[i].reset(); v[i].reset();
-    }
-  }
+  } }
   void addEdge(int a , int b)
   { v[a][b] = v[b][a] = 1; }
   int ans , stk[N], id[N] , di[N] , deg[N];
@@ -29,8 +28,7 @@ struct MaxClique{ // 0-base
       ex[nxt] = 1;
       stk[elem_num] = nxt;
       dfs(elem_num+1,candi&lnk[nxt],ex&lnk[nxt]);
-    }
-  }
+  } }
   int solve(){
     for(int i = 0 ; i < n ; i ++){
       id[i] = i; deg[i] = v[i].count();
@@ -44,5 +42,4 @@ struct MaxClique{ // 0-base
     ans = 1; cans.reset(); cans[0] = 1;
     dfs(0, Int(string(n,'1')), 0);
     return ans;
-  }
-} solver;
+} }solver;

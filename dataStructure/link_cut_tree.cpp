@@ -1,5 +1,3 @@
-const int MXN = 100005;
-const int MEM = 100005;
 struct Splay {
   static Splay nil, mem[MEM], *pmem;
   Splay *ch[2], *f;

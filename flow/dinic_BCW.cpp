@@ -1,4 +1,3 @@
-const int MXN = 10000;
 struct Dinic{
   struct Edge{ int v,f,re; };
   int n,s,t,level[MXN];

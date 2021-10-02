@@ -1,9 +1,8 @@
 struct KM{ // max weight, for min negate the weights
-  static const int MXN = 2001; // 1-based
   int n, mx[MXN], my[MXN], pa[MXN];
   ll g[MXN][MXN], lx[MXN], ly[MXN], sy[MXN];
   bool vx[MXN], vy[MXN];
-  void init(int _n) {
+  void init(int _n) { // 1-based
     n = _n;
     for(int i=1; i<=n; i++) fill(g[i], g[i]+n+1, 0);
   }

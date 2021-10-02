@@ -42,30 +42,31 @@
 \contentsline {subsection}{\numberline {4.5}Convex Hull 3D}{10}% 
 \contentsline {subsection}{\numberline {4.6}Intersection of 2 segments}{10}% 
 \contentsline {subsection}{\numberline {4.7}Intersection of circle and segment}{10}% 
-\contentsline {subsection}{\numberline {4.8}Intersection of 2 circles}{10}% 
-\contentsline {subsection}{\numberline {4.9}Circle cover}{10}% 
-\contentsline {subsection}{\numberline {4.10}Convex Hull trick}{11}% 
-\contentsline {subsection}{\numberline {4.11}Tangent line of two circles}{12}% 
-\contentsline {subsection}{\numberline {4.12}KD Tree}{12}% 
-\contentsline {subsection}{\numberline {4.13}Lower Concave Hull}{12}% 
-\contentsline {subsection}{\numberline {4.14}Min Enclosing Circle}{12}% 
-\contentsline {subsection}{\numberline {4.15}Min Enclosing Ball}{13}% 
-\contentsline {subsection}{\numberline {4.16}Minkowski sum}{13}% 
-\contentsline {subsection}{\numberline {4.17}Min dist on Cuboid}{13}% 
-\contentsline {subsection}{\numberline {4.18}Heart of Triangle}{13}% 
+\contentsline {subsection}{\numberline {4.8}Intersection of polygon and circle}{10}% 
+\contentsline {subsection}{\numberline {4.9}Intersection of 2 circles}{11}% 
+\contentsline {subsection}{\numberline {4.10}Circle cover}{11}% 
+\contentsline {subsection}{\numberline {4.11}Convex Hull trick}{11}% 
+\contentsline {subsection}{\numberline {4.12}Tangent line of two circles}{12}% 
+\contentsline {subsection}{\numberline {4.13}KD Tree}{12}% 
+\contentsline {subsection}{\numberline {4.14}Lower Concave Hull}{12}% 
+\contentsline {subsection}{\numberline {4.15}Min Enclosing Circle}{13}% 
+\contentsline {subsection}{\numberline {4.16}Min Enclosing Ball}{13}% 
+\contentsline {subsection}{\numberline {4.17}Minkowski sum}{13}% 
+\contentsline {subsection}{\numberline {4.18}Min dist on Cuboid}{13}% 
+\contentsline {subsection}{\numberline {4.19}Heart of Triangle}{14}% 
 \contentsline {section}{\numberline {5}Graph}{14}% 
 \contentsline {subsection}{\numberline {5.1}DominatorTree}{14}% 
 \contentsline {subsection}{\numberline {5.2}MaximumClique 最大團}{14}% 
-\contentsline {subsection}{\numberline {5.3}MaximalClique 極大團}{14}% 
+\contentsline {subsection}{\numberline {5.3}MaximalClique 極大團}{15}% 
 \contentsline {subsection}{\numberline {5.4}Strongly Connected Component}{15}% 
 \contentsline {subsection}{\numberline {5.5}Dynamic MST}{15}% 
-\contentsline {subsection}{\numberline {5.6}Maximum General graph Matching}{15}% 
+\contentsline {subsection}{\numberline {5.6}Maximum General graph Matching}{16}% 
 \contentsline {subsection}{\numberline {5.7}Minimum General Weighted Matching}{16}% 
 \contentsline {subsection}{\numberline {5.8}Maximum General Weighted Matching}{16}% 
-\contentsline {subsection}{\numberline {5.9}Minimum Steiner Tree}{17}% 
+\contentsline {subsection}{\numberline {5.9}Minimum Steiner Tree}{18}% 
 \contentsline {subsection}{\numberline {5.10}BCC based on vertex}{18}% 
 \contentsline {subsection}{\numberline {5.11}Min Mean Cycle}{18}% 
-\contentsline {subsection}{\numberline {5.12}Directed Graph Min Cost Cycle}{18}% 
+\contentsline {subsection}{\numberline {5.12}Directed Graph Min Cost Cycle}{19}% 
 \contentsline {subsection}{\numberline {5.13}K-th Shortest Path}{19}% 
 \contentsline {subsection}{\numberline {5.14}SPFA}{20}% 
 \contentsline {subsection}{\numberline {5.15}差分約束}{20}% 
@@ -77,7 +78,7 @@
 \contentsline {subsection}{\numberline {6.4}SuffixAutomata}{22}% 
 \contentsline {subsection}{\numberline {6.5}Aho-Corasick}{22}% 
 \contentsline {subsection}{\numberline {6.6}Z Value}{22}% 
-\contentsline {subsection}{\numberline {6.7}BWT}{22}% 
+\contentsline {subsection}{\numberline {6.7}BWT}{23}% 
 \contentsline {subsection}{\numberline {6.8}ZValue Palindrome}{23}% 
 \contentsline {subsection}{\numberline {6.9}Smallest Rotation}{23}% 
 \contentsline {subsection}{\numberline {6.10}Cyclic LCS}{23}% 
@@ -85,7 +86,7 @@
 \contentsline {subsection}{\numberline {7.1}Treap}{23}% 
 \contentsline {subsection}{\numberline {7.2}Link-Cut Tree}{24}% 
 \contentsline {subsection}{\numberline {7.3}Disjoint Set}{24}% 
-\contentsline {subsection}{\numberline {7.4}Black Magic}{24}% 
+\contentsline {subsection}{\numberline {7.4}Black Magic}{25}% 
 \contentsline {section}{\numberline {8}Others}{25}% 
 \contentsline {subsection}{\numberline {8.1}SOS dp}{25}% 
 \contentsline {subsection}{\numberline {8.2}Find max tangent(x,y is increasing)}{25}% 

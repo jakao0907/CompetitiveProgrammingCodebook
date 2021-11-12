@@ -1,8 +1,6 @@
-struct Mec{
-  // return pair of center and r
-  static const int N = 101010;
+struct Mec{  // return pair of center and r
   int n;
-  Pt p[ N ], cen;
+  Pt p[ MXN ], cen;
   double r2;  
   void init( int _n , Pt _p[] ){
     n = _n;
@@ -34,9 +32,6 @@ struct Mec{
           if (norm2(cen-p[k]) <= r2) continue;
           cen = center(p[i],p[j],p[k]);
           r2 = norm2(cen-p[k]);
-        }
-      }
-    }
+    } } }
     return {cen,sqrt(r2)};
-  }
-} mec;
+} }mec;

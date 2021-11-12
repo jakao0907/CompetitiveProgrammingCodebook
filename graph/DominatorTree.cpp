@@ -1,5 +1,4 @@
-const int MAXN = 100010;
-struct DominatorTree{
+struct DominatorTree{ // O(N)
 #define REP(i,s,e) for(int i=(s);i<=(e);i++)
 #define REPD(i,s,e) for(int i=(s);i>=(e);i--)
   int n , m , s;
@@ -33,8 +32,7 @@ struct DominatorTree{
     for( int v : g[ u ] ) if( dfn[ v ] == 0 ){
       par[ v ] = u;
       dfs( v );
-    }
-  }
+  } }
   void build(){
     REP( i , 1 , n ){
       dfn[ i ] = nfd[ i ] = 0;
@@ -65,6 +63,4 @@ struct DominatorTree{
       if( u == 0 ) continue ;
       if( idom[ u ] != sdom[ u ] )
         idom[ u ] = idom[ idom[ u ] ];
-    }
-  }
-} domT;
+} } }domT;

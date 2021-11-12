@@ -1,6 +1,4 @@
-const int MXN=100005;
-const int MXK=10;
-struct KDTree{
+struct KDTree{  // O(sqrtN + K)
   struct Nd{
     LL x[MXK],mn[MXK],mx[MXK];
     int id,f;
@@ -34,15 +32,13 @@ struct KDTree{
       for(int i=0;i<k;i++){
         tree[m].mn[i]=min(tree[m].mn[i],tree[m].l->mn[i]);
         tree[m].mx[i]=max(tree[m].mx[i],tree[m].l->mx[i]);        
-      }
-    }
+    } }
     tree[m].r=build(m+1,r,d+1);
     if(tree[m].r){
       for(int i=0;i<k;i++){
         tree[m].mn[i]=min(tree[m].mn[i],tree[m].r->mn[i]);
         tree[m].mx[i]=max(tree[m].mx[i],tree[m].r->mx[i]);        
-      }
-    }
+    } }
     return tree+m;
   }
   LL pt[MXK],md;
@@ -67,5 +63,4 @@ struct KDTree{
     copy(_pt.begin(),_pt.end(),pt);
     nearest(root);
     return {md,mID};
-  }
-}tree;
+} }tree;

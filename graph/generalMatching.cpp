@@ -25,8 +25,7 @@ struct Graph{
           return true;
         }
         lnk[w]=v,lnk[v]=w,lnk[x]=0;
-      }
-    }
+    } }
     return false;
   }
   int solve(){
@@ -36,5 +35,4 @@ struct Graph{
         stp++; ans += dfs(i);
       }
     return ans;
-  }
-} graph;
+} }graph;

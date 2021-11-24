@@ -16,13 +16,13 @@ struct SteinerTree{
     dst[ ui ][ vi ] = min( dst[ ui ][ vi ] , wi );
     dst[ vi ][ ui ] = min( dst[ vi ][ ui ] , wi );
   }
-  void shortest_path(){
+  void shortest_path(){ // using spfa may faster
     for( int k = 0 ; k < n ; k ++ )
       for( int i = 0 ; i < n ; i ++ )
         for( int j = 0 ; j < n ; j ++ )
           dst[ i ][ j ] = min( dst[ i ][ j ],
                 dst[ i ][ k ] + dst[ k ][ j ] );
-  }
+  }// call shorest_path before solve
   int solve( const vector<int>& ter ){
     int t = (int)ter.size();
     for( int i = 0 ; i < ( 1 << t ) ; i ++ )

@@ -1,7 +1,7 @@
 // for point or line solution, change > to >=
 bool onleft(Line L, Pt p) {
 	return dcmp(L.v^(p-L.s)) > 0;
-}
+} // segment should add Counterclockwise
 // assume that Lines intersect
 vector<Pt> HPI(vector<Line>& L) {
   sort(L.begin(), L.end()); // sort by angle

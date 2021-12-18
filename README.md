@@ -22,6 +22,8 @@ A: solved in contest
 |5| CCPC 2020                                         | 2020/12/05 | 3   | 8/8   |A|B|C|D|E|F|G|H|
 |6| NCPC Preliminary 2021                             | 2021/10/02 | 2   | 6/8   |A|-|-|D|E|F|G|H|
 |7| NCPC final 2021                                   | 2021/10/16 | 12  | 7/12  |A|B|C|D|-|-|-|-|I|J|-|L|
+|8| ICPC Taipei-Hsinchu 2021                          | 2021/11/28 | 33  | 5/13  |A|B|-|D|-|-|-|-|-|J|-|-|M|
+|9| Dong Hwa Programming Contest 2021                 | 2021/12/11 | 2   | 4/8   |-|B|-|D|-|F|G|-|
 
 ## Training
 
@@ -93,3 +95,10 @@ A: solved in contest
 |64| Harbin Engineering University 2021			      | 2021/08/06 | 30  | 7/14   |A|B|-|-|E|F|-|-|I|J|-|-|-|N|
 |65| Petrozavodsk Winter Camp, Jagiellonian U 2020    | 2021/08/13 | 165 | 4/12   |-|B|-|-|-|-|G|-|I|-|-|L|
 |66| Asia Macau Regional Contest 2020                 | 2021/08/20 | 69  | 5/12   |-|-|C|D|-|F|G|-|-|-|-|L|
+|67| NWERC 2017                                       | 2021/08/27 | 221 | 5/11   |-|B|-|D|-|-|-|H|I|J|-|
+|68| NCPC 2016                                        | 2021/09/03 | 122 | 6/11   |A|-|C|D|-|F|G|-|-|J|-|
+|69| Tsukuba Regional Contest 2016                    | 2021/09/27 | 170 | 5/11   |A|B|C|D|-|-|G|-|-|-|-|
+|70| NEERC 2014                                       | 2021/10/11 | 252 | 7/13   |-|-|-|D|E|F|G|-|I|-|K|-|M|
+|71| CRRC 19                                          | 2021/10/30 | 149 | 6/11   |A|B|C|D|-|F|-|H|-|-|-|
+|72| Brazil Subregional Programming Contest 2021      | 2021/11/06 | 238 | 5/14   |-|-|-|-|E|-|-|H|-|-|K|-|M|N|
+|73| BAPC 16                                          | 2021/11/20 |  80 | 8/12   |-|B|C|D|E|-|-|-|I|J|K|L|

@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  3 DEC 2021 15:44
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  6 FEB 2022 21:54
 entering extended mode
-**./codebook40.tex
-(codebook40.tex
+**./codebook.tex
+(codebook.tex
 LaTeX2e <2018-12-01>
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -611,8 +611,8 @@ ngs.sty"
 Package: xeCJK-listings 2019/06/02 v3.7.4 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count287
 \l__xeCJK_listings_flag_int=\count288
-) (codebook40.aux)
-\openout1 = `codebook40.aux'.
+) (codebook.aux)
+\openout1 = `codebook.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
@@ -688,7 +688,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/bx/n on input line 81.
 \c@lstlisting=\count289
- (codebook40.toc
+ (codebook.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
@@ -700,14 +700,14 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
-\openout3 = `codebook40.toc'.
+\openout3 = `codebook.toc'.
 
 
 Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
 
-(basic/vimrc) (basic/IncStack.cpp
+(basic/IncStack.cpp
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/m/it' undefined
 (Font)              using `TU/Monaco(0)/m/n' instead on input line 1.
@@ -721,7 +721,7 @@ LaTeX Font Warning: Font shape `TU/Monaco(0)/bx/n' undefined
 LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
 (Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 18.
 
-) (basic/run.sh) (basic/python_trick.py
+) (basic/run.sh) (basic/python_trick.py)
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
 Make it at least 3.60004pt.
@@ -730,76 +730,67 @@ This may cause the page layout to be inconsistent, however.
 
 [1
 
-]) (basic/java-related.java) (flow/isap.cpp) (flow/MinCostFlow.cpp [2])
-(flow/dinic_BCW.cpp) (flow/KM2.cpp) (flow/DMST.cpp [3]) (flow/SW-mincut.cpp)
-(flow/BoundedMaxflow.cpp) (flow/HLPPA2.cpp [4]) (flow/FlowMethod.txt)
-(math/FFT.cpp) (math/ntt.cpp [5]) (math/FWT.cpp) (math/PolyOp_new.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6])
-(math/O(1)mul.cpp) (math/Bigint_full.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7])
-(math/linearRecurrence.cpp) (math/Miller_Rabin.cpp) (math/Faulhaber.cpp)
-(math/chineseRemainder.cpp [8]) (math/pollardRho.cpp) (math/Josephus.cpp)
-(math/gauss.cpp) (math/ax+by=gcd.cpp) (math/DiscreteSqrt.cpp) (math/Romberg.cpp
-) (math/DiscreteKthsqrt.cpp [9]
+] (flow/isap.cpp) (flow/MinCostFlow.cpp) (flow/dinic_BCW.cpp [2])
+(flow/KM2.cpp) (flow/DMST.cpp) (flow/SW-mincut.cpp) (flow/BoundedMaxflow.cpp
+[3]) (flow/HLPPA2.cpp) (flow/FlowMethod.txt [4]) (math/FFT.cpp) (math/ntt.cpp)
+(math/FWT.cpp) (math/PolyOp_new.cpp [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(math/prefixInv.cpp) (math/rootsOfPolynomial.cpp) (math/primes.cpp [10])
-(math/phi.cpp) (math/theorem.tex
+(math/O(1)mul.cpp) (math/linearRecurrence.cpp) (math/Miller_Rabin.cpp) [6]
+(math/Faulhaber.cpp) (math/chineseRemainder.cpp) (math/pollardRho.cpp)
+(math/Josephus.cpp) (math/gauss.cpp) (math/ax+by=gcd.cpp)
+(math/DiscreteSqrt.cpp [7]) (math/Romberg.cpp) (math/prefixInv.cpp)
+(math/rootsOfPolynomial.cpp) (math/primes.cpp) (math/phi.cpp) (math/theorem.tex
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 13.
 
-) (geometry/definition.cpp) (geometry/Intersection_of_two_lines.cpp [11])
-(geometry/Half_plane_intersection.cpp) (geometry/convex_hull.cpp)
-(geometry/Convexhull3D.cpp) (geometry/Intersection_of_two_segments.cpp [12])
+[8]) (geometry/definition.cpp) (geometry/Intersection_of_two_lines.cpp)
+(geometry/Half_plane_intersection.cpp) (geometry/convex_hull.cpp [9])
+(geometry/Convexhull3D.cpp) (geometry/Intersection_of_two_segments.cpp)
 (geometry/Intersection_of_circle_and_segment.cpp)
-(geometry/Intersection_of_polygon_and_circle2.cpp) (geometry/CircleCover.cpp)
-(geometry/ConvexHulltrick.cpp [13]
+(geometry/Intersection_of_polygon_and_circle2.cpp [10])
+(geometry/CircleCover.cpp) (geometry/ConvexHulltrick.cpp [11])
+(geometry/Tangent_line_of_two_circles.cpp) (geometry/KD_Tree1.cpp)
+(geometry/lowerConcaveHull3.cpp [12]) (geometry/mec.cpp)
+(geometry/minEnclosingBall.cpp) (geometry/minkowski-convex-hull.cpp)
+(geometry/minDistonCuboid.cpp [13]) (geometry/triangle.cpp)
+(graph/DominatorTree.cpp) (graph/MaximumClique.cpp) [14]
+(graph/MaximalClique.cpp) (graph/kosaraju.cpp) (graph/DynamicMST.cpp [15])
+(graph/generalMatching.cpp) (graph/Minimum_General_Weighted_Matching.cpp)
+(graph/BorrowedGeneralWeightedMatching.cpp [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(geometry/Tangent_line_of_two_circles.cpp) (geometry/KD_Tree1.cpp [14])
-(geometry/lowerConcaveHull2.cpp) (geometry/mec.cpp)
-(geometry/minEnclosingBall.cpp [15]) (geometry/minkowski-convex-hull.cpp)
-(geometry/minDistonCuboid.cpp) (geometry/triangle.cpp) (graph/DominatorTree.cpp
-) (graph/MaximumClique.cpp [16]) (graph/MaximalClique.cpp) (graph/kosaraju.cpp)
-(graph/DynamicMST.cpp [17]) (graph/generalMatching.cpp)
-(graph/Minimum_General_Weighted_Matching.cpp [18])
-(graph/BorrowedGeneralWeightedMatching.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19])
-(graph/MinimumSteinerTree.cpp) (graph/bcc_vertex.cpp [20])
-(graph/MinMeanCycle.cpp) (graph/DirectedGraphMinCycle.cpp
+ [17]
+(graph/MinimumSteinerTree.cpp) (graph/bcc_vertex.cpp) (graph/MinMeanCycle.cpp
+[18]) (graph/DirectedGraphMinCycle.cpp) (graph/KSP.cpp [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21])
-(graph/KSP.cpp) (graph/spfa.cpp [22]) (graph/SystemOfDifferenceConstraints.tex)
-(graph/graphHash.tex) (graph/eulerPath.cpp) (string/PalTree2.cpp)
-(string/KMP.cpp [23]) (string/SAIS.cpp) (string/SAM.cpp)
-(string/Aho-Corasick.cpp [24]) (string/zvalue.cpp) (string/BWT.cpp)
-(string/zvalue_palindrome.cpp) (string/minRotation.cpp) (string/cyclicLCS.cpp
-[25]) (dataStructure/seg_tree.cpp) (dataStructure/treap_split_key&kth.cpp)
-(dataStructure/link_cut_tree.cpp [26]) (dataStructure/DisjointSet1.cpp)
-(dataStructure/extc_bt.cpp) (others/SOS_dp.cpp) (others/maxtan.cpp [27])
-(others/exactCoverSet.cpp) (others/funny.cpp) [28] (codebook40.aux)
+)
+(graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex) (graph/eulerPath.cpp
+[20]) (string/PalTree2.cpp) (string/KMP.cpp) (string/SAIS.cpp [21])
+(string/SAM.cpp) (string/Aho-Corasick.cpp) (string/zvalue.cpp) (string/BWT.cpp
+[22]) (string/zvalue_palindrome.cpp) (string/minRotation.cpp)
+(string/cyclicLCS.cpp) (dataStructure/treap_split_key&kth.cpp [23])
+(dataStructure/link_cut_tree.cpp) (dataStructure/DisjointSet1.cpp)
+(dataStructure/extc_bt.cpp [24]) (others/SOS_dp.cpp) (others/maxtan.cpp)
+(others/exactCoverSet.cpp) (others/funny.cpp) [25] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20291 strings out of 427669
- 403879 string characters out of 3145156
- 1407634 words of memory out of 3000000
- 23940 multiletter control sequences out of 15000+200000
+ 20049 strings out of 427669
+ 401295 string characters out of 3145156
+ 1430628 words of memory out of 3000000
+ 23717 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 39i,12n,67p,341b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on codebook40.pdf (28 pages).
+Output written on codebook.pdf (25 pages).

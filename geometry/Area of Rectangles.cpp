@@ -2,7 +2,7 @@ struct AreaofRectangles{
 #define cl(x) (x<<1)
 #define cr(x) (x<<1|1)
     ll n, id, sid;
-    pair<ll,ll> tree[MXN<<2];   // count, area
+    pair<ll,ll> tree[MXN<<3];   // count, area
     vector<ll> ind;
     tuple<ll,ll,ll,ll> scan[MXN<<1];
     void pull(int i, int l, int r){

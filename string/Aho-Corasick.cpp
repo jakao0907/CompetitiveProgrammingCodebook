@@ -3,7 +3,7 @@ struct ACautomata{
     int cnt,i;
     Node *go[26], *fail, *dic;
     Node (){
-      cnt = 0; fail = 0; dic=0;
+      cnt = 0; fail = 0; dic = 0; i = 0;
       memset(go,0,sizeof(go));
     }
   }pool[1048576],*root;
@@ -12,7 +12,10 @@ struct ACautomata{
     pool[nMem] = Node();
     return &pool[nMem++];
   }
-  void init() {nMem=0;root=new_Node();n_pattern=0;}
+  void init() {
+    nMem=0;root=new_Node();n_pattern=0;
+    add("");
+  }
   void add(const string &str) { insert(root,str,0); }
   void insert(Node *cur, const string &str, int pos){
     for(int i=pos;i<str.size();i++){

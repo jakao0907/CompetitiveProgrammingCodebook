@@ -1,4 +1,4 @@
-# HongLongLongLong (2021-2022)
+# HongLongLongLong (2020-2021)
 
 ## Team member
 [Team](https://codeforces.com/team/73232)

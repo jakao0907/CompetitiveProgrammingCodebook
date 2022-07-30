@@ -1,7 +1,6 @@
-char s[MAXN];
-int len,z[MAXN];
-void Z_value() { //z[i] = lcp(s[1...],s[i...])
-	int i,j,left,right;
+int z[MAXN];
+void Z_value(const string& s) { //z[i] = lcp(s[1...],s[i...])
+	int i, j, left, right, len = s.size();
 	left=right=0; z[0]=len;
 	for(i=1;i<len;i++) {
 		j=max(min(z[i-left],right-i),0);

@@ -1,0 +1,8 @@
+set nu rnu ts=4 sw=4 bs=2 ai hls cin mouse=a
+color default
+sy on
+inoremap {<CR> {<CR>}<C-o>O
+inoremap jk <Esc>
+nnoremap J 5j
+nnoremap K 5k
+nnoremap run :w<bar>!g++ -std=c++17 -Wfatal-errors -o test "%" && echo "done." && time ./test<CR>

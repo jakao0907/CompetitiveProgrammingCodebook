@@ -13,15 +13,14 @@ struct AreaofRectangles{
         }
         else    tree[i].second = 0;
     }
-    void update(int i, int l, int r, int ql, int qr, int v){
+    void upd(int i, int l, int r, int ql, int qr, int v){
         if(ql <= l && r <= qr){
             tree[i].first += v;
-            pull(i, l, r);
-            return;
+            pull(i, l, r); return;
         }
         int mid = (l+r) >> 1;
-        if(ql <= mid)   update(cl(i), l, mid, ql, qr, v);
-        if(qr >  mid)   update(cr(i), mid+1, r, ql, qr, v);
+        if(ql <= mid) upd(cl(i), l, mid, ql, qr, v);
+        if(qr > mid) upd(cr(i), mid+1, r, ql, qr, v);
         pull(i, l, r);
     }
     void init(int _n){
@@ -42,7 +41,7 @@ struct AreaofRectangles{
         for(int i = 0; i < sid; i++){
             auto [x, v, l, r] = scan[i];
             area += tree[1].second * (x-pre);
-            update(1, 0, ind.size()-1, lower_bound(ind.begin(), ind.end(), l)-ind.begin(), lower_bound(ind.begin(),ind.end(),r)-ind.begin()-1, v);
+            upd(1, 0, ind.size()-1, lower_bound(ind.begin(), ind.end(), l)-ind.begin(), lower_bound(ind.begin(),ind.end(),r)-ind.begin()-1, v);
             pre = x;
         }
         return area;

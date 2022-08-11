@@ -1,6 +1,11 @@
 編譯參數：-std=c++14 -Wall -Wshadow (-fsanitize=undefined)
-//check special cases for example (n==1)
-//check size  arrays
+
+void _col(int i) { string _[3] = {"\e[0m", "\e[1;33m", "\e[1;32m"}; cerr << _[i]; }
+void dbg() { cerr << '\n'; }
+template<class T, class ...U> void dbg(T a, U ...b) { cerr << a << ' ', dbg(b...); } 
+template<class T> void org(T l, T r) { while (l != r) cerr << *l++ << ' '; cerr << '\n'; } 
+#define debug(args...) (_col(1), dbg("(" + string(#args) + ") = (", args, ")"), _col(0))
+#define orange(args...) (_col(2), cerr << "[" + string(#args) + ") = ", org(args), _col(0))
 
 mt19937 gen(chrono::steady_clock::now().time_since_epoch().count());
 int randint(int lb, int ub)

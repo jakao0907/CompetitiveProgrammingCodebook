@@ -1,19 +1,27 @@
 編譯參數：-std=c++14 -Wall -Wshadow (-fsanitize=undefined)
 
-void _col(int i) { string _[3] = {"\e[0m", "\e[1;33m", "\e[1;32m"}; cerr << _[i]; }
+#ifdef LOCAL    // =========== Local ===========
 void dbg() { cerr << '\n'; }
 template<class T, class ...U> void dbg(T a, U ...b) { cerr << a << ' ', dbg(b...); } 
 template<class T> void org(T l, T r) { while (l != r) cerr << *l++ << ' '; cerr << '\n'; } 
-#define debug(args...) (_col(1), dbg("(" + string(#args) + ") = (", args, ")"), _col(0))
-#define orange(args...) (_col(2), cerr << "[" + string(#args) + ") = ", org(args), _col(0))
+#define debug(args...) (dbg("#> (" + string(#args) + ") = (", args, ")"))
+#define orange(args...) (cerr << "#> [" + string(#args) + ") = ", org(args))
+#else            // ======== OnlineJudge ========
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
+#define debug(...) ((void)0)
+#define orange(...) ((void)0)
+#endif
+template<class T> bool chmin(T &a, T b) { return b < a and (a = b, true); }
+template<class T> bool chmax(T &a, T b) { return b > a and (a = b, true); } 
+typedef pair<int, int> pii;
+typedef pair<long long, long long> pll;
 
 mt19937 gen(chrono::steady_clock::now().time_since_epoch().count());
 int randint(int lb, int ub)
 { return uniform_int_distribution<int>(lb, ub)(gen); }
 
 #define SECs ((double)clock() / CLOCKS_PER_SEC)
-#pragma GCC optimize("O3,unroll-loops")
-#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
 
 struct KeyHasher {
 	size_t operator()(const Key& k) const {

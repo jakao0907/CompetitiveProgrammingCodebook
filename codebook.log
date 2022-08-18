@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  11 AUG 2022 17:19
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  18 AUG 2022 15:41
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -719,9 +719,9 @@ LaTeX Font Warning: Font shape `TU/Monaco(0)/m/it' undefined
 ) (basic/IncStack.cpp) (basic/misc.cpp
 
 LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
-(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 24.
+(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 32.
 
-) (basic/run.sh)
+)
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
 Make it at least 3.60004pt.
@@ -730,29 +730,35 @@ This may cause the page layout to be inconsistent, however.
 
 [1
 
-] (basic/python_trick.py) (flow/isap.cpp) (flow/zkwflow.cpp)
+] (basic/run.sh) (basic/python_trick.py) (flow/isap.cpp) (flow/zkwflow.cpp)
 (flow/dinic_BCW.cpp [2]) (flow/KM2.cpp) (flow/DMST.cpp) (flow/SW-mincut.cpp
 [3]) (flow/BoundedMaxflow.cpp) (flow/HLPPA2.cpp) (flow/FlowMethod.txt [4])
 (math/FFT.cpp) (math/ntt.cpp) (math/FWT.cpp [5]) (math/PolyOp_new.cpp)
 (math/O(1)mul.cpp) (math/linearRecurrence.cpp) (math/Miller_Rabin.cpp [6])
 (math/Faulhaber.cpp) (math/chineseRemainder.cpp) (math/pollardRho.cpp)
-(math/Josephus.cpp) (math/gauss.cpp) (math/ax+by=gcd.cpp) [7]
-(math/DiscreteSqrt.cpp) (math/Romberg.cpp) (math/prefixInv.cpp)
-(math/rootsOfPolynomial.cpp) (math/primes.cpp) (math/phi.cpp) (math/theorem.tex
-[8]
+(math/Josephus.cpp) (math/ax+by=gcd.cpp) (math/DiscreteSqrt.cpp)
+(math/Romberg.cpp [7]) (math/prefixInv.cpp) (math/rootsOfPolynomial.cpp)
+(math/primes.cpp) (math/phi.cpp) (math/theorem.tex
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 13.
 
-) (geometry/definition.cpp) (geometry/Intersection_of_two_lines.cpp)
-(geometry/Half_plane_intersection.cpp) (geometry/convex_hull.cpp [9])
-(geometry/Convexhull3D.cpp) (geometry/Intersection_of_two_segments.cpp)
+[8]) (geometry/definition.cpp) (geometry/Intersection_of_two_lines.cpp)
+(geometry/Half_plane_intersection.cpp) (geometry/convex_hull.cpp)
+(geometry/Convexhull3D.cpp [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(geometry/Intersection_of_two_segments.cpp)
 (geometry/Intersection_of_circle_and_segment.cpp)
-(geometry/Intersection_of_polygon_and_circle2.cpp [10])
-(geometry/CircleCover.cpp) (geometry/ConvexHulltrick.cpp [11])
+(geometry/Intersection_of_polygon_and_circle2.cpp) (geometry/CircleCover.cpp
+[10]) (geometry/ConvexHulltrick.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11])
 (geometry/Tangent_line_of_two_circles.cpp) (geometry/KD_Tree1.cpp)
-(geometry/lowerConcaveHull3.cpp [12]) (geometry/mec.cpp)
+(geometry/lowerConcaveHull3.cpp) (geometry/mec.cpp [12])
 (geometry/minEnclosingBall.cpp) (geometry/minkowski-convex-hull.cpp)
 (geometry/LiChaoST.cpp [13]) (geometry/Area_of_Rectangles.cpp)
 (geometry/minDistonCuboid.cpp) (geometry/triangle.cpp) (graph/DominatorTree.cpp
@@ -766,30 +772,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(graph/MinimumSteinerTree.cpp [18]) (graph/bcc_vertex.cpp)
+(graph/MinimumSteinerTree.cpp) (graph/bcc_vertex.cpp [18])
 (graph/MinMeanCycle.cpp) (graph/DirectedGraphMinCycle.cpp [19]) (graph/KSP.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20])
 (graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex) (string/PalTree2.cpp
 ) (string/KMP.cpp) (string/SAIS.cpp [21]) (string/SAM.cpp)
-(string/Aho-Corasick.cpp [22]) (string/zvalue.cpp) (string/BWT.cpp)
-(string/zvalue_palindrome.cpp) (string/minRotation.cpp) (string/cyclicLCS.cpp
-[23]) (dataStructure/treap_split_key&kth.cpp) (dataStructure/link_cut_tree.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24])
-(dataStructure/extc_bt.cpp) (others/SOS_dp.cpp) (others/maxtan.cpp)
+(string/Aho-Corasick.cpp) (string/zvalue.cpp [22]) (string/BWT.cpp)
+(string/zvalue_palindrome.cpp) (string/minRotation.cpp) (string/cyclicLCS.cpp)
+(dataStructure/treap_split_key&kth.cpp [23]) (dataStructure/link_cut_tree.cpp)
+(dataStructure/extc_bt.cpp [24]) (others/SOS_dp.cpp) (others/maxtan.cpp)
 (others/exactCoverSet.cpp) (others/funny.cpp) [25] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20117 strings out of 427669
- 401960 string characters out of 3145156
- 1394628 words of memory out of 3000000
- 23782 multiletter control sequences out of 15000+200000
+ 20116 strings out of 427669
+ 401941 string characters out of 3145156
+ 1453628 words of memory out of 3000000
+ 23784 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  39i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s

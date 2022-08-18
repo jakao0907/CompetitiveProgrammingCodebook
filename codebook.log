@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  18 AUG 2022 15:41
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  18 AUG 2022 15:50
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -707,19 +707,19 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
 (xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
 
-(basic/vimrc_warner
+(basic/default.cpp
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/bx/n' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 2.
+(Font)              using `TU/Monaco(0)/m/n' instead on input line 1.
 
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/m/it' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 8.
+(Font)              using `TU/Monaco(0)/m/n' instead on input line 1.
 
-) (basic/IncStack.cpp) (basic/misc.cpp
+) (basic/vimrc_warner) (basic/IncStack.cpp) (basic/misc.cpp
 
 LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
-(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 32.
+(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 15.
 
 )
 
@@ -789,8 +789,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20116 strings out of 427669
- 401941 string characters out of 3145156
+ 20118 strings out of 427669
+ 401975 string characters out of 3145156
  1453628 words of memory out of 3000000
  23784 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000

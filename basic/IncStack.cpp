@@ -1,4 +1,3 @@
-//stack resize (linux)
 #include <sys/resource.h>
 void increase_stack_size() {
   const rlim_t ks = 64*1024*1024;

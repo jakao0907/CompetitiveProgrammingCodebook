@@ -1,16 +1,13 @@
-/*
-len-failure[k]:
+/* len-failure[k]:
 在k結尾的情況下，這個子字串可以由開頭
 長度為(len-failure[k])的部分重複出現來表達
 
-failure[k]:
 failure[k]為次長相同前綴後綴
 如果我們不只想求最多，而且以0-base做為考量
 ，那可能的長度由大到小會是
 failuer[k]、failure[failuer[k]-1]
 、failure[failure[failuer[k]-1]-1]..
-直到有值為0為止
-*/
+直到有值為0為止 */
 int failure[MXN];
 void KMP(string& t, string& p)
 {

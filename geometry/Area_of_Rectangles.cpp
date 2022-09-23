@@ -45,5 +45,4 @@ struct AreaofRectangles{
             pre = x;
         }
         return area;
-    }
-}rect;
+}   }rect;

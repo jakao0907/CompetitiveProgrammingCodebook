@@ -12,5 +12,3 @@ template<class T> void org(T l, T r) { while (l != r) cerr << *l++ << ' '; cerr 
 #endif
 template<class T> bool chmin(T &a, T b) { return b < a and (a = b, true); }
 template<class T> bool chmax(T &a, T b) { return b > a and (a = b, true); } 
-typedef pair<int, int> pii;
-typedef pair<long long, long long> pll;

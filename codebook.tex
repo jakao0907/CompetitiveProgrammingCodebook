@@ -42,6 +42,7 @@
 \setmainfont{Consolas}				%主要字型
 \setmonofont{Monaco}				%主要字型
 \setCJKmainfont{Noto Sans CJK TC}
+
 % \setCJKmainfont{Consolas}			%中文字型
 %\setmainfont{sourcecodepro}
 \XeTeXlinebreaklocale "zh"						%中文自動換行
@@ -82,7 +83,7 @@ stringstyle=\itshape\color{Green4},
 \pagestyle{fancy}
 \fancyfoot{}
 %\fancyfoot[R]{\includegraphics[width=20pt]{ironwood.jpg}}
-\fancyhead[L]{National Central University Mediterranean}
+\fancyhead[L]{National Central University \_\_builtin\_orz}
 \fancyhead[R]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\contentsname}{Contents} 
@@ -273,11 +274,14 @@ stringstyle=\itshape\color{Green4},
 \subsection{Intersection of 2 segments}
 \lstinputlisting{geometry/Intersection_of_two_segments.cpp}
 
-\subsection{Intersection of circle and segment}0
+\subsection{Intersection of circle and segment}
 \lstinputlisting{geometry/Intersection_of_circle_and_segment.cpp}
 
 \subsection{Intersection of polygon and circle}
 \lstinputlisting{geometry/Intersection_of_polygon_and_circle2.cpp}
+
+\subsection{Point In Polygon}
+\lstinputlisting{geometry/pointInPolygon.cpp}
 
 \subsection{Intersection of 2 circles}
 \subsection{Circle cover}
@@ -292,12 +296,15 @@ stringstyle=\itshape\color{Green4},
 \subsection{Tangent line of two circles}
 \lstinputlisting{geometry/Tangent_line_of_two_circles.cpp}
 
+\subsection{Minimum distance of two convex}
+\lstinputlisting{geometry/minDistOfTwoConvex.cpp}
+
 \subsection{KD Tree}
 %\lstinputlisting{geometry/KD_Tree.cpp}
 \lstinputlisting{geometry/KD_Tree1.cpp}
 
-%\subsection{Poly Union}
-%\lstinputlisting{geometry/polyUnion.cpp}
+\subsection{Poly Union}
+\lstinputlisting{geometry/polyUnion.cpp}
 
 \subsection{Lower Concave Hull}
 \lstinputlisting{geometry/lowerConcaveHull3.cpp}
@@ -410,8 +417,8 @@ stringstyle=\itshape\color{Green4},
 \subsection{SuffixAutomata}
 \lstinputlisting{string/SAM.cpp}
 
-\subsection{Aho-Corasick}
-\lstinputlisting{string/Aho-Corasick.cpp}
+% \subsection{Aho-Corasick}
+% \lstinputlisting{string/Aho-Corasick.cpp}
 
 \subsection{Z Value}
 \lstinputlisting{string/zvalue.cpp}
@@ -436,8 +443,8 @@ stringstyle=\itshape\color{Green4},
 % \subsection{Segment tree}
 % \lstinputlisting{dataStructure/seg_tree.cpp}
 
-\subsection{Treap}
-\lstinputlisting{dataStructure/treap_split_key&kth.cpp}
+% \subsection{Treap}
+% \lstinputlisting{dataStructure/treap_split_key&kth.cpp}
 
 \subsection{Link-Cut Tree}
 \lstinputlisting{dataStructure/link_cut_tree.cpp}
@@ -459,15 +466,24 @@ stringstyle=\itshape\color{Green4},
 \subsection{SOS dp}
 \lstinputlisting{others/SOS_dp.cpp}
 
+\subsection{Number of Occurrences of Digit}
+\lstinputlisting{others/numberCount.cpp}
+
 \subsection{Find max tangent(x,y is increasing)}
 \lstinputlisting{others/maxtan.cpp}
 
 \subsection{Exact Cover Set}
 \lstinputlisting{others/exactCoverSet.cpp}
 
+\subsection{Hibert Curve}
+\lstinputlisting{others/HibertCurve.cpp}
+
+\subsection{De Brujin sequence}
+\lstinputlisting{others/DeBrujin.cpp}
+
 %\subsection{\# of Intersection of segments}
 %\lstinputlisting{others/painter.cpp}
 
-\lstinputlisting{others/funny.cpp}
+% \lstinputlisting{others/funny.cpp}
 
 \end{document}

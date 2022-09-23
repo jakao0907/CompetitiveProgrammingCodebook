@@ -22,9 +22,8 @@ int solve(){
   }
   // original sink to source
   flow.addEdge( n , 1 , INF );
-  if( flow.maxflow() != nd )
-    // no solution
-    return -1;
+  if( flow.maxflow() != nd ) 
+    return -1; // no solution
   int ans = flow.G[ 1 ].back().c; // source to sink
   flow.G[ 1 ].back().c = flow.G[ n ].back().c = 0;
   // take out super source and super sink

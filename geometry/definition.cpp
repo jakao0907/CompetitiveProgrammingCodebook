@@ -50,11 +50,9 @@ struct Line {
   Pt s, e, v; // start, end, end-start
   ld ang;
   Line(Pt _s=Pt(0, 0), Pt _e=Pt(0, 0)):s(_s), e(_e) { v = e-s; ang = atan2(v.y, v.x); }
-  
   bool operator<(const Line &L) const {
     return ang < L.ang;
-  }
-};
+} };
 struct Circle {
   Pt o; ld r;
   Circle(Pt _o=Pt(0, 0), ld _r=0):o(_o), r(_r) {}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  18 AUG 2022 15:50
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  24 SEP 2022 02:46
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -604,7 +604,7 @@ File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 \symCJKmath=\mathgroup255
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  TU/NotoSansCJKTC(0)/m/n --> TU/NotoSansCJKTC(0)/bx/n on
- input line 81.
+ input line 82.
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/xelatex/xecjk\xeCJK-listi
 ngs.sty"
@@ -614,79 +614,79 @@ Package: xeCJK-listings 2019/06/02 v3.7.4 xeCJK patch file for listings
 ) (codebook.aux)
 \openout1 = `codebook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 81.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 81.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 81.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 81.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 81.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 81.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 81.
-LaTeX Font Info:    Redeclaring math accent \check on input line 81.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 81.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 81.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 81.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 81.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 82.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 82.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 82.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 82.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 82.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 82.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 82.
+LaTeX Font Info:    Redeclaring math accent \check on input line 82.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 82.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 82.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 82.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 82.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 81.
+(Font)              `operators' in the math version `normal' on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Consolas(0)/m/n on input line 81.
+(Font)                  OT1/cmr/m/n --> TU/Consolas(0)/m/n on input line 82.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 81.
+(Font)              `operators' in the math version `bold' on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/m/n on input line 81.
+(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/m/n on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/Consolas(0)/m/n --> TU/Consolas(0)/m/n on input line
- 81.
+ 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Consolas(0)/m/it on input line 81.
+(Font)                  OT1/cmr/m/it --> TU/Consolas(0)/m/it on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/bx/n on input line 81.
+(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/bx/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 81.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 81.
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/Consolas(0)/m/n --> TU/Consolas(0)/bx/n on input lin
-e 81.
+e 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Consolas(0)/bx/it on input line 81
+(Font)                  OT1/cmr/bx/it --> TU/Consolas(0)/bx/it on input line 82
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 81.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/bx/n on input line 81.
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/bx/n on input line 82.
 \c@lstlisting=\count289
  (codebook.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
@@ -752,49 +752,48 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 )
 (geometry/Intersection_of_two_segments.cpp)
 (geometry/Intersection_of_circle_and_segment.cpp)
-(geometry/Intersection_of_polygon_and_circle2.cpp) (geometry/CircleCover.cpp
-[10]) (geometry/ConvexHulltrick.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11])
-(geometry/Tangent_line_of_two_circles.cpp) (geometry/KD_Tree1.cpp)
-(geometry/lowerConcaveHull3.cpp) (geometry/mec.cpp [12])
-(geometry/minEnclosingBall.cpp) (geometry/minkowski-convex-hull.cpp)
-(geometry/LiChaoST.cpp [13]) (geometry/Area_of_Rectangles.cpp)
+(geometry/Intersection_of_polygon_and_circle2.cpp) (geometry/pointInPolygon.cpp
+[10]) (geometry/CircleCover.cpp) (geometry/ConvexHulltrick.cpp [11])
+(geometry/Tangent_line_of_two_circles.cpp) (geometry/minDistOfTwoConvex.cpp)
+(geometry/KD_Tree1.cpp) (geometry/polyUnion.cpp [12])
+(geometry/lowerConcaveHull3.cpp) (geometry/mec.cpp)
+(geometry/minEnclosingBall.cpp [13]) (geometry/minkowski-convex-hull.cpp)
+(geometry/LiChaoST.cpp) (geometry/Area_of_Rectangles.cpp [14])
 (geometry/minDistonCuboid.cpp) (geometry/triangle.cpp) (graph/DominatorTree.cpp
-[14]) (graph/MaximumClique.cpp) (graph/MaximalClique.cpp) (graph/kosaraju.cpp
-[15]) (graph/DynamicMST.cpp) (graph/generalMatching.cpp)
-(graph/Minimum_General_Weighted_Matching.cpp [16])
-(graph/BorrowedGeneralWeightedMatching.cpp
+) (graph/MaximumClique.cpp [15]) (graph/MaximalClique.cpp) (graph/kosaraju.cpp)
+(graph/DynamicMST.cpp [16]) (graph/generalMatching.cpp)
+(graph/Minimum_General_Weighted_Matching.cpp)
+(graph/BorrowedGeneralWeightedMatching.cpp [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18])
+(graph/MinimumSteinerTree.cpp) (graph/bcc_vertex.cpp) (graph/MinMeanCycle.cpp
+[19]) (graph/DirectedGraphMinCycle.cpp) (graph/KSP.cpp [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(graph/MinimumSteinerTree.cpp) (graph/bcc_vertex.cpp [18])
-(graph/MinMeanCycle.cpp) (graph/DirectedGraphMinCycle.cpp [19]) (graph/KSP.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20])
 (graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex) (string/PalTree2.cpp
-) (string/KMP.cpp) (string/SAIS.cpp [21]) (string/SAM.cpp)
-(string/Aho-Corasick.cpp) (string/zvalue.cpp [22]) (string/BWT.cpp)
-(string/zvalue_palindrome.cpp) (string/minRotation.cpp) (string/cyclicLCS.cpp)
-(dataStructure/treap_split_key&kth.cpp [23]) (dataStructure/link_cut_tree.cpp)
-(dataStructure/extc_bt.cpp [24]) (others/SOS_dp.cpp) (others/maxtan.cpp)
-(others/exactCoverSet.cpp) (others/funny.cpp) [25] (codebook.aux)
+[21]) (string/KMP.cpp) (string/SAIS.cpp) (string/SAM.cpp [22])
+(string/zvalue.cpp) (string/BWT.cpp) (string/zvalue_palindrome.cpp)
+(string/minRotation.cpp) (string/cyclicLCS.cpp [23])
+(dataStructure/link_cut_tree.cpp) (dataStructure/extc_bt.cpp) [24]
+(others/SOS_dp.cpp) (others/numberCount.cpp) (others/maxtan.cpp)
+(others/exactCoverSet.cpp) (others/HibertCurve.cpp) (others/DeBrujin.cpp)
+[25] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20118 strings out of 427669
- 401975 string characters out of 3145156
- 1453628 words of memory out of 3000000
- 23784 multiletter control sequences out of 15000+200000
+ 20099 strings out of 427669
+ 401910 string characters out of 3145156
+ 1449628 words of memory out of 3000000
+ 23756 multiletter control sequences out of 15000+200000
  538570 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 39i,12n,67p,339b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,67p,339b,1615s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on codebook.pdf (25 pages).

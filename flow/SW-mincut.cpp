@@ -33,5 +33,4 @@ struct SW{ // O(V^3)
 				edge[x][j] = (edge[j][x] += edge[y][j]);
 		}
 		return res;
-	}
-}graph;
+}	}graph;

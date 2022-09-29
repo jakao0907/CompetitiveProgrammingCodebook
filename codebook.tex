@@ -39,9 +39,21 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\setmainfont{Consolas}				%主要字型
-\setmonofont{Monaco}				%主要字型
-\setCJKmainfont{Noto Sans CJK TC}
+\setmainfont [				%主要字型
+    Path = .fonts/ttf/,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic
+  ] {Consolas}
+
+\setmonofont [        
+    Path = .fonts/ttf/,
+    UprightFont = *-Regular
+  ] {Monaco}
+
+% \setmainfont{Consolas}				%主要字型
+% \setmonofont{Monaco}				%主要字型
+% \setCJKmainfont{Noto Sans CJK TC}
 
 % \setCJKmainfont{Consolas}			%中文字型
 %\setmainfont{sourcecodepro}
@@ -83,7 +95,7 @@ stringstyle=\itshape\color{Green4},
 \pagestyle{fancy}
 \fancyfoot{}
 %\fancyfoot[R]{\includegraphics[width=20pt]{ironwood.jpg}}
-\fancyhead[L]{National Central University \_\_builtin\_orz}
+\fancyhead[L]{National Central University \_\_builtin\_orz("jakao")}
 \fancyhead[R]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\contentsname}{Contents} 

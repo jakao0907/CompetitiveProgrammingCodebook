@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  24 SEP 2022 02:46
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  29 SEP 2022 15:08
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -514,51 +514,39 @@ Package: courier 2005/04/12 PSNFSS-v9.2a (WaS)
 )
 
 Package fontspec Info: Font family 'Consolas(0)' created for font 'Consolas'
-(fontspec)             with options [Ligatures=TeX].
+(fontspec)             with options [Ligatures=TeX,Path =
+(fontspec)             .fonts/ttf/,UprightFont = *-Regular,BoldFont =
+(fontspec)             *-Bold,ItalicFont = *-Italic].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Consolas/OT:script=latn;language=DFLT;mapping=tex-te
-xt;"
+(fontspec)             <->"[.fonts/ttf/Consolas-Regular]/OT:script=latn;languag
+e=DFLT;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"Consolas/B/OT:script=latn;language=DFLT;mapping=tex-
-text;"
+(fontspec)             <->"[.fonts/ttf/Consolas-Bold]/OT:script=latn;language=D
+FLT;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Consolas/I/OT:script=latn;language=DFLT;mapping=tex-
-text;"
+(fontspec)             <->"[.fonts/ttf/Consolas-Italic]/OT:script=latn;language
+=DFLT;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
-(fontspec)             <->"Consolas/BI/OT:script=latn;language=DFLT;mapping=tex
--text;"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
-LaTeX Info: Redefining \rmfamily on input line 43.
-
-Package fontspec Info: Could not resolve font "Monaco/BI" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Could not resolve font "Monaco/B" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Could not resolve font "Monaco/I" (it probably doesn't
-(fontspec)             exist).
-
+LaTeX Info: Redefining \rmfamily on input line 48.
 
 Package fontspec Info: Font family 'Monaco(0)' created for font 'Monaco' with
 (fontspec)             options
 (fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
-Space].
+Space,Path
+(fontspec)             = .fonts/ttf/,UprightFont = *-Regular].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Monaco/OT"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[.fonts/ttf/Monaco-Regular]/OT"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
@@ -566,28 +554,7 @@ Space].
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-LaTeX Info: Redefining \ttfamily on input line 44.
-
-Package fontspec Info: Could not resolve font "Noto Sans CJK TC/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: Font family 'NotoSansCJKTC(0)' created for font 'Noto
-(fontspec)             Sans CJK TC' with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Noto Sans CJK
-(fontspec)             TC/OT:script=hani;language=DFLT;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"Noto Sans CJK
-(fontspec)             TC/B/OT:script=hani;language=DFLT;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"Noto Sans
-(fontspec)             CJK TC/BI/OT:script=hani;language=DFLT;"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
-
+LaTeX Info: Redefining \ttfamily on input line 53.
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.s
 ty"
@@ -601,10 +568,37 @@ File: lstlang1.sty 2019/02/27 1.8b listings language file
 y"
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 )
+
+Package xeCJK Warning: Fandol is being set as the default font for CJK text.
+(xeCJK)                Please make sure it has been properly installed.
+
+
+Package fontspec Warning: Font "FandolSong-Regular" does not contain requested
+(fontspec)                Script "CJK".
+
+
+Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
+(fontspec)             'FandolSong-Regular' with options
+(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold
+},ItalicFont={FandolKai-Regular}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[FandolSong-Regular.otf]/OT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             <->"[FandolSong-Bold.otf]/OT"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[FandolKai-Regular.otf]/OT"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+
 \symCJKmath=\mathgroup255
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
-(Font)                  TU/NotoSansCJKTC(0)/m/n --> TU/NotoSansCJKTC(0)/bx/n on
- input line 82.
+(Font)                  TU/FandolSong-Regular(0)/m/n --> TU/FandolSong-Regular(
+0)/bx/n on input line 94.
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/xelatex/xecjk\xeCJK-listi
 ngs.sty"
@@ -614,79 +608,79 @@ Package: xeCJK-listings 2019/06/02 v3.7.4 xeCJK patch file for listings
 ) (codebook.aux)
 \openout1 = `codebook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 82.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 82.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 82.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 82.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 82.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 82.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 82.
-LaTeX Font Info:    Redeclaring math accent \check on input line 82.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 82.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 82.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 82.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 82.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 94.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 94.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 94.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 94.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 94.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 94.
+LaTeX Font Info:    Redeclaring math accent \check on input line 94.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 94.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 94.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 94.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 82.
+(Font)              `operators' in the math version `normal' on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Consolas(0)/m/n on input line 82.
+(Font)                  OT1/cmr/m/n --> TU/Consolas(0)/m/n on input line 94.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 82.
+(Font)              `operators' in the math version `bold' on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/m/n on input line 82.
+(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/m/n on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/Consolas(0)/m/n --> TU/Consolas(0)/m/n on input line
- 82.
+ 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Consolas(0)/m/it on input line 82.
+(Font)                  OT1/cmr/m/it --> TU/Consolas(0)/m/it on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/bx/n on input line 82.
+(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/bx/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 82.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 82.
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/Consolas(0)/m/n --> TU/Consolas(0)/bx/n on input lin
-e 82.
+e 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Consolas(0)/bx/it on input line 82
+(Font)                  OT1/cmr/bx/it --> TU/Consolas(0)/bx/it on input line 94
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 82.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/bx/n on input line 82.
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/bx/n on input line 94.
 \c@lstlisting=\count289
  (codebook.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
@@ -703,9 +697,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout3 = `codebook.toc'.
 
 
-Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
-(xeCJK)                
-(xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
+Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
+(fontspec)                Script "CJK".
+
+
+Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
+(fontspec)             'FandolFang-Regular' with options
+(fontspec)             [Script={CJK},Extension={.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[FandolFang-Regular.otf]/OT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 (basic/default.cpp
 
@@ -718,9 +723,11 @@ LaTeX Font Warning: Font shape `TU/Monaco(0)/m/it' undefined
 
 ) (basic/vimrc_warner) (basic/IncStack.cpp) (basic/misc.cpp
 
-LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
-(Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 15.
+LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
+(Font)              using `TU/FandolFang-Regular(0)/m/n' instead on input line 
+15.
 
+Missing character: There is no 換 in font [FandolFang-Regular.otf]/OT!
 )
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -732,9 +739,22 @@ This may cause the page layout to be inconsistent, however.
 
 ] (basic/run.sh) (basic/python_trick.py) (flow/isap.cpp) (flow/zkwflow.cpp)
 (flow/dinic_BCW.cpp [2]) (flow/KM2.cpp) (flow/DMST.cpp) (flow/SW-mincut.cpp
-[3]) (flow/BoundedMaxflow.cpp) (flow/HLPPA2.cpp) (flow/FlowMethod.txt [4])
-(math/FFT.cpp) (math/ntt.cpp) (math/FWT.cpp [5]) (math/PolyOp_new.cpp)
-(math/O(1)mul.cpp) (math/linearRecurrence.cpp) (math/Miller_Rabin.cpp [6])
+[3]) (flow/BoundedMaxflow.cpp
+Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
+Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
+) (flow/HLPPA2.cpp) (flow/FlowMethod.txt [4]
+Missing character: There is no 錄 in font [FandolFang-Regular.otf]/OT!
+Missing character: There is no 沒 in font [FandolFang-Regular.otf]/OT!
+Missing character: There is no 沒 in font [FandolFang-Regular.otf]/OT!
+)
+(math/FFT.cpp) (math/ntt.cpp) (math/FWT.cpp [5]) (math/PolyOp_new.cpp
+Missing character: There is no 減 in font [FandolFang-Regular.otf]/OT!
+Missing character: There is no 換 in font [FandolFang-Regular.otf]/OT!
+Missing character: There is no 捲 in font [FandolFang-Regular.otf]/OT!
+)
+(math/O(1)mul.cpp) (math/linearRecurrence.cpp
+Missing character: There is no 迴 in font [FandolFang-Regular.otf]/OT!
+) (math/Miller_Rabin.cpp [6])
 (math/Faulhaber.cpp) (math/chineseRemainder.cpp) (math/pollardRho.cpp)
 (math/Josephus.cpp) (math/ax+by=gcd.cpp) (math/DiscreteSqrt.cpp)
 (math/Romberg.cpp [7]) (math/prefixInv.cpp) (math/rootsOfPolynomial.cpp)
@@ -744,7 +764,13 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 13.
 
-[8]) (geometry/definition.cpp) (geometry/Intersection_of_two_lines.cpp)
+Missing character: There is no 內 in font [FandolSong-Regular.otf]/OT!
+Missing character: There is no 係 in font [FandolSong-Regular.otf]/OT!
+Missing character: There is no 為 in font [FandolSong-Regular.otf]/OT!
+Missing character: There is no 為 in font [FandolSong-Regular.otf]/OT!
+[8]
+Missing character: There is no 冪 in font [FandolSong-Regular.otf]/OT!
+) (geometry/definition.cpp) (geometry/Intersection_of_two_lines.cpp)
 (geometry/Half_plane_intersection.cpp) (geometry/convex_hull.cpp)
 (geometry/Convexhull3D.cpp [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -775,8 +801,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex) (string/PalTree2.cpp
-[21]) (string/KMP.cpp) (string/SAIS.cpp) (string/SAM.cpp [22])
+(graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex
+Missing character: There is no 為 in font [FandolSong-Regular.otf]/OT!
+) (string/PalTree2.cpp [21]) (string/KMP.cpp
+Missing character: There is no 況 in font [FandolFang-Regular.otf]/OT!
+Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
+Missing character: There is no 複 in font [FandolFang-Regular.otf]/OT!
+Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
+Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
+Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
+Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
+) (string/SAIS.cpp) (string/SAM.cpp [22])
 (string/zvalue.cpp) (string/BWT.cpp) (string/zvalue_palindrome.cpp)
 (string/minRotation.cpp) (string/cyclicLCS.cpp [23])
 (dataStructure/link_cut_tree.cpp) (dataStructure/extc_bt.cpp) [24]
@@ -788,12 +823,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20099 strings out of 427669
- 401910 string characters out of 3145156
- 1449628 words of memory out of 3000000
- 23756 multiletter control sequences out of 15000+200000
- 538570 words of font info for 85 fonts, out of 3000000 for 9000
+ 20093 strings out of 427669
+ 402628 string characters out of 3145156
+ 1454622 words of memory out of 3000000
+ 23762 multiletter control sequences out of 15000+200000
+ 538530 words of font info for 80 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 39i,12n,67p,339b,1615s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,12n,74p,339b,1621s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on codebook.pdf (25 pages).

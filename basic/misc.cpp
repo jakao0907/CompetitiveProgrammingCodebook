@@ -12,7 +12,7 @@ struct KeyHasher {
 }	};
 typedef unordered_map<Key,int,KeyHasher> map_t;
 
-__builtin_popcountll    //換成二進位有幾個1
-__builtin_clzll         //返回左起第一個1之前0的個數
-__builtin_parityll      //返回1的個數的奇偶性
-__builtin_mul_overflow(a,b,&h) //回傳a*b是否溢位
+__builtin_popcountll    // 二進位有幾個1
+__builtin_clzll         // 左起第一個1之前0的個數
+__builtin_parityll      // 1的個數的奇偶性
+__builtin_mul_overflow(a,b,&h) // a*b是否溢位

@@ -5,4 +5,4 @@ inoremap {<CR> {<CR>}<C-o>O
 inoremap jk <Esc>
 nnoremap J 5j
 nnoremap K 5k
-nnoremap run :w<bar>!g++ -std=c++17 -Wfatal-errors -o test "%" && echo "done." && time ./test<CR>
+nnoremap run :w<bar>!g++ -std=c++14 -DLOCAL -Wfatal-errors -o test "%" && echo "done." && time ./test<CR>

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  29 SEP 2022 15:08
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  1 OCT 2022 17:20
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -727,7 +727,6 @@ LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
 (Font)              using `TU/FandolFang-Regular(0)/m/n' instead on input line 
 15.
 
-Missing character: There is no 換 in font [FandolFang-Regular.otf]/OT!
 )
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -823,10 +822,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20093 strings out of 427669
- 402628 string characters out of 3145156
+ 20095 strings out of 427669
+ 402650 string characters out of 3145156
  1454622 words of memory out of 3000000
- 23762 multiletter control sequences out of 15000+200000
+ 23764 multiletter control sequences out of 15000+200000
  538530 words of font info for 80 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  47i,12n,74p,339b,1621s stack positions out of 5000i,500n,10000p,200000b,50000s

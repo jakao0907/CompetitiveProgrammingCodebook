@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  1 OCT 2022 17:20
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  11 OCT 2022 20:43
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -741,23 +741,23 @@ This may cause the page layout to be inconsistent, however.
 [3]) (flow/BoundedMaxflow.cpp
 Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
-) (flow/HLPPA2.cpp) (flow/FlowMethod.txt [4]
+) (flow/FlowMethod.txt
 Missing character: There is no 錄 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 沒 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 沒 in font [FandolFang-Regular.otf]/OT!
-)
-(math/FFT.cpp) (math/ntt.cpp) (math/FWT.cpp [5]) (math/PolyOp_new.cpp
+) (math/FFT.cpp)
+(math/ntt.cpp [4]) (math/FWT.cpp) (math/PolyOp_new.cpp
 Missing character: There is no 減 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 換 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 捲 in font [FandolFang-Regular.otf]/OT!
-)
-(math/O(1)mul.cpp) (math/linearRecurrence.cpp
+ [5]) (math/O(1)mul.cpp)
+(math/linearRecurrence.cpp
 Missing character: There is no 迴 in font [FandolFang-Regular.otf]/OT!
-) (math/Miller_Rabin.cpp [6])
-(math/Faulhaber.cpp) (math/chineseRemainder.cpp) (math/pollardRho.cpp)
-(math/Josephus.cpp) (math/ax+by=gcd.cpp) (math/DiscreteSqrt.cpp)
-(math/Romberg.cpp [7]) (math/prefixInv.cpp) (math/rootsOfPolynomial.cpp)
-(math/primes.cpp) (math/phi.cpp) (math/theorem.tex
+) (math/Miller_Rabin.cpp) (math/Faulhaber.cpp)
+(math/chineseRemainder.cpp [6]) (math/pollardRho.cpp) (math/Josephus.cpp)
+(math/ax+by=gcd.cpp) (math/DiscreteSqrt.cpp) (math/Romberg.cpp)
+(math/prefixInv.cpp) (math/rootsOfPolynomial.cpp) (math/primes.cpp [7])
+(math/phi.cpp) (math/theorem.tex
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
@@ -767,42 +767,41 @@ Missing character: There is no 內 in font [FandolSong-Regular.otf]/OT!
 Missing character: There is no 係 in font [FandolSong-Regular.otf]/OT!
 Missing character: There is no 為 in font [FandolSong-Regular.otf]/OT!
 Missing character: There is no 為 in font [FandolSong-Regular.otf]/OT!
-[8]
 Missing character: There is no 冪 in font [FandolSong-Regular.otf]/OT!
-) (geometry/definition.cpp) (geometry/Intersection_of_two_lines.cpp)
+) (geometry/definition.cpp) (geometry/Intersection_of_two_lines.cpp) [8]
 (geometry/Half_plane_intersection.cpp) (geometry/convex_hull.cpp)
-(geometry/Convexhull3D.cpp [9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(geometry/Intersection_of_two_segments.cpp)
+(geometry/Convexhull3D.cpp) (geometry/Intersection_of_two_segments.cpp [9])
 (geometry/Intersection_of_circle_and_segment.cpp)
 (geometry/Intersection_of_polygon_and_circle2.cpp) (geometry/pointInPolygon.cpp
-[10]) (geometry/CircleCover.cpp) (geometry/ConvexHulltrick.cpp [11])
-(geometry/Tangent_line_of_two_circles.cpp) (geometry/minDistOfTwoConvex.cpp)
-(geometry/KD_Tree1.cpp) (geometry/polyUnion.cpp [12])
-(geometry/lowerConcaveHull3.cpp) (geometry/mec.cpp)
-(geometry/minEnclosingBall.cpp [13]) (geometry/minkowski-convex-hull.cpp)
-(geometry/LiChaoST.cpp) (geometry/Area_of_Rectangles.cpp [14])
-(geometry/minDistonCuboid.cpp) (geometry/triangle.cpp) (graph/DominatorTree.cpp
-) (graph/MaximumClique.cpp [15]) (graph/MaximalClique.cpp) (graph/kosaraju.cpp)
-(graph/DynamicMST.cpp [16]) (graph/generalMatching.cpp)
-(graph/Minimum_General_Weighted_Matching.cpp)
-(graph/BorrowedGeneralWeightedMatching.cpp [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18])
-(graph/MinimumSteinerTree.cpp) (graph/bcc_vertex.cpp) (graph/MinMeanCycle.cpp
-[19]) (graph/DirectedGraphMinCycle.cpp) (graph/KSP.cpp [20]
+) (geometry/CircleCover.cpp) (geometry/ConvexHulltrick.cpp [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
+(geometry/Tangent_line_of_two_circles.cpp) (geometry/minDistOfTwoConvex.cpp)
+(geometry/KD_Tree1.cpp [11]) (geometry/polyUnion.cpp)
+(geometry/lowerConcaveHull3.cpp) (geometry/mec.cpp [12])
+(geometry/minEnclosingBall.cpp) (geometry/minkowski-convex-hull.cpp)
+(geometry/LiChaoST.cpp [13]) (geometry/Area_of_Rectangles.cpp)
+(geometry/minDistonCuboid.cpp) (geometry/triangle.cpp) (graph/DominatorTree.cpp
+[14]) (graph/MaximumClique.cpp) (graph/MaximalClique.cpp)
+(graph/CentroidDecomposition2.cpp [15]) (graph/kosaraju.cpp)
+(graph/DynamicMST.cpp) (graph/generalMatching.cpp [16])
+(graph/Minimum_General_Weighted_Matching.cpp)
+(graph/BorrowedGeneralWeightedMatching.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(graph/MinimumSteinerTree.cpp [18]) (graph/bcc_vertex.cpp)
+(graph/MinMeanCycle.cpp) (graph/DirectedGraphMinCycle.cpp [19]) (graph/KSP.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20])
 (graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex
 Missing character: There is no 為 in font [FandolSong-Regular.otf]/OT!
-) (string/PalTree2.cpp [21]) (string/KMP.cpp
+) (string/PalTree2.cpp) (string/KMP.cpp
 Missing character: There is no 況 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 複 in font [FandolFang-Regular.otf]/OT!
@@ -810,24 +809,23 @@ Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
-) (string/SAIS.cpp) (string/SAM.cpp [22])
-(string/zvalue.cpp) (string/BWT.cpp) (string/zvalue_palindrome.cpp)
-(string/minRotation.cpp) (string/cyclicLCS.cpp [23])
-(dataStructure/link_cut_tree.cpp) (dataStructure/extc_bt.cpp) [24]
-(others/SOS_dp.cpp) (others/numberCount.cpp) (others/maxtan.cpp)
-(others/exactCoverSet.cpp) (others/HibertCurve.cpp) (others/DeBrujin.cpp)
-[25] (codebook.aux)
+) (string/SAIS.cpp [21]) (string/SAM.cpp) (string/zvalue.cpp)
+(string/BWT.cpp [22]) (string/zvalue_palindrome.cpp) (string/minRotation.cpp)
+(string/cyclicLCS.cpp) (dataStructure/link_cut_tree.cpp [23])
+(dataStructure/extc_bt.cpp) (others/SOS_dp.cpp) (others/numberCount.cpp)
+(others/maxtan.cpp [24]) (others/exactCoverSet.cpp) (others/HibertCurve.cpp)
+(others/DeBrujin.cpp) [25] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20095 strings out of 427669
- 402650 string characters out of 3145156
- 1454622 words of memory out of 3000000
- 23764 multiletter control sequences out of 15000+200000
+ 20079 strings out of 427669
+ 402576 string characters out of 3145156
+ 1415622 words of memory out of 3000000
+ 23748 multiletter control sequences out of 15000+200000
  538530 words of font info for 80 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 47i,12n,74p,339b,1621s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,12n,74p,339b,1637s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on codebook.pdf (25 pages).

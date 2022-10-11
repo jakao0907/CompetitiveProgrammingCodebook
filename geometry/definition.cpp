@@ -7,45 +7,32 @@ int dcmp(ld x) {
 struct Pt {
   ld x, y;
   Pt(ld _x=0, ld _y=0):x(_x), y(_y) {}
-  
   Pt operator+(const Pt &a) const {
-    return Pt(x+a.x, y+a.y);
-  }
+    return Pt(x+a.x, y+a.y);  }
   Pt operator-(const Pt &a) const {
-    return Pt(x-a.x, y-a.y);
-  }
+    return Pt(x-a.x, y-a.y);  }
   Pt operator*(const ld &a) const {
-    return Pt(x*a, y*a);
-  }
+    return Pt(x*a, y*a);  }
   Pt operator/(const ld &a) const {
-    return Pt(x/a, y/a);
-  }
+    return Pt(x/a, y/a);  }
   ld operator*(const Pt &a) const {
-    return x*a.x + y*a.y;
-  }
+    return x*a.x + y*a.y;  }
   ld operator^(const Pt &a) const {
-    return x*a.y - y*a.x;
-  }
+    return x*a.y - y*a.x;  }
   bool operator<(const Pt &a) const {
-    return x < a.x || (x == a.x && y < a.y);
-    //return dcmp(x-a.x) < 0 || (dcmp(x-a.x) == 0 && dcmp(y-a.y) < 0);
-  }
+    return x < a.x || (x == a.x && y < a.y); }
+    //return dcmp(x-a.x) < 0 || (dcmp(x-a.x) == 0 && dcmp(y-a.y) < 0); }
   bool operator==(const Pt &a) const {
-    return dcmp(x-a.x) == 0 && dcmp(y-a.y) == 0;
-  }
+    return dcmp(x-a.x) == 0 && dcmp(y-a.y) == 0;  }
 };
 ld norm2(const Pt &a) {
-  return a*a;
-}
+  return a*a; }
 ld norm(const Pt &a) {
-  return sqrt(norm2(a));
-}
+  return sqrt(norm2(a)); }
 Pt perp(const Pt &a) {
-  return Pt(-a.y, a.x);
-}
+  return Pt(-a.y, a.x); }
 Pt rotate(const Pt &a, ld ang) {
-  return Pt(a.x*cos(ang)-a.y*sin(ang), a.x*sin(ang)+a.y*cos(ang));
-}
+  return Pt(a.x*cos(ang)-a.y*sin(ang), a.x*sin(ang)+a.y*cos(ang)); }
 struct Line {
   Pt s, e, v; // start, end, end-start
   ld ang;

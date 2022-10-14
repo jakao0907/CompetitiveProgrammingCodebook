@@ -36,7 +36,7 @@
 \contentsline {subsection}{\numberline {3.19}Result}{8}% 
 \contentsline {section}{\numberline {4}Geometry}{8}% 
 \contentsline {subsection}{\numberline {4.1}definition}{8}% 
-\contentsline {subsection}{\numberline {4.2}Intersection of 2 lines}{8}% 
+\contentsline {subsection}{\numberline {4.2}Intersection of 2 lines}{9}% 
 \contentsline {subsection}{\numberline {4.3}halfPlaneIntersection}{9}% 
 \contentsline {subsection}{\numberline {4.4}Convex Hull}{9}% 
 \contentsline {subsection}{\numberline {4.5}Convex Hull 3D}{9}% 
@@ -46,13 +46,13 @@
 \contentsline {subsection}{\numberline {4.9}Point In Polygon}{10}% 
 \contentsline {subsection}{\numberline {4.10}Intersection of 2 circles}{10}% 
 \contentsline {subsection}{\numberline {4.11}Circle cover}{10}% 
-\contentsline {subsection}{\numberline {4.12}Convex Hull trick}{10}% 
+\contentsline {subsection}{\numberline {4.12}Convex Hull trick}{11}% 
 \contentsline {subsection}{\numberline {4.13}Tangent line of two circles}{11}% 
 \contentsline {subsection}{\numberline {4.14}Minimum distance of two convex}{11}% 
 \contentsline {subsection}{\numberline {4.15}KD Tree}{11}% 
 \contentsline {subsection}{\numberline {4.16}Poly Union}{12}% 
 \contentsline {subsection}{\numberline {4.17}Lower Concave Hull}{12}% 
-\contentsline {subsection}{\numberline {4.18}Min Enclosing Circle}{12}% 
+\contentsline {subsection}{\numberline {4.18}Min Enclosing Circle}{13}% 
 \contentsline {subsection}{\numberline {4.19}Min Enclosing Ball}{13}% 
 \contentsline {subsection}{\numberline {4.20}Minkowski sum}{13}% 
 \contentsline {subsection}{\numberline {4.21}Li Chao Segment Tree}{13}% 

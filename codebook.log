@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  12 OCT 2022 22:04
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2019.9.9)  14 OCT 2022 14:52
 entering extended mode
 **./codebook.tex
 (codebook.tex
@@ -432,14 +432,333 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\t
+ikz.sty"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.
+sty"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrc
+s.sty"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-common.tex"
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen158
+\pgfutil@tempdimb=\dimen159
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-common-lists.tex"))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-latex.def"
+\pgfutil@abb=\box51
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+rcs.code.tex"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision.
+tex")
+Package: pgfrcs 2020/10/01 v3.1.6a (3.1.6a)
+))
+Package: pgf 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfc
+ore.sty"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgf
+sys.sty"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys.code.tex"
+Package: pgfsys 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keys.code.tex"
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen160
+\pgf@y=\dimen161
+\pgf@xa=\dimen162
+\pgf@ya=\dimen163
+\pgf@xb=\dimen164
+\pgf@yb=\dimen165
+\pgf@xc=\dimen166
+\pgf@yc=\dimen167
+\pgf@xd=\dimen168
+\pgf@yd=\dimen169
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count275
+\c@pgf@countb=\count276
+\c@pgf@countc=\count277
+\c@pgf@countd=\count278
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+\pgf@sys@id@count=\count279
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gf.cfg"
+File: pgf.cfg 2020/10/01 v3.1.6a (3.1.6a)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys-xetex.def"
+File: pgfsys-xetex.def 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys-dvipdfmx.def"
+File: pgfsys-dvipdfmx.def 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/10/01 v3.1.6a (3.1.6a)
+)
+\pgfsys@objnum=\count280
+)))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfsyssoftpath@smallbuffer@items=\count281
+\pgfsyssoftpath@bigbuffer@items=\count282
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcore.code.tex"
+Package: pgfcore 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathc
+alc.code.tex"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathu
+til.code.tex")
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathp
+arser.code.tex"
+\pgfmath@dimen=\dimen170
+\pgfmath@count=\count283
+\pgfmath@box=\box52
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.code.tex"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.basic.code.tex")
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.trigonometric.code.tex")
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.random.code.tex")
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.comparison.code.tex")
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.base.code.tex")
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.round.code.tex")
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.misc.code.tex")
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.integerarithmetics.code.tex")))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+loat.code.tex"
+\c@pgfmathroundto@lastzeros=\count284
+))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.c
+ode.tex")
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@picminx=\dimen171
+\pgf@picmaxx=\dimen172
+\pgf@picminy=\dimen173
+\pgf@picmaxy=\dimen174
+\pgf@pathminx=\dimen175
+\pgf@pathmaxx=\dimen176
+\pgf@pathminy=\dimen177
+\pgf@pathmaxy=\dimen178
+\pgf@xx=\dimen179
+\pgf@xy=\dimen180
+\pgf@yx=\dimen181
+\pgf@yy=\dimen182
+\pgf@zx=\dimen183
+\pgf@zy=\dimen184
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@path@lastx=\dimen185
+\pgf@path@lasty=\dimen186
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@shorten@end@additional=\dimen187
+\pgf@shorten@start@additional=\dimen188
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfpic=\box53
+\pgf@hbox=\box54
+\pgf@layerbox@main=\box55
+\pgf@picture@serial@count=\count285
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgflinewidth=\dimen189
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@pt@x=\dimen190
+\pgf@pt@y=\dimen191
+\pgf@pt@temp=\dimen192
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfarrowsep=\dimen193
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@max=\dimen194
+\pgf@sys@shading@range@num=\count286
+\pgf@shadingcount=\count287
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfexternal@startupbox=\box56
+))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+duleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfnodeparttextbox=\box57
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+duleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\p
+gfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@nodesepstart=\dimen195
+\pgf@nodesepend=\dimen196
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\p
+gfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2020/10/01 v3.1.6a (3.1.6a)
+))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgffo
+r.sty"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfke
+ys.sty"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keys.code.tex"))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.st
+y"
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex"))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+for.code.tex"
+Package: pgffor 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex")
+\pgffor@iter=\dimen197
+\pgffor@skip=\dimen198
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
+/tikz\tikz.code.tex"
+Package: tikz 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgf
+libraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@plot@mark@count=\count288
+\pgfplotmarksize=\dimen199
+)
+\tikz@lastx=\dimen256
+\tikz@lasty=\dimen257
+\tikz@lastxsaved=\dimen258
+\tikz@lastysaved=\dimen259
+\tikz@lastmovetox=\dimen260
+\tikz@lastmovetoy=\dimen261
+\tikzleveldistance=\dimen262
+\tikzsiblingdistance=\dimen263
+\tikz@figbox=\box58
+\tikz@figbox@bg=\box59
+\tikz@tempbox=\box60
+\tikz@tempbox@bg=\box61
+\tikztreelevel=\count289
+\tikznumberofchildren=\count290
+\tikznumberofcurrentchild=\count291
+\tikz@fig@count=\count292
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+dulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfmatrixcurrentrow=\count293
+\pgfmatrixcurrentcolumn=\count294
+\pgf@matrix@numberofcolumns=\count295
+)
+\tikz@expandcount=\count296
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)))
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/xelatex/xecjk\xeCJK.sty"
 Package: xeCJK 2019/06/02 v3.7.4 Typesetting CJK scripts with XeLaTeX
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xtemplat
 e\xtemplate.sty"
 Package: xtemplate 2019-05-28 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen158
-\l__xtemplate_tmp_int=\count275
+\l__xtemplate_tmp_dim=\dimen264
+\l__xtemplate_tmp_int=\count297
 \l__xtemplate_tmp_muskip=\muskip17
 \l__xtemplate_tmp_skip=\skip66
 )
@@ -447,13 +766,13 @@ Package: xtemplate 2019-05-28 L3 Experimental prototype document functions
 \l3keys2e.sty"
 Package: l3keys2e 2019-05-28 LaTeX2e option processing using LaTeX3 keys
 )
-\l__xeCJK_tmp_int=\count276
-\l__xeCJK_tmp_box=\box51
-\l__xeCJK_tmp_dim=\dimen159
+\l__xeCJK_tmp_int=\count298
+\l__xeCJK_tmp_box=\box62
+\l__xeCJK_tmp_dim=\dimen265
 \l__xeCJK_tmp_skip=\skip67
-\g__xeCJK_space_factor_int=\count277
-\l__xeCJK_begin_int=\count278
-\l__xeCJK_end_int=\count279
+\g__xeCJK_space_factor_int=\count299
+\l__xeCJK_begin_int=\count300
+\l__xeCJK_end_int=\count301
 \c__xeCJK_CJK_class_int=\XeTeXcharclass1
 \c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
 \c__xeCJK_FullRight_class_int=\XeTeXcharclass3
@@ -463,47 +782,47 @@ Package: l3keys2e 2019-05-28 LaTeX2e option processing using LaTeX3 keys
 \c__xeCJK_CM_class_int=\XeTeXcharclass7
 \c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
 \l__xeCJK_last_skip=\skip68
-\g__xeCJK_node_int=\count280
-\c__xeCJK_CJK_node_dim=\dimen160
-\c__xeCJK_CJK-space_node_dim=\dimen161
-\c__xeCJK_default_node_dim=\dimen162
-\c__xeCJK_default-space_node_dim=\dimen163
-\c__xeCJK_CJK-widow_node_dim=\dimen164
-\c__xeCJK_normalspace_node_dim=\dimen165
+\g__xeCJK_node_int=\count302
+\c__xeCJK_CJK_node_dim=\dimen266
+\c__xeCJK_CJK-space_node_dim=\dimen267
+\c__xeCJK_default_node_dim=\dimen268
+\c__xeCJK_default-space_node_dim=\dimen269
+\c__xeCJK_CJK-widow_node_dim=\dimen270
+\c__xeCJK_normalspace_node_dim=\dimen271
 \l__xeCJK_ccglue_skip=\skip69
 \l__xeCJK_ecglue_skip=\skip70
 \l__xeCJK_punct_kern_skip=\skip71
-\l__xeCJK_last_penalty_int=\count281
-\l__xeCJK_last_bound_dim=\dimen166
-\l__xeCJK_last_kern_dim=\dimen167
-\l__xeCJK_widow_penalty_int=\count282
+\l__xeCJK_last_penalty_int=\count303
+\l__xeCJK_last_bound_dim=\dimen272
+\l__xeCJK_last_kern_dim=\dimen273
+\l__xeCJK_widow_penalty_int=\count304
 
 Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 (xtemplate)             argument(s) on line 2323.
 
-\l__xeCJK_fixed_punct_width_dim=\dimen168
-\l__xeCJK_mixed_punct_width_dim=\dimen169
-\l__xeCJK_middle_punct_width_dim=\dimen170
-\l__xeCJK_fixed_margin_width_dim=\dimen171
-\l__xeCJK_mixed_margin_width_dim=\dimen172
-\l__xeCJK_middle_margin_width_dim=\dimen173
-\l__xeCJK_bound_punct_width_dim=\dimen174
-\l__xeCJK_bound_margin_width_dim=\dimen175
-\l__xeCJK_margin_minimum_dim=\dimen176
-\l__xeCJK_kerning_total_width_dim=\dimen177
-\l__xeCJK_same_align_margin_dim=\dimen178
-\l__xeCJK_different_align_margin_dim=\dimen179
-\l__xeCJK_kerning_margin_width_dim=\dimen180
-\l__xeCJK_kerning_margin_minimum_dim=\dimen181
-\l__xeCJK_bound_dim=\dimen182
-\l__xeCJK_reverse_bound_dim=\dimen183
-\l__xeCJK_margin_dim=\dimen184
-\l__xeCJK_minimum_bound_dim=\dimen185
-\l__xeCJK_kerning_margin_dim=\dimen186
-\g__xeCJK_family_int=\count283
-\l__xeCJK_fam_int=\count284
-\g__xeCJK_fam_allocation_int=\count285
-\l__xeCJK_verb_case_int=\count286
+\l__xeCJK_fixed_punct_width_dim=\dimen274
+\l__xeCJK_mixed_punct_width_dim=\dimen275
+\l__xeCJK_middle_punct_width_dim=\dimen276
+\l__xeCJK_fixed_margin_width_dim=\dimen277
+\l__xeCJK_mixed_margin_width_dim=\dimen278
+\l__xeCJK_middle_margin_width_dim=\dimen279
+\l__xeCJK_bound_punct_width_dim=\dimen280
+\l__xeCJK_bound_margin_width_dim=\dimen281
+\l__xeCJK_margin_minimum_dim=\dimen282
+\l__xeCJK_kerning_total_width_dim=\dimen283
+\l__xeCJK_same_align_margin_dim=\dimen284
+\l__xeCJK_different_align_margin_dim=\dimen285
+\l__xeCJK_kerning_margin_width_dim=\dimen286
+\l__xeCJK_kerning_margin_minimum_dim=\dimen287
+\l__xeCJK_bound_dim=\dimen288
+\l__xeCJK_reverse_bound_dim=\dimen289
+\l__xeCJK_margin_dim=\dimen290
+\l__xeCJK_minimum_bound_dim=\dimen291
+\l__xeCJK_kerning_margin_dim=\dimen292
+\g__xeCJK_family_int=\count305
+\l__xeCJK_fam_int=\count306
+\g__xeCJK_fam_allocation_int=\count307
+\l__xeCJK_verb_case_int=\count308
 \l__xeCJK_verb_exspace_skip=\skip72
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/xelatex/xecjk\xeCJK.cfg"
@@ -534,7 +853,7 @@ FLT;mapping=tex-text;"
 =DFLT;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
 
-LaTeX Info: Redefining \rmfamily on input line 48.
+LaTeX Info: Redefining \rmfamily on input line 49.
 
 Package fontspec Info: Font family 'Monaco(0)' created for font 'Monaco' with
 (fontspec)             options
@@ -554,7 +873,7 @@ Space,Path
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-LaTeX Info: Redefining \ttfamily on input line 53.
+LaTeX Info: Redefining \ttfamily on input line 54.
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.s
 ty"
@@ -598,91 +917,91 @@ Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
 \symCJKmath=\mathgroup255
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  TU/FandolSong-Regular(0)/m/n --> TU/FandolSong-Regular(
-0)/bx/n on input line 94.
+0)/bx/n on input line 95.
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/xelatex/xecjk\xeCJK-listi
 ngs.sty"
 Package: xeCJK-listings 2019/06/02 v3.7.4 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count287
-\l__xeCJK_listings_flag_int=\count288
+\l__xeCJK_listings_max_char_int=\count309
+\l__xeCJK_listings_flag_int=\count310
 ) (codebook.aux)
 \openout1 = `codebook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 94.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 94.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 94.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 94.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 94.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 94.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 94.
-LaTeX Font Info:    Redeclaring math accent \check on input line 94.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 94.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 94.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 94.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 94.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 95.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 95.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 95.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 95.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 95.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 95.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 95.
+LaTeX Font Info:    Redeclaring math accent \check on input line 95.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 95.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 95.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 95.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 95.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 94.
+(Font)              `operators' in the math version `normal' on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Consolas(0)/m/n on input line 94.
+(Font)                  OT1/cmr/m/n --> TU/Consolas(0)/m/n on input line 95.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 94.
+(Font)              `operators' in the math version `bold' on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/m/n on input line 94.
+(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/m/n on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/Consolas(0)/m/n --> TU/Consolas(0)/m/n on input line
- 94.
+ 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Consolas(0)/m/it on input line 94.
+(Font)                  OT1/cmr/m/it --> TU/Consolas(0)/m/it on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/bx/n on input line 94.
+(Font)                  OT1/cmr/bx/n --> TU/Consolas(0)/bx/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 94.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 94.
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/Consolas(0)/m/n --> TU/Consolas(0)/bx/n on input lin
-e 94.
+e 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Consolas(0)/bx/it on input line 94
+(Font)                  OT1/cmr/bx/it --> TU/Consolas(0)/bx/it on input line 95
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 94.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/bx/n on input line 94.
-\c@lstlisting=\count289
- (codebook.toc
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/bx/n on input line 95.
+\c@lstlisting=\count311
+ ABD: EveryShipout initializing macros (codebook.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
@@ -693,8 +1012,8 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-\tf@toc=\write3
-\openout3 = `codebook.toc'.
+\tf@toc=\write4
+\openout4 = `codebook.toc'.
 
 
 Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
@@ -763,23 +1082,16 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 13.
 
-Missing character: There is no 內 in font [FandolSong-Regular.otf]/OT!
-Missing character: There is no 係 in font [FandolSong-Regular.otf]/OT!
-Missing character: There is no 為 in font [FandolSong-Regular.otf]/OT!
-Missing character: There is no 為 in font [FandolSong-Regular.otf]/OT!
 Missing character: There is no 冪 in font [FandolSong-Regular.otf]/OT!
-) (geometry/definition.cpp) (geometry/Intersection_of_two_lines.cpp) [8]
+) (geometry/definition.cpp) (geometry/Intersection_of_two_lines.cpp [8])
 (geometry/Half_plane_intersection.cpp) (geometry/convex_hull.cpp)
 (geometry/Convexhull3D.cpp) (geometry/Intersection_of_two_segments.cpp [9])
 (geometry/Intersection_of_circle_and_segment.cpp)
 (geometry/Intersection_of_polygon_and_circle2.cpp) (geometry/pointInPolygon.cpp
-) (geometry/CircleCover.cpp) (geometry/ConvexHulltrick.cpp [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
+) (geometry/CircleCover.cpp) [10] (geometry/ConvexHulltrick.cpp)
 (geometry/Tangent_line_of_two_circles.cpp) (geometry/minDistOfTwoConvex.cpp)
 (geometry/KD_Tree1.cpp [11]) (geometry/polyUnion.cpp)
-(geometry/lowerConcaveHull3.cpp) (geometry/mec.cpp [12])
+(geometry/lowerConcaveHull3.cpp) [12] (geometry/mec.cpp)
 (geometry/minEnclosingBall.cpp) (geometry/minkowski-convex-hull.cpp)
 (geometry/LiChaoST.cpp [13]) (geometry/Area_of_Rectangles.cpp)
 (geometry/minDistonCuboid.cpp) (geometry/triangle.cpp) (graph/DominatorTree.cpp
@@ -799,9 +1111,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20])
-(graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex
-Missing character: There is no 為 in font [FandolSong-Regular.otf]/OT!
-) (string/PalTree2.cpp) (string/KMP.cpp
+(graph/spfa.cpp) (graph/SystemOfDifferenceConstraints.tex) (string/PalTree2.cpp
+) (string/KMP.cpp
 Missing character: There is no 況 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
 Missing character: There is no 複 in font [FandolFang-Regular.otf]/OT!
@@ -813,19 +1124,19 @@ Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT!
 (string/BWT.cpp [22]) (string/zvalue_palindrome.cpp) (string/minRotation.cpp)
 (string/cyclicLCS.cpp) (dataStructure/link_cut_tree.cpp [23])
 (dataStructure/extc_bt.cpp) (others/SOS_dp.cpp) (others/numberCount.cpp)
-(others/maxtan.cpp) [24] (others/exactCoverSet.cpp) (others/HibertCurve.cpp)
+(others/maxtan.cpp [24]) (others/exactCoverSet.cpp) (others/HibertCurve.cpp)
 (others/DeBrujin.cpp) [25] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20081 strings out of 427669
- 402602 string characters out of 3145156
- 1415622 words of memory out of 3000000
- 23750 multiletter control sequences out of 15000+200000
+ 29993 strings out of 427669
+ 617814 string characters out of 3145156
+ 1599330 words of memory out of 3000000
+ 33463 multiletter control sequences out of 15000+200000
  538530 words of font info for 80 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 47i,12n,74p,339b,1637s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,74p,440b,1638s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on codebook.pdf (25 pages).

@@ -35,13 +35,11 @@ void fft(int n, cplx a[], bool inv=false){
   if(inv) for (i = 0; i < n; i++) a[i] /= n;
 }
 cplx arr[MAXN+1];
-inline void mul(int _n,ll a[],int _m,ll b[],ll ans[])
-{
+inline void mul(int _n,ll a[],int _m,ll b[],ll ans[]){
   int n=1,sum=_n+_m-1;
   while(n<sum)
     n<<=1;
-  for(int i=0;i<n;i++)
-  {
+  for(int i=0;i<n;i++) {
     double x=(i<_n?a[i]:0),y=(i<_m?b[i]:0);
     arr[i]=complex<double>(x+y,x-y);
   }

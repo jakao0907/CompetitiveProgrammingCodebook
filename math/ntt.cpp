@@ -51,9 +51,7 @@ struct NTT{
       reverse( a+1 , a+n );
       for (i = 0; i < n; i++)
         a[i] = (a[i] * ni) % P;
-    }
-  }
-};
+} } };
 const LL P=2013265921,root=31;
 const int MAXN=4194304;
 NTT<P, root, MAXN> ntt;

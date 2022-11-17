@@ -16,8 +16,7 @@ Independent set on bipartite graph =
 vertex number - Minimum vertex cover(Maximum matching)
 
 找出最小點覆蓋，做完dinic之後，從源點dfs只走還有流量的
-邊，紀錄每個點有沒有被走到，左邊沒被走到的點跟右邊被走
-到的點就是答案
+邊，左邊沒被走到的點跟右邊被走到的點就是答案，其他點為最大獨立集
 
 Maximum density subgraph ( \sum W_e + \sum W_v ) / |V|
 

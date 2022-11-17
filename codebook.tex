@@ -16,6 +16,7 @@
 \usepackage{titlesec}
 \usepackage{amsmath}
 \usepackage{tikz}
+\usepackage{xpatch}
 \usepackage[CheckSingle, CJKmath]{xeCJK}
 % \usepackage{CJKulem}
 %\usepackage[T1]{fontenc}
@@ -52,12 +53,13 @@
     UprightFont = *-Regular
   ] {Monaco}
 
+% \setmainfont{TeX Gyre Termes}
 % \setmainfont{Consolas}				%主要字型
 % \setmonofont{Monaco}				%主要字型
-% \setCJKmainfont{Noto Sans CJK TC}
+\setCJKmainfont{Noto Sans CJK TC}
 
 % \setCJKmainfont{Consolas}			%中文字型
-%\setmainfont{sourcecodepro}
+% \setmainfont{sourcecodepro}
 \XeTeXlinebreaklocale "zh"						%中文自動換行
 \XeTeXlinebreakskip = 0pt plus 1pt				%設定段落之間的距離
 \setcounter{secnumdepth}{3}						%目錄顯示第三層

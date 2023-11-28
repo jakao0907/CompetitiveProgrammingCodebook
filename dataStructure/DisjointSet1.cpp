@@ -7,7 +7,7 @@ struct DisjointSet {
   } stk[MXN];
   void init(int n) {
     top = 0;
-    for (int i = 1; i <= n; i++) fa[i] = i, h[i] = 0;
+    for (int i = 0; i <= n; i++) fa[i] = i, h[i] = 0;
   }
   int find(int x) { return x == fa[x] ? x : find(fa[x]); }
   void merge(int u, int v) {

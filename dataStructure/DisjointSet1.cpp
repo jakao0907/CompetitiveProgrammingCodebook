@@ -22,4 +22,4 @@ struct DisjointSet {
       Node &it = stk[--top];
       fa[it.x] = it.fa;
       h[it.y] = it.h;
-} } }djs;
+} } }dsu;

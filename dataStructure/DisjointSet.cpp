@@ -30,4 +30,4 @@ struct DisjointSet{
     if( sz[ x ] < sz[ y ] ) swap( x, y );
     assign( &sz[ x ] , sz[ x ] + sz[ y ] );
     assign( &fa[ y ] , x);
-  } }djs;
+  } }dsu;

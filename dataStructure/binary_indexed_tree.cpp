@@ -1,5 +1,5 @@
-#define lowbit(x) (x&-x)
 struct BIT{
+#define lowbit(x) (x&-x)
 	int n;
 	vector<long long> a;
 	BIT(int _n){
@@ -22,5 +22,15 @@ struct BIT{
 	}
 	long long query(int l, int r){
 		return query(r) - query(l-1);
+	}
+	int kth(int k){
+		int x = 0;
+		for (int i = 1 << __lg(n); i; i >>= 1){
+			if (x + i <= n and k >= a[x + i - 1]){
+				x += i;
+				k -= a[x - 1];
+			}
+		}
+		return x;
 	}
 };

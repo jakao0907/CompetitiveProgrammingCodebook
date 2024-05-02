@@ -1,4 +1,4 @@
-編譯參數：-std=c++14 -Wall -Wshadow (-fsanitize=undefined)
+編譯參數：-std=c++17 -Wall -Wshadow -fsanitize=undefined
 
 mt19937 gen(chrono::steady_clock::now().time_since_epoch().count());
 int randint(int lb, int ub)

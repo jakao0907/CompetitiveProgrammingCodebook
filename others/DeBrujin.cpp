@@ -9,7 +9,6 @@ vector<int> DeBruijn(int k,int n){
     }else{
       aux[t]=aux[t-p]; f(t+1,p);
       for(aux[t]=aux[t-p]+1;aux[t]<k;++aux[t]) f(t+1,t);
-    }
-  };
+  }};
   f(1,1); return res;
 }

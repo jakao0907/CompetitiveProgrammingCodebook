@@ -39,7 +39,7 @@ struct SegmentTree { // 1-base
     }
     int mid = (l + r) >> 1;
     build(cl, l, mid, arr);
-		build(cr, mid + 1, r, arr);
+    build(cr, mid + 1, r, arr);
     pull(i, l, r);
   }
   void update(int i, int l, int r, int ql, int qr, int v) {

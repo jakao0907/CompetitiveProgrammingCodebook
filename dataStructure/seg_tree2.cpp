@@ -8,12 +8,12 @@ struct SegmentTree { // 1-base
    SegmentTree(int _n) {
     n = _n;
     seg.resize(n * 4);
-    tag.resize(n * 4);
+    tag.resize(n * 4, NO_TAG);
   }
   SegmentTree(vector<int> &arr) {
     n = arr.size();
     seg.resize(n * 4);
-    tag.resize(n * 4);
+    tag.resize(n * 4, NO_TAG);
     build(1, 0, n - 1, arr);
   }
   void push(int i, int l, int r) {

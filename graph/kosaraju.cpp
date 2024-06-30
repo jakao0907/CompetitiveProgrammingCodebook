@@ -3,7 +3,7 @@ struct Scc{
   vector<int> E[MXN], rE[MXN], vec;
   void init(int _n){
     n = _n;
-    for (int i=0; i<MXN; i++)
+    for (int i=0; i<= n; i++)
       E[i].clear(), rE[i].clear();
   }
   void addEdge(int u, int v){

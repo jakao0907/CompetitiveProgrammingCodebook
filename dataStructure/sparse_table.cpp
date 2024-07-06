@@ -25,7 +25,7 @@ struct SparseTable{
         return ret;
     }
     pair<T, int> less_equal(int L, int v){//sum, index
-        T sum = st[L][0];
+        T sum = st[0][L];
         ++L;
         for (int i = K; i >= 0; i--) {
             if ((1 << i) <= n - L && add(sum, st[i][L]) <= v) {

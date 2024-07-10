@@ -1,7 +1,7 @@
 struct DominatorTree{ // O(N)
 #define REP(i,s,e) for(int i=(s);i<=(e);i++)
 #define REPD(i,s,e) for(int i=(s);i>=(e);i--)
-  int n , m , s;
+  int n , s;
   vector< int > g[ MAXN ] , pred[ MAXN ];
   vector< int > cov[ MAXN ];
   int dfn[ MAXN ] , nfd[ MAXN ] , ts;
@@ -17,8 +17,8 @@ struct DominatorTree{ // O(N)
       mn[ u ] = mn[ mom[ u ] ];
     return mom[ u ] = res;
   }
-  void init( int _n , int _m , int _s ){
-    ts = 0; n = _n; m = _m; s = _s;
+  void init( int _n , int _s ){
+    ts = 0; n = _n; s = _s;
     REP( i, 1, n ) g[ i ].clear(), pred[ i ].clear();
   }
   void addEdge( int u , int v ){

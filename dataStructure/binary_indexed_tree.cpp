@@ -26,9 +26,9 @@ struct BIT{
 	int kth(int k){
 		int x = 0;
 		for (int i = 1 << __lg(n); i; i >>= 1){
-			if (x + i <= n and k >= a[x + i - 1]){
+			if (x + i <= n and k >= a[x + i]){
 				x += i;
-				k -= a[x - 1];
+				k -= a[x];
 			}
 		}
 		return x;

@@ -1,5 +1,5 @@
 // P, Q, R(return) are counterclockwise order convex polygon
-vector<Pt> Minkowski(vector<Pt> P, vector<Pt> Q) {
+vector<Pt> minkowski(vector<Pt> P, vector<Pt> Q) {
     auto cmp = [&](Pt a, Pt b) {
         return Pt{a.y, a.x} < Pt{b.y, b.x};
     };
@@ -15,6 +15,6 @@ vector<Pt> Minkowski(vector<Pt> P, vector<Pt> Q) {
         if (s >= 0) i++;
         if (s <= 0) j++;
     }
-	rotate(R.begin(), min_element(all(R)), R.end());
+    rotate(R.begin(), min_element(all(R)), R.end());
     return R;
 }

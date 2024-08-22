@@ -1,5 +1,5 @@
 // does not work when n is prime  O(n^(1/4))
-LL f(LL x, LL mod){ return add(mul(x,x,mod),1,mod); }
+LL f(LL x, LL c, LL mod){ return add(mul(x,x,mod),c,mod); }
 LL pollard_rho(LL n) {
  	LL c = 1, x = 0, y = 0, p = 2, q, t = 0;
     while (t++ % 128 or gcd(p, n) == 1) {

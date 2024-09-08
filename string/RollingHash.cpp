@@ -21,8 +21,8 @@ struct RollingHash{
         if(l == 0) return hash[r];
         array<ll, psz> ret = hash[r];
         for(int i=0;i<psz;i++){
-            ret[i] -= hash[l-1][i] * base[r-l+1][i] % MOD[j];
-            if(ret[i]<0) ret[i]+=MOD[j];
+            ret[i] -= hash[l-1][i] * base[r-l+1][i] % MOD[i];
+            if(ret[i]<0) ret[i]+=MOD[i];
         }
         return ret;
     }

@@ -15,7 +15,7 @@ struct SparseTable{
             st[i][j] = add(st[i - 1][j], st[i - 1][j + (1 << (i - 1))]);
     }
     T query(int L, int R){ //assert L <= R
-        T ret = st[i][L]; ++L;
+        T ret = st[0][L]; ++L;
         for (int i = K; i >= 0; i--) {
             if ((1 << i) <= R - L + 1) {
                 ret = add(ret, st[i][L]);

@@ -56,7 +56,11 @@
 % \setmainfont{TeX Gyre Termes}
 % \setmainfont{Consolas}				%主要字型
 % \setmonofont{Monaco}				%主要字型
-\setCJKmainfont{Noto Sans CJK TC}
+% \setCJKmainfont{Noto Sans CJK TC}
+\setCJKmainfont{NotoSansCJKtc-VF.ttf}[
+    Path = .fonts/ttf/,
+    BoldFont = NotoSansCJK-Bold.ttc
+]
 
 % \setCJKmainfont{Consolas}			%中文字型
 % \setmainfont{sourcecodepro}
@@ -505,8 +509,8 @@ stringstyle=\itshape\color{Green4},
 % \lstinputlisting{others/funny.cpp}
 % \centering
 \begin{tikzpicture}[every node/.style={minimum size=1cm-\pgflinewidth, outer sep=10pt}, scale=2]
-    \draw[step=0.2cm,color=gray] (0,0) grid (4,13);
-    \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,13);
+    \draw[step=0.2cm,color=gray] (0,0) grid (4,12);
+    \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,12);
 \end{tikzpicture}
 
 \end{document}
